@@ -1,4 +1,4 @@
-/* book·to·tree coming-soon page, direction C ("Family Tree"): warm cream, sage and terracotta,
+/* book2tree coming-soon page, direction C ("Family Tree"): warm cream, sage and terracotta,
    Fraunces headings and Nunito Sans text. Large type and strong contrast for older eyes.
 
    WCAG contrast of the main pairs (computed):
@@ -79,6 +79,12 @@ a:hover { color: var(--terra-dark); }
   color: var(--ink); text-decoration: none; letter-spacing: -0.005em;
 }
 .wordmark:hover { color: var(--ink); }
+/* the "2" in a copperplate hand, like the script in old family registers */
+.wordmark .two {
+  font-family: "Pinyon Script", "Snell Roundhand", "Apple Chancery", cursive;
+  font-weight: 400; font-size: 1.42em; line-height: 0; color: var(--terra);
+  margin: 0 0.01em 0 0.03em; position: relative; top: 0.05em;
+}
 .mark { width: 38px; height: 38px; flex: none; }
 .soon {
   font-size: 0.85rem; font-weight: 700; letter-spacing: 0.03em;

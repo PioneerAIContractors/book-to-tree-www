@@ -9,7 +9,7 @@
   HARTFORD:
   PRINTED FOR THE COMPILER.
   1891.
-  Sample book. The Larkworth family is invented, to show what book·to·tree produces.
+  Sample book. The Larkworth family is invented, to show what book2tree produces.
 ═══ 0002 ═══
   THE LARKWORTH FAMILY. 47
   FIFTH GENERATION.

@@ -1,4 +1,4 @@
-# book·to·tree coming-soon page: brief
+# book2tree coming-soon page: brief
 
 Internal working notes. `_config.yml` keeps this file off the published site.
 
@@ -19,9 +19,10 @@ Internal working notes. `_config.yml` keeps this file off the published site.
 - **Price:** not mentioned. The FAQ says pricing will be announced before launch.
 - **Sample:** `sample/` holds placeholders (an invented family, labeled as invented on its
   title page). They will be replaced with real files from a real book.
-- **Hosting:** GitHub Pages from `PioneerAIContractors/book-to-tree-www`, on a custom domain
-  (not chosen yet). The repo is public. Static HTML/CSS, no build step.
-- **Name:** book·to·tree (the Review Console's wordmark), for now.
+- **Hosting:** GitHub Pages from `PioneerAIContractors/book-to-tree-www`, at book2tree.com
+  (registered at GoDaddy). The repo is public. Static HTML/CSS, no build step.
+- **Name:** book2tree, matching the domain. In the wordmark the "2" is a terracotta copperplate
+  script (Pinyon Script), the hand of old family registers.
 - **Design:** direction C, "Family Tree": warm cream with sage and terracotta, Fraunces headings,
   Nunito Sans text, and the family tree growing out of the book page. Picked 2026-10-06 from
   three directions plus the first draft on a design-shotgun board (rated 5/5). Its phone layout
@@ -48,7 +49,6 @@ Internal working notes. `_config.yml` keeps this file off the published site.
 
 ## Still open
 
-- The domain.
 - What happens to uploaded PDFs and outputs (how long they're kept, deletion), and to living
   people in a tree. Decide before the FAQ promises anything.
 - Who is behind the page, and a contact address.
@@ -56,7 +56,7 @@ Internal working notes. `_config.yml` keeps this file off the published site.
 
 ## Next
 
-- Drop in the Google Form link and set up the domain (see `README.md`).
+- Drop in the Google Form link, and point book2tree.com's DNS at GitHub Pages.
 - Optional polish, from a Claude Code session in this repo: `/design-review` (a visual check
   that fixes what it finds) and `/qa` (links, the form, the social card). `/design-shotgun`
   shows other visual directions. With no OpenAI key in `~/.gstack/openai.json`, it makes HTML
