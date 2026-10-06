@@ -20,8 +20,7 @@ Internal working notes. `_config.yml` keeps this file off the published site.
 - **Sample:** `sample/` holds placeholders (an invented family, labeled as invented on its
   title page). They will be replaced with real files from a real book.
 - **Hosting:** GitHub Pages from `PioneerAIContractors/book-to-tree-www`, on a custom domain
-  (not chosen yet). The org is on GitHub Team, so the repo can stay private while the site is
-  public. Static HTML/CSS, no build step.
+  (not chosen yet). The repo is public. Static HTML/CSS, no build step.
 - **Name:** book·to·tree (the Review Console's wordmark), for now.
 - **Design:** direction C, "Family Tree": warm cream with sage and terracotta, Fraunces headings,
   Nunito Sans text, and the family tree growing out of the book page. Picked 2026-10-06 from
