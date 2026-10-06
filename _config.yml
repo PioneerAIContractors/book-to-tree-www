@@ -1,0 +1,6 @@
+# GitHub Pages runs this repo through Jekyll. Keep internal notes off the public site.
+exclude:
+  - BRIEF.md
+  - README.md
+  - DESIGN.md
+  - CLAUDE.md
