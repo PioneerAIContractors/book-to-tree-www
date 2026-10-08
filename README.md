@@ -8,8 +8,8 @@ says and why.
   `sample/`.
 - **Publish:** GitHub Pages deploys `main` / `(root)` on every push. The `CNAME` file holds the
   custom domain, book2tree.com; keep it, or Pages drops the domain.
-- **Before launch:** replace the three `https://forms.gle/REPLACE-WITH-FORM-LINK` links in
-  `index.html` with the Google Form. Fonts (Fraunces, Nunito Sans) load from Google Fonts; self-host them if
+- **Sign-ups:** the three "Notify me" links go to the Google Form at
+  https://forms.gle/DX1Hvcd5wsC8ZeZDA; responses land in its linked Google Sheet. Fonts (Fraunces, Nunito Sans) load from Google Fonts; self-host them if
   you'd rather visitors' browsers not contact Google.
 - **Internal notes stay off the site.** Pages builds with Jekyll, which skips `_src/` and
   dot-folders, and `_config.yml` excludes `BRIEF.md`, `README.md`, `DESIGN.md` and `CLAUDE.md`.
