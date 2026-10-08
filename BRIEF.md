@@ -17,6 +17,12 @@ Internal working notes. `_config.yml` keeps this file off the published site.
 - **Call to action:** a "Notify me when it launches" button that links to a one-question
   Google Form (email address). Answers land in a Google Sheet. No form code on the site.
 - **Price:** not mentioned. The FAQ says pricing will be announced before launch.
+- **Who:** book2tree is a service of GeneFun, Inc. (https://genefun.com). Contact: Dallan Quass,
+  dallan@genefun.com. Shown in the footer and the FAQ.
+- **Privacy:** the PDFs people upload and everything made from them are private to the person
+  who uploaded them; we don't share or sell data. Said at the upload step and in the FAQ.
+- **Launch:** December 1, 2026. "Opens Dec. 1" in the header badge, and the full date under the
+  button, in the FAQ and on the link-preview image.
 - **Sample:** `sample/` holds placeholders (an invented family, labeled as invented on its
   title page). They will be replaced with real files from a real book.
 - **Hosting:** GitHub Pages from `PioneerAIContractors/book-to-tree-www`, at book2tree.com
@@ -49,10 +55,8 @@ Internal working notes. `_config.yml` keeps this file off the published site.
 
 ## Still open
 
-- What happens to uploaded PDFs and outputs (how long they're kept, deletion), and to living
-  people in a tree. Decide before the FAQ promises anything.
-- Who is behind the page, and a contact address.
-- Launch timing: give a date or not.
+- How long uploads and outputs are kept, and whether people can delete them. The page promises
+  only that they're private and never shared or sold.
 
 ## Next
 

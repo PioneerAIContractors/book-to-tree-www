@@ -278,6 +278,9 @@ tbody tr:last-child td { border-bottom: 0; }
 
 .site-footer { padding-bottom: 44px; color: var(--soft); text-align: center; font-size: 0.95rem; }
 .site-footer p { margin: 0; }
+.site-footer p + p { margin-top: 6px; }
+.site-footer a { font-weight: 700; }
+.site-footer .copy { margin-top: 14px; font-size: 0.9rem; }
 
 /* ---------- tablets and phones ---------- */
 @media (max-width: 960px) {
