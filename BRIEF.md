@@ -21,6 +21,9 @@ Internal working notes. `_config.yml` keeps this file off the published site.
   dallan@genefun.com. Shown in the footer and the FAQ.
 - **Privacy:** the PDFs people upload and everything made from them are private to the person
   who uploaded them; we don't share or sell data. Said at the upload step and in the FAQ.
+  Under both sign-up buttons: "We'll only use your email to tell you about book2tree." The
+  page itself loads nothing from other sites (its fonts are self-hosted); only the sign-up
+  form is on Google.
 - **Launch:** December 1, 2026. "Opens Dec. 1" in the header badge, and the full date under the
   button, in the FAQ and on the link-preview image.
 - **Sample:** `sample/` holds placeholders (an invented family, labeled as invented on its

@@ -275,6 +275,7 @@ tbody tr:last-child td { border-bottom: 0; }
 .sapling { display: block; width: 120px; height: 96px; margin: 0 auto 6px; }
 .closing h2 { margin-bottom: 26px; }
 .closing p { margin: 0; }
+.closing .fine { margin-top: 16px; }
 
 .site-footer { padding-bottom: 44px; color: var(--soft); text-align: center; font-size: 0.95rem; }
 .site-footer p { margin: 0; }

@@ -5,7 +5,7 @@ rerun it after the art changes (e.g. after _src/gen_art_c.py):
 
     python3 _src/make_social_card.py
 
-Needs Google Chrome (headless) and network access for the Google Fonts.
+Needs Google Chrome (headless).
 """
 from __future__ import annotations
 
@@ -22,7 +22,7 @@ def main() -> None:
     page = (SITE / "index.html").read_text(encoding="utf-8")
     sprite = re.search(r'<svg class="sprite".*?</svg>', page, re.S).group(0)
     art = re.search(r'<svg class="art-wide".*?</svg>', page, re.S).group(0)
-    fonts = "\n".join(re.findall(r'<link rel="stylesheet" href="https://fonts[^>]+>', page))
+    fonts = '<link rel="stylesheet" href="assets/fonts.css">'   # self-hosted, resolved via <base>
     # the launch date, taken from the line under the hero button ("Opens December 1, 2026")
     soon = re.search(r'<p class="fine">(Opens [^.]+\d{4})', page).group(1)
     css = (SITE / "assets" / "site.css").resolve().as_uri()

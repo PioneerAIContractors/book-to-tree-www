@@ -9,8 +9,9 @@ says and why.
 - **Publish:** GitHub Pages deploys `main` / `(root)` on every push. The `CNAME` file holds the
   custom domain, book2tree.com; keep it, or Pages drops the domain.
 - **Sign-ups:** the three "Notify me" links go to the Google Form at
-  https://forms.gle/DX1Hvcd5wsC8ZeZDA; responses land in its linked Google Sheet. Fonts (Fraunces, Nunito Sans) load from Google Fonts; self-host them if
-  you'd rather visitors' browsers not contact Google.
+  https://forms.gle/DX1Hvcd5wsC8ZeZDA; responses land in its linked Google Sheet.
+- **Fonts are self-hosted** (`assets/fonts.css`, `assets/fonts/` with their OFL licenses), so
+  a visit sends nothing to Google. `_src/vendor_fonts.py` re-downloads them if they change.
 - **Internal notes stay off the site.** Pages builds with Jekyll, which skips `_src/` and
   dot-folders, and `_config.yml` excludes `BRIEF.md`, `README.md`, `DESIGN.md` and `CLAUDE.md`.
   Add any new internal file to that list.
