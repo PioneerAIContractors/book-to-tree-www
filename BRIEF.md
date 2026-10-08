@@ -56,8 +56,8 @@ Internal working notes. `_config.yml` keeps this file off the published site.
 
 ## Next
 
-- Turn on "Enforce HTTPS" once GitHub issues the certificate for book2tree.com. (Done on
-  2026-10-08: the Google Form link is in, and book2tree.com's DNS points at GitHub Pages.)
+- Live at https://book2tree.com since 2026-10-08, with HTTPS enforced; GitHub renews the
+  certificate itself. Sign-ups land in the Google Form's linked Sheet.
 - Optional polish, from a Claude Code session in this repo: `/design-review` (a visual check
   that fixes what it finds) and `/qa` (links, the form, the social card). `/design-shotgun`
   shows other visual directions. With no OpenAI key in `~/.gstack/openai.json`, it makes HTML
