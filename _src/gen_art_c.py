@@ -1,10 +1,16 @@
 """Draw variant C's hand-drawn SVG art and write it into ../index.html between the
 <!-- art -->, <!-- check --> and <!-- sapling --> markers. The page itself stays static.
 
-The art is drawn for the invented Larkworth sample: the six children's names and birth years
-(KIDS), the couple's tag, the family's position on sample/page.jpg (FAMILY) and the
-"Mary Ann" line the check illustration circles. When sample/ is replaced with a real book,
-update those to match the new page, then run:  python3 _src/gen_art_c.py
+The art is drawn for whatever is in sample/. It is currently image 60 of the Daughters of
+Founders and Patriots lineage book: Miss Lucy Palmer Butler and the Williams line she
+descends from. Everything page-specific is a constant below -- the people (PEOPLE), the
+subject's tag (SUBJECT), the entry's position on sample/page.jpg (FAMILY), and the line the
+check illustration circles (CHECK_*). When sample/ is replaced again, update those to match
+the new page and re-run:  python3 _src/gen_art_c.py
+
+THE LABELS MUST FOLLOW THE FILES. Swapping sample/ and leaving these alone is not a cosmetic
+mismatch: the check illustration then circles a real line on a real page and labels it with a
+person who does not exist, which is the one claim this section of the page exists to deny.
 """
 from __future__ import annotations
 
@@ -22,11 +28,20 @@ TAG_FILL = "#fffdf8"
 TAG_STROKE = "#c9d5bd"
 HILITE = "#e2ebc4"
 
-KIDS = [("Daniel", "b. 1807"), ("Mary", "b. 1808"), ("Samuel Stoddard", "b. 1811"),
-        ("Mary Ann", "b. 1814"), ("Elisha", "b. 1819"), ("Henry Wells", "b. 1822")]
+PEOPLE = [("Charles Butler", "1803-1878"), ("Lucy C. Williams", "1809-1891"),
+          ("William Williams", "1772-1810"), ("Lydia Wheeler", "1778-1811"),
+          ("Lieut. John Williams", "1744-1813"), ("Keturah Randall", "1748-1810")]
+KIDS = PEOPLE                      # the tag row; ancestors here, children in another book
+SUBJECT = [("Lucy Palmer Butler", "t-couple"), ("b. New London, Conn.", "t-note"),
+           ("nine generations", "t-note")]
 
-PAGE_W, PAGE_H = 900, 1390
-FAMILY = (112, 204, 884, 862)   # the Larkworth entry and its children, in page.jpg pixels
+PAGE_W, PAGE_H = 900, 1434
+FAMILY = (218, 238, 812, 812)   # the Butler entry and its Williams line, in page.jpg pixels
+# "4. Lieut. John Williams (Dec. 23, 1744-Sept. 10, 1813)" -- the man the check art circles,
+# and the one whose birth PLACE the extractor took from the prose at the foot of the page.
+CHECK_CROP = (215, 440, 815, 600)
+CHECK_LINE = (220, 800, 510, 530)
+CHECK_TAG = [("Lieut. John Williams", "t-name", 20, 30), ("b. 23 Dec., 1744", "t-note", 17, 54)]
 
 
 def n(v: float) -> str:
@@ -224,15 +239,15 @@ def hero_wide():
     leafs.append(leaf(fork[0] - 6, c_mid - 3, -116, 18, 8, LEAVES[0]))
     leafs.append(leaf(fork[0] - 6, c_mid + 3, 116, 18, 8, LEAVES[2]))
     couple = tag(pre, cx, cy, cw, ch,
-                 [("Josiah Larkworth", "t-couple", 20, 35), ("Abigail Stoddard", "t-couple", 20, 61),
-                  ("married 1806", "t-note", 15, 86)],
+                 [(SUBJECT[0][0], SUBJECT[0][1], 20, 35), (SUBJECT[1][0], SUBJECT[1][1], 16, 61),
+                  (SUBJECT[2][0], SUBJECT[2][1], 15, 86)],
                  rx=22, stroke=PENCIL, stroke_w=2, pad=18, delay=0.55)
 
     svg = (
         f'<svg class="art-wide" viewBox="0 0 {VB_W} {VB_H}" role="img" aria-labelledby="aw-t">'
-        f'<title id="aw-t">A scanned page from a sample book, with the Larkworth family marked on it and a small '
-        f'family tree growing out of it: Josiah Larkworth and Abigail Stoddard, married 1806, and their children '
-        f'Daniel, Mary, Samuel Stoddard, Mary Ann, Elisha and Henry Wells.</title>'
+        f'<title id="aw-t">A scanned page from a real book, with one family\'s entry marked on it and a small '
+        f'family tree growing out of it: {SUBJECT[0][0]}, {SUBJECT[1][0]}, and the line she descends from — '
+        + ", ".join(f"{nm} {yr}" for nm, yr in PEOPLE) + '.</title>'
         + defs(pre) + "".join(parts)
         + f'<g filter="url(#{pre}-rough)">{parts_brace}{"".join(branches)}{"".join(leafs)}</g>'
         + couple + "".join(kid_tags) + "</svg>"
@@ -282,15 +297,15 @@ def hero_tall():
         x, y = bez(s2, t)
         leafs.append(leaf(x, y, angle_at(s2, t) - side * 40, 15, 6.6, LEAVES[ci]))
     couple = tag(pre, cx, cy, cw, ch,
-                 [("Josiah Larkworth", "t-couple", 16.5, 28), ("Abigail Stoddard", "t-couple", 16.5, 49),
+                 [(SUBJECT[0][0], SUBJECT[0][1], 16.5, 28), (SUBJECT[1][0], SUBJECT[1][1], 14, 49),
                   ("married 1806", "t-note", 14, 69.5)],
                  rx=18, stroke=PENCIL, stroke_w=2, pad=12, delay=0.5)
 
     svg = (
         f'<svg class="art-tall" viewBox="0 0 {VB_W} {VB_H}" role="img" aria-labelledby="at-t">'
-        f'<title id="at-t">A scanned page from a sample book, with the Larkworth family marked on it and a small '
-        f'family tree growing out of it: Josiah Larkworth and Abigail Stoddard, married 1806, and their children '
-        f'Daniel, Mary, Samuel Stoddard, Mary Ann, Elisha and Henry Wells.</title>'
+        f'<title id="at-t">A scanned page from a real book, with one family\'s entry marked on it and a small '
+        f'family tree growing out of it: {SUBJECT[0][0]}, {SUBJECT[1][0]}, and the line she descends from — '
+        + ", ".join(f"{nm} {yr}" for nm, yr in PEOPLE) + '.</title>'
         + defs(pre) + "".join(parts)
         + f'<g filter="url(#{pre}-rough)">{parts_brace}{"".join(branches)}{"".join(leafs)}</g>'
         + couple + "".join(kid_tags) + "</svg>"
@@ -317,7 +332,7 @@ def pencil_loop(cx, cy, rx, ry, start=200, sweep=395, wobble=0.035, steps=40):
 def check_art():
     pre = "ck"
     s = 0.53
-    rx0, ry0, rx1, ry1 = 132, 588, 818, 796          # crop of page.jpg: around the Mary Ann line
+    rx0, ry0, rx1, ry1 = CHECK_CROP                  # crop of page.jpg: around the circled line
     cardx, cardy, pad = 6, 8, 14
     cw, chh = (rx1 - rx0) * s + 2 * pad, (ry1 - ry0) * s + 2 * pad
     ix, iy = cardx + pad, cardy + pad
@@ -328,15 +343,14 @@ def check_art():
            f'filter="url(#{pre}-paper)"/>'
            f'<image href="sample/page.jpg" x="{n(ix - rx0 * s)}" y="{n(iy - ry0 * s)}" '
            f'width="{n(PAGE_W * s)}" height="{n(PAGE_H * s)}" clip-path="url(#{clip})"/>')
-    # "iv. MARY ANN, b. 30 Sept., 1814; m. 1 May, 1836," sits at x 217-748, y 664-687
-    lx0, lx1, ly0, ly1 = 207, 758, 659, 693
+    lx0, lx1, ly0, ly1 = CHECK_LINE
     lcx = ix + ((lx0 + lx1) / 2 - rx0) * s
     lcy = iy + ((ly0 + ly1) / 2 - ry0) * s
     loop = pencil_loop(lcx, lcy, (lx1 - lx0) * s / 2 + 6, (ly1 - ly0) * s / 2 + 5)
 
     tx, ty, tw, th = 118, cardy + chh + 24, 270, 70
     t = tag(pre, tx, ty, tw, th,
-            [("Mary Ann Larkworth", "t-name", 20, 30), ("b. 30 Sept., 1814", "t-note", 17, 54)],
+            CHECK_TAG,
             rx=20, glyph=True)
     # a dashed line from the person back to the line that names her, ending in an arrowhead
     sx, sy = tx + 52, ty - 2
@@ -352,8 +366,8 @@ def check_art():
     vb_w, vb_h = max(cardx + cw, tx + tw) + 8, ty + th + 12
     return (
         f'<svg class="check-art" viewBox="0 0 {n(vb_w)} {n(vb_h)}" role="img" aria-labelledby="ck-t">'
-        f'<title id="ck-t">Mary Ann Larkworth, a person in the sample tree, linked back to the line on the '
-        f'scanned page that names her.</title>'
+        f'<title id="ck-t">{CHECK_TAG[0][0]}, a person in the tree, linked back to the line on the '
+        f'scanned page that names him.</title>'
         + defs(pre) + img + f'<g filter="url(#{pre}-rough)">{loop}{line}{head}</g>' + t + "</svg>"
     )
 

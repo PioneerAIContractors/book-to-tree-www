@@ -1,34 +1,1202 @@
-image,id,child_number,name,inferred_surname,inferred_from_id,sex,gen_number,relationship,first_child_id,birth_place,birth_date,christening_place,christening_date,marriage_1_place,marriage_1_date,spouse_1_id,marriage_2_place,marriage_2_date,spouse_2_id,marriage_3_place,marriage_3_date,spouse_3_id,marriage_4_place,marriage_4_date,spouse_4_id,death_place,death_date,death_age,burial_place,burial_date,num_children,father_id,mother_id,event_1_type,event_1_place,event_1_date,event_2_type,event_2_place,event_2_date,event_3_type,event_3_place,event_3_date,baptized_date,notes
-0002,23,,JOSIAH LARKWORTH,,,M,5,,,"Wethersfield, Conn.","14 March, 1781",,,"Wethersfield, Conn.","2 June, 1806",0002-1-GEN,,,,,,,,,,Hudson,"22 Aug., 1863",82 yrs.,,,,,,residence,"Hudson, Ohio",1824,,,,,,,,
-0002,0002-1-GEN,,ABIGAIL STODDARD,,,F,,dau.,,"Glastonbury, Conn.","9 Oct., 1784",,,"Wethersfield, Conn.","2 June, 1806",23,,,,,,,,,,"Hudson, O.","3 Jan., 1859",,,,,0002-2-GEN,0002-3-GEN,,,,,,,,,,,
-0002,0002-2-GEN,,Elisha,Stoddard,0002-3-GEN,M,,,,,,,,,,0002-3-GEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-0002,0002-3-GEN,,Mary (Wells) Stoddard,,,F,,,,,,,,,,0002-2-GEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-0002,58,i,DANIEL,,,M,6,,,Wethersfield,"27 Feb., 1807",,,,,0002-4-GEN,,,,,,,,,,,,,,,,23,0002-1-GEN,,,,,,,,,,,
-0002,0002-4-GEN,,Lucy Bradley,,,F,,,,,,,,,,58,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-0002,0002-5-GEN,ii,MARY,LARKWORTH,23,,,,,Wethersfield,"11 Dec., 1808",,,,,,,,,,,,,,,,"4 May, 1811",,,,,23,0002-1-GEN,,,,,,,,,,,
-0002,59,iii,SAMUEL STODDARD,,,M,,,,Wethersfield,"6 Apr., 1811",,,,,0002-6-GEN,,,,,,,,,,,,,,,,23,0002-1-GEN,,,,,,,,,,,
-0002,0002-6-GEN,,Harriet N. Dwight,,,F,,,,,,,,,,59,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-0002,0002-7-GEN,iv,MARY ANN,LARKWORTH,23,,,,,Wethersfield,"30 Sept., 1814",,,,"1 May, 1836",0002-8-GEN,,,,,,,,,,,"17 June, 1870",,,,,23,0002-1-GEN,,,,,,,,,,,
-0002,0002-8-GEN,,Rev. Nathan B. Whitcomb,,,,,,,,,,,,"1 May, 1836",0002-7-GEN,,,,,,,,,,,,,,,,,,residence,"Twinsburg, O.",,,,,,,,,
-0002,0002-9-GEN,v,ELISHA,LARKWORTH,23,,,,,Wethersfield,"8 July, 1819",,,,,,,,,,,,,,,,"12 Aug., 1819",,,,,23,0002-1-GEN,,,,,,,,,,,
-0002,60,vi,HENRY WELLS,,,M,,,,Wethersfield,"19 Nov., 1822",,,,,0002-10-GEN,,,,,,,,,,,,,,,,23,0002-1-GEN,,,,,,,,,,,
-0002,0002-10-GEN,,Clarissa M. Porter,,,F,,,,,,,,,,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-0002,24,,MARTHA LARKWORTH,,,F,5,,,Wethersfield,"2 Sept., 1783",,,,"25 Nov., 1804",0002-11-GEN,,,,,,,,,,Rocky Hill,"12 March, 1852",,,,,,,,,,,,,,,,,
-0002,0002-11-GEN,,AMOS RILEY,,,M,,,,,1779,,,,"25 Nov., 1804",24,,,,,,,,,,,1847,,,,,,,residence,"Rocky Hill, Conn.",,,,,,,,,
-0002,0002-12-GEN,i,SOPHIA,RILEY,0002-11-GEN,,,,,Rocky Hill,"3 Aug., 1806",,,,,0002-13-GEN,,,,,,,,,,,,,,,,0002-11-GEN,24,,,,,,,,,,,
-0002,0002-13-GEN,,Joseph Belden,,,,,,,,,,,,,0002-12-GEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-0002,0002-14-GEN,ii,WILLIAM,RILEY,0002-11-GEN,,,,,Rocky Hill,"21 Jan., 1809",,,,,,,,,,,,,,,"New Orleans, La.",1831,,,,,0002-11-GEN,24,,,,,,,,,,,
-0003,58,,DANIEL LARKWORTH,,,M,6,,,"Wethersfield, Conn.","27 Feb., 1807",,,"Hudson, O.","15 Sept., 1831",0003-1-GEN,,,,,,,,,,Hudson,"9 April, 1876",,,,,,,residence,Hudson,1824,,,,,,,,
-0003,0003-1-GEN,,LUCY BRADLEY,,,F,,dau.,,Hudson,"3 Aug., 1810",,,"Hudson, O.","15 Sept., 1831",58,,,,,,,,,,,"21 Jan., 1889",,,,,0003-2-GEN,0003-3-GEN,,,,,,,,,,,
-0003,0003-2-GEN,,Asahel,Bradley,0003-3-GEN,M,,,,,,,,,,0003-3-GEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-0003,0003-3-GEN,,Ruth (Pettibone) Bradley,,,F,,,,,,,,,,0003-2-GEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-0003,0003-4-GEN,i,ABIGAIL STODDARD,,,,7,,,Hudson,"4 July, 1832",,,,"9 Nov., 1854",0003-5-GEN,,,,,,,,,,,,,,,,58,0003-1-GEN,,,,,,,,,,,
-0003,0003-5-GEN,,Lyman C. Hart,,,,,,,,,,,,"9 Nov., 1854",0003-4-GEN,,,,,,,,,,,,,,,,,,residence,"Aurora, O.",,,,,,,,,
-0003,0003-6-GEN,ii,JOSIAH BRADLEY,,,,,,,Hudson,"22 March, 1835",,,,,,,,,,,,,,,"Chancellorsville, Va.","3 May, 1863",,,,,58,0003-1-GEN,,,,,,,,,,,
-0003,0003-7-GEN,iii,RUTH ELLEN,LARKWORTH,58,,,,,Hudson,"14 Jan., 1839",,,,,,,,,,,,,,,,"6 Oct., 1858",,,,,58,0003-1-GEN,,,,,,,,,,,
-0003,59,,SAMUEL STODDARD LARKWORTH,,,M,6,,,"Wethersfield, Conn.","6 April, 1811",,,,"12 Oct., 1837",0003-8-GEN,,,,,,,,,,Cleveland,"18 Dec., 1884",,,,,,,residence,Cleveland,1845,,,,,,,,
-0003,0003-8-GEN,,HARRIET N. DWIGHT,,,F,,dau.,,,1815,,,,"12 Oct., 1837",59,,,,,,,,,,,"2 Feb., 1880",,,,,0003-9-GEN,,,,,,,,,,,,
-0003,0003-9-GEN,,Asa Dwight,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,,,residence,"Ravenna, O.",,,,,,,,,
-0003,0003-10-GEN,i,EDWARD DWIGHT,,,,7,,,,"5 May, 1839",,,,,,,,,,,,,,,,,,,,,59,0003-8-GEN,residence,Cleveland,,,,,,,,,
-0003,0003-11-GEN,ii,HARRIET,STODDARD,59,,,,,,"22 Sept., 1842",,,,"4 June, 1868",0003-12-GEN,,,,,,,,,,,,,,,,59,0003-8-GEN,,,,,,,,,,,
-0003,0003-12-GEN,,Charles W. Ransom,,,,,,,,,,,,"4 June, 1868",0003-11-GEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+image,id,level,relationship,child_number,name,inferred_surname,inferred_from_id,father_id,mother_id,sex,birth_date,birth_place,christening_date,christening_place,death_date,death_place,death_age,burial_date,burial_place,marriage_1_date,marriage_1_place,marriage_1_officiator,spouse_1_id,marriage_2_date,marriage_2_place,marriage_2_officiator,spouse_2_id,marriage_3_date,marriage_3_place,marriage_3_officiator,spouse_3_id,baptized_date,endowed_date,sealed_to_parents_date,sealed_to_spouse_date,notes
+6,006-1-GEN,,,,JOSEPHINE CLARA WEBSTER,,,006-2-GEN,006-3-GEN,F,,"Houlton, Maine",,,,,,,,,,,,,,,,,,,,,,,,Subject of pedigree line.
+6,006-2-GEN,2,husband,,Lucien B. Webster,,,,,M,"Mar. 17, 1807",,,,"Nov. 3, 1853",,,,,bef. 1845,,,006-3-GEN,,,,,,,,,,,,,
+6,006-3-GEN,,wife,,Frances Marvin Smith,,,006-4-GEN,006-5-GEN,F,"Oct. 12, 1809",,,,"Dec. 10, 1881",,,,,bef. 1845,,,006-2-GEN,,,,,,,,,,,,,
+6,006-4-GEN,3,husband,,Joseph Lee Smith,,,006-6-GEN,006-7-GEN,M,"May 28, 1779",,,,"May 27, 1846",,,,,"Aug. 23, 1806",,,006-5-GEN,,,,,,,,,,,,,
+6,006-5-GEN,,wife,,Frances Marvin Kirby,,,,,F,"Apr. 6, 1785",,,,"Aug. 3, 1875",,,,,"Aug. 23, 1806",,,006-4-GEN,,,,,,,,,,,,,
+6,006-6-GEN,4,husband,,Elnathan Smith,,,006-8-GEN,006-9-GEN,M,"Nov. 3, 1738",,,,"March 6, 1826","New Britain, Conn.",,,,"July 9, 1767",,,006-7-GEN,,,,,,,,,,,,,Revolutionary ancestor. Served in French and Indian War; Commissary during Revolution.
+6,006-7-GEN,,wife,,Chloe Lee,,,,,F,"Jan. 15, 1746",,,,"Sept. 26, 1825",,,,,"July 9, 1767",,,006-6-GEN,,,,,,,,,,,,,
+6,006-8-GEN,5,husband,,"Joseph Smith, Jr.",,,006-10-GEN,006-11-GEN,M,"July 13, 1710",,,,"Mar. 25, 1792",,,,,"Mar. 2, 1737",,,006-9-GEN,,,,,,,,,,,,,
+6,006-9-GEN,,1st wife,,Thankful Hubbard,,,,,F,"July 23, 1719",,,,"May 21, 1764",,,,,"Mar. 2, 1737",,,006-8-GEN,,,,,,,,,,,,,
+6,006-10-GEN,6,husband,,Joseph Smith,,,006-12-GEN,006-13-GEN,M,"Aug. 10, 1682",,,,,,,,,"Jan. 19, 1707/8",,,006-11-GEN,,,,,,,,,,,,,
+6,006-11-GEN,,1st wife,,Mary Royce,,,,,F,,,,,,,,,,"Jan. 19, 1707/8",,,006-10-GEN,,,,,,,,,,,,,
+6,006-12-GEN,7,husband,,Joseph Smith,,,006-14-GEN,006-15-GEN,M,"Aug. 25, 1655",,,,,,,,,,,,006-13-GEN,,,,,,,,,,,,,
+6,006-13-GEN,,1st wife,,Lydia ——,,,,,F,,,,,,,,,,,,,006-12-GEN,,,,,,,,,,,,,
+6,006-14-GEN,8,husband,,William Smith,,,,,M,,,,,1670,,,,,1644,,,006-15-GEN,,,,,,,,,,,,,"In Wethersfield, Conn., in 1644; clerk of the Military Co., in 1645; removed to Farmington about 1656; list of freemen in 1669 and died early the next year."
+6,006-15-GEN,,wife,,Elizabeth (Stanley or Standly),Smith,006-12-GEN,,,F,,,,,1678,,,,,1644,,,006-14-GEN,,,,,,,,,,,,,
+7,007-1-GEN,,,,Alice Bradford,,,007-3-GEN,007-4-GEN,F,,"Roxbury, Massachusetts",,,,,,,,,,,007-2-GEN,,,,,,,,,,,,,Lineage entry subject. Also known as Mrs. Robert Hall Wiles.
+7,007-2-GEN,,,,Robert Hall Wiles,,,,,M,,,,,,,,,,,,,007-1-GEN,,,,,,,,,,,,,Husband of Alice Bradford.
+7,007-3-GEN,2,,,Joseph Russell Bradford,,,,,M,"Dec. 4, 1814",,,,"Mar. 12, 1885",,,,,"June 12, 1850",,,007-4-GEN,,,,,,,,,,,,,
+7,007-4-GEN,,,,Sara Jane Toppan Woodman,,,007-5-GEN,007-6-GEN,F,"Nov. 5, 1816",,,,"Sept. 23, 1894",,,,,"June 12, 1850",,,007-3-GEN,,,,,,,,,,,,,
+7,007-5-GEN,3,,,Jeremiah Hall Woodman,,,007-7-GEN,007-8-GEN,M,"Apr. 18, 1775",,,,"May 8, 1854",,,,,"Jan. 9, 1806",,,007-6-GEN,,,,,,,,,,,,,
+7,007-6-GEN,,,,Sarah Chase,,,,,F,"Oct. 23, 1780",,,,,,,,,"Jan. 9, 1806",,,007-5-GEN,,,,,,,,,,,,,
+7,007-7-GEN,4,,,Rev. Joseph Woodman,,,007-10-GEN,007-11-GEN,M,"Aug. 22, 1748",,,,"Sept. 28, 1807",,,,,"Mar. 8, 1771",,,007-8-GEN,,,,,,,,,,,,,"Revolutionary ancestor of New Hampshire. Educated at Nassau Hall, N. J., graduated in 1766."
+7,007-8-GEN,,,,Esther (Whittemore) Hall,,,007-9-GEN,,F,"Aug. 12, 1752",,,,1803,,,,,"Mar. 8, 1771",,,007-7-GEN,,,,,,,,,,,,,Daughter of Rev. Aaron.
+7,007-9-GEN,,,,Rev. Aaron,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Father of Esther (Whittemore) Hall.
+7,007-10-GEN,5,,,John Woodman,,,007-12-GEN,007-13-GEN,M,"Sept. 15, 1704",,,,after 1747,,,,,"Nov. 7, 1723/5",,,007-11-GEN,,,,,,,,,,,,,
+7,007-11-GEN,,,,H. Anna Adams,,,,,F,1723,,,,after 1748,,,,,"Nov. 7, 1723/5",,,007-10-GEN,,,,,,,,,,,,,
+7,007-12-GEN,6,,,Edward Woodman (3),,,007-14-GEN,007-15-GEN,M,"Mar. 20, 1670",,,,1719,,,,,"June 29, 1702",,,007-13-GEN,,,,,,,,,,,,,
+7,007-13-GEN,,,,Mary Sawyer,,,,,F,"June 20, 1672",,,,"Jan. 21, 1744/5",,,,,"June 29, 1702",,,007-12-GEN,,,,,,,,,,,,,
+7,007-14-GEN,7,,,Edward Woodman (2),,,007-17-GEN,007-18-GEN,M,"Mar. 14, 1628",England,,,,,,,,"Dec. 20, 1653",,,007-15-GEN,,,,,,,,,,,,,
+7,007-15-GEN,,,,Mary Goodridge,,,007-16-GEN,,F,"Jan. 8, 1633",England,,,"June 18, 1684",,,,,"Dec. 20, 1653",,,007-14-GEN,,,,,,,,,,,,,Daughter of Wm. Goodridge.
+7,007-16-GEN,,,,Wm. Goodridge,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Father of Mary Goodridge.
+7,007-17-GEN,8,,,Edward Woodman,,,,,M,,,,,about 1694,,,,,,England,,007-18-GEN,,,,,,,,,,,,,"Came from England with wife Joanna and two sons, settled in Newbury, Mass. in 1635. Lieut. in Expedition against Pequot Indians in 1637, Selectman of Newbury, Deputy to General Court 1636-7, 1639, and 1643."
+7,007-18-GEN,,,,Joanna Bartlett,,,,,F,1613,,,,after 1687,,,,,,England,,007-17-GEN,,,,,,,,,,,,,
+7,007-19-GEN,,,,Joshua Woodman,,,007-17-GEN,007-18-GEN,M,,Newbury,,,,,,,,,,,,,,,,,,,,,,,,First white child born in Newbury.
+9,009-1-GEN,,,,LYDIA REED SMITH,,,009-3-GEN,009-4-GEN,F,,Michigan,,,,,,,,,,,009-2-GEN,,,,,,,,,,,,,MRS. ELIZUR B. HINSDALE
+9,009-2-GEN,,husband,,ELIZUR B. HINSDALE,,,,,M,,,,,,,,,,,,,009-1-GEN,,,,,,,,,,,,,
+9,009-3-GEN,2,husband,,John Keyzar Smith,,,009-5-GEN,009-6-GEN,M,"Nov. 29, 1785",,,,"Apr. 17, 1854",,,,,"Dec. 2, 1818",,,009-4-GEN,,,,,,,,,,,,,
+9,009-4-GEN,,wife,,Catharine MacDonald,,,,,F,"Oct. 31, 1795",,,,"Aug. 22, 1881",,,,,"Dec. 2, 1818",,,009-3-GEN,,,,,,,,,,,,,
+9,009-5-GEN,3,husband,,"Abraham (Abram) Smith, Jr.",,,009-7-GEN,009-8-GEN,M,"Aug. 15, 1754",,,,Mar. 1808,,,,,"Nov. 19, 1778",,,009-6-GEN,,,,,,,,,,,,,"Served as a private in Col. Thaddeus Crane's regiment of Westchester County, New York militia, during the Revolution."
+9,009-6-GEN,,wife,,Sarah Crane,,,,,F,"Sept. 5, 1757",,,,"Oct. 20, 1829",,,,,"Nov. 19, 1778",,,009-5-GEN,,,,,,,,,,,,,
+9,009-7-GEN,4,husband,,Lieut. Abraham Smith,,,009-9-GEN,009-10-GEN,M,"June 6, 1733",,,,"Mar. 20, 1784",,,,,bef. 1754,,,009-8-GEN,,,,,,,,,,,,,"Served as a Lieutenant in Col. Thaddeus Crane's regiment of Westchester County, New York militia, during the Revolution."
+9,009-8-GEN,,wife,,Mary Baxter,,,009-18-GEN,,F,"Mar. 11, 1734",,,,"June, 1802",,,,,bef. 1754,,,009-7-GEN,,,,,,,,,,,,,Daughter of John Baxter.
+9,009-9-GEN,5,husband,,Jabez Smith,,,009-11-GEN,009-12-GEN,M,"Nov. 29, 1705",,,,"Sept. 23, 1787",,,,,"June 12, 1729",,,009-10-GEN,,,,,,,,,,,,,
+9,009-10-GEN,,wife,,Ruth Seymour,,,,,F,,,,,"Sept. 9, 1776",,,,,"June 12, 1729",,,009-9-GEN,,,,,,,,,,,,,
+9,009-11-GEN,6,husband,,Thomas Smith,,,009-13-GEN,009-14-GEN,M,"Mar. 17, 1677",,,,"Sept. 15, 1743",,,,,"Dec. 2, 1699",,,009-12-GEN,,,,,,,,,,,,,
+9,009-12-GEN,,wife,,Hannah Camp,,,,,F,"Jan. 31, 1677",,,,,,,,,"Dec. 2, 1699",,,009-11-GEN,,,,,,,,,,,,,
+9,009-13-GEN,7,husband,,John Smith,,,009-15-GEN,009-16-GEN,M,"Aug. 29, 1646",,,,"Jan. 8, 1732",,,,,"Jan. 23, 1673",,,009-14-GEN,,,,,,,,,,,,,
+9,009-14-GEN,,wife,,Phoebe Canfield,,,,,F,,,"Mar. 9, 1650",,"May 3, 1730",,,,,"Jan. 23, 1673",,,009-13-GEN,,,,,,,,,,,,,
+9,009-15-GEN,8,husband,,John Smith,,,,,M,,,,,1684,,,,,,,,009-16-GEN,,,,,,,,,,,,,"First on record in New Haven, Conn., in 1639, having arrived directly from England. Memorial Bridge inscription: ""John Smith Obit 1684, Grace his wife."""
+9,009-16-GEN,,wife,,Grace Hawley,,,,,F,,,,,Oct. 1690,,,,,,,,009-15-GEN,,,,,,,,,,,,,
+9,009-17-GEN,,,,Col. Thaddeus Crane,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Colonel of Westchester County, New York militia regiment."
+9,009-18-GEN,,,,John Baxter,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Father of Mary Baxter.
+10,010-1-GEN,,,,MISS JOSEPHINE LEWISA HUSTIS,,,010-2-GEN,010-3-GEN,F,,"Milwaukee, Wisconsin",,,,,,,,,,,,,,,,,,,,,,,,Descendant of William Ludington of Massachusetts Bay Colony through Col. Henry Ludington.
+10,010-2-GEN,,,,John Hustis,,,,,M,"Oct. 22, 1810",,,,,,,,,"Aug. 29, 1839",,,010-3-GEN,,,,,,,,,,,,,
+10,010-3-GEN,,,,Laura Ann Ludington,,,010-4-GEN,010-5-GEN,F,"Jan. 26, 1814",,,,"Dec. 26, 1900",,,,,"Aug. 29, 1839",,,010-2-GEN,,,,,,,,,,,,,
+10,010-4-GEN,,,,Lewis Ludington,,,010-6-GEN,010-7-GEN,M,"June 25, 1786",,,,"Sept. 3, 1857",,,,,Sept. 1812,,,010-5-GEN,,,,,,,,,,,,,
+10,010-5-GEN,,,,Polly (Mary) Townsend,,,,,F,"May 7, 1792",,,,"Jan. 11, 1879",,,,,Sept. 1812,,,010-4-GEN,,,,,,,,,,,,,
+10,010-6-GEN,,,,Col. Henry Ludington,,,010-9-GEN,010-10-GEN,M,"May 25, 1739","Branford, Conn.",,,"Jan. 24, 1817",,,,,"May 12, 1760",,,010-7-GEN,,,,,,,,,,,,,"Revolutionary ancestor. Appointed 2d Major of 2d Regt. Dutchess Co. Minute Men March 10, 1776; Lieut. Col. May 6, 1776; Col. May 28, 1778. Commission signed by Gov. George Clinton. Deputy Sheriff and Justice of the Peace."
+10,010-7-GEN,,,,Abigail Ludington,,,010-8-GEN,,F,"May 8, 1745",,,,"Aug. 3, 1825",,,,,"May 12, 1760",,,010-6-GEN,,,,,,,,,,,,,Cousin of Col. Henry Ludington. Daughter of Elisha Ludington.
+10,010-8-GEN,,,,Elisha,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Father of Abigail Ludington.
+10,010-9-GEN,,,,William Ludington,,,010-11-GEN,010-12-GEN,M,"Sept. 6, 1702",,,,,,,,,"Nov. 5, 1730",,,010-10-GEN,,,,,,,,,,,,,
+10,010-10-GEN,,1st wife,,Mary Knowles,,,,,F,,,,,"Apr. 16, 1759",,,,,"Nov. 5, 1730",,,010-9-GEN,,,,,,,,,,,,,
+10,010-11-GEN,,,,Henry Ludington,,,010-14-GEN,010-15-GEN,M,1679,,,,1727,,,,,"Aug. 20, 1700",,,010-12-GEN,,,,,,,,,,,,,
+10,010-12-GEN,,,,Sarah Collins,,,,,F,"Dec. 31, 1679",,,,"Mar. 31, 1743",,,,,"Aug. 20, 1700",,,010-11-GEN,,,,,,,,,,,,,Daughter of Wm. Collins.
+10,010-14-GEN,,,,William Ludington,,,010-17-GEN,010-18-GEN,M,abt. 1655,,,,Feb. 1737,,,,,bef. 1679,,,010-15-GEN,,,,,,,,,,,,,
+10,010-15-GEN,,1st wife,,Martha Rose,,,010-16-GEN,,F,,,,,abt. 1690,,,,,bef. 1679,,,010-14-GEN,,,,,,,,,,,,,Daughter of John Rose.
+10,010-16-GEN,,,,John,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Father of Martha Rose.
+10,010-17-GEN,,,,William Ludington,,,,,M,1608,,,,"June 13, 1662","East Haven, Conn.",,,,abt. 1635/6,,,010-18-GEN,,,,,,,,,,,,,"In Charlestown, Mass., in 1642; juror there in 1660. Removed to New Haven and died in East Haven, Conn."
+10,010-18-GEN,,,,Ellen ——,,,,,F,1617,,,,,,,,,abt. 1635/6,,,010-17-GEN,,,,,,,,,,,,,Remarried.
+10,010-19-GEN,,,,Gov. George Clinton,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Signed original commission as Col. for Col. Henry Ludington.
+11,011-1-GEN,,,,KATHARINE HAYES PECK,,,011-3-GEN,011-4-GEN,F,,"Milwaukee, Wisconsin",,,,,,,,,,,011-2-GEN,,,,,,,,,,,,,MRS. WILLIAM B. HUBBARD
+11,011-2-GEN,,husband,,WILLIAM B. HUBBARD,,,,,M,,,,,,,,,,,,,011-1-GEN,,,,,,,,,,,,,
+11,011-3-GEN,2,,,James Sidney Peck,,,011-5-GEN,011-6-GEN,M,"May 21, 1824",,,,"Nov. 12, 1897",,,,,,,,011-4-GEN,,,,,,,,,,,,,
+11,011-4-GEN,,,,Ellen M. Hayes,,,,,F,"Feb. 17, 1838",,,,"July 17, 1909",,,,,,,,011-3-GEN,,,,,,,,,,,,,
+11,011-5-GEN,3,,,Perez Porter Peck,,,011-8-GEN,011-9-GEN,M,"Mar. 12, 1790",,,,"June 16, 1871",,,,,abt. 1816,,,011-6-GEN,,,,,,,,,,,,,
+11,011-6-GEN,,,,Clarissa Goodman,,,011-7-GEN,,F,,,,,"Feb. 24, 1874",,,,,abt. 1816,,,011-5-GEN,,,,,,,,,,,,,
+11,011-7-GEN,,,,Titus Goodman,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,
+11,011-8-GEN,4,,,Israel Peck,,,011-10-GEN,011-11-GEN,M,"Dec. 6, 1750",,,,"Dec. 5, 1827","Brighton, near Rochester, N. Y.",,,,"Sept. 11, 1784",,,011-9-GEN,,,,,,,,,,,,,"Settled in Pittsfield, Mass. Enlisted in 1779 for three years' service in Revolutionary army."
+11,011-9-GEN,,,,Sarah Marsh,,,,,F,"Mar. 28, 1762",,,,"Mar. 8, 1813",,,,,"Sept. 11, 1784",,,011-8-GEN,,,,,,,,,,,,,
+11,011-10-GEN,5,,,Israel Peck,,,011-12-GEN,011-13-GEN,M,"July 21, 1713",,,,"Mar. 16, 1800",,,,,"Sept. 18, 1746",,,011-11-GEN,,,,,,,,,,,,,
+11,011-11-GEN,,,,Sarah Adams,,,011-14-GEN,,F,,,,,,,,,,"Sept. 18, 1746",,,011-10-GEN,,,,,,,,,,,,,
+11,011-12-GEN,6,,,Nathaniel Peck,,,011-15-GEN,011-16-GEN,M,"Sept. 27, 1677",,,,"Feb. 1, 1755",,,,,"int. Oct. 25, 1709",,,011-13-GEN,,,,,,,,,,,,,
+11,011-13-GEN,,,,Sarah Field,,,,,F,"Feb. 2, 1687",,,,,,,,,"int. Oct. 25, 1709",,,011-12-GEN,,,,,,,,,,,,,
+11,011-14-GEN,,,,James Adams,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,
+11,011-15-GEN,7,,,Israel Peck,,,011-17-GEN,,M,,,"Mar. 4, 1644",,"Sept. 2, 1723",,,,,"July 15, 1670",,,011-16-GEN,,,,,,,,,,,,,
+11,011-16-GEN,,,,Bethia Bosworth,,,,,F,,,Jan. 1643,,"Apr. 4, 1718",,,,,"July 15, 1670",,,011-15-GEN,,,,,,,,,,,,,
+11,011-17-GEN,8,,,Joseph Peck,,,,,M,,,1587,Eng.,"Dec. 22, 1663","Rehoboth, Mass.",,,,,,,,,,,,,,,,,,,,"Came from Ipswich, England, in ship ""Diligent"" August, 1638. Settled in Hingham, Mass.; freeman March 13, 1639; Representative 1639-1642. Removed 1645 to Rehoboth, Mass. Married 2d wife (unnamed)."
+12,012-1-GEN,,,,AGNES PORTER SMITH,,,012-3-GEN,012-4-GEN,F,,"Beaver Dam, Wisconsin",,,,,,,,,,,012-2-GEN,,,,,,,,,,,,,MRS. FRED T. GALPIN. Descendant of Joseph Smith of Connecticut.
+12,012-2-GEN,,husband,,FRED T. GALPIN,,,,,M,,,,,,,,,,,,,012-1-GEN,,,,,,,,,,,,,
+12,012-3-GEN,,,,Edwards Porter Smith,,,012-5-GEN,012-6-GEN,M,"Feb. 18, 1827",,,,,,,,,bef. 1868,,,012-4-GEN,,,,,,,,,,,,,
+12,012-4-GEN,,,,Agnes W. Hargrave,,,,,F,1834,,,,,,,,,bef. 1868,,,012-3-GEN,,,,,,,,,,,,,
+12,012-5-GEN,,,,Rev. Reuben Smith,,,012-9-GEN,012-10-GEN,M,"Sept. 26, 1789",,,,"Nov. 7, 1860",,,,,abt. 1820,,,012-6-GEN,,,,,,,,,,,,,
+12,012-6-GEN,,,,Elizabeth Porter,,,012-7-GEN,012-8-GEN,F,"June 2, 1794",,,,"Nov. 11, 1854",,,,,abt. 1820,,,012-5-GEN,,,,,,,,,,,,,
+12,012-7-GEN,,,,Moses Porter,,,,,M,,,,,,,,,,,,,012-8-GEN,,,,,,,,,,,,,
+12,012-8-GEN,,,,Amy Colt,,,,,F,,,,,,,,,,,,,012-7-GEN,,,,,,,,,,,,,
+12,012-9-GEN,,,,Reuben Smith,,,012-11-GEN,012-12-GEN,M,"Feb. 21, 1759",,,,"Mar. 20, 1842",,,,,abt. 1781,,,012-10-GEN,,,,,,,,,,,,,"Revolutionary ancestor of Massachusetts; of Hadley, Mass.; served July 11th to Oct. 10th, 1780, as private in Capt. Montague's Co., Col. Porter's Regt., Mass. militia."
+12,012-10-GEN,,,,Miriam Goodman,,,,,F,"June 1, 1761",,,,"May 14, 1847",,,,,abt. 1781,,,012-9-GEN,,,,,,,,,,,,,
+12,012-11-GEN,,,,Reuben Smith,,,012-14-GEN,012-15-GEN,M,"Apr. 2, 1721",,,,,,,,,"Jan. 19, 1748/9",,,012-12-GEN,,,,,,,,,,,,,
+12,012-12-GEN,,1st wife,,Miriam Moody,,,012-13-GEN,,F,abt. 1725,,,,"Feb. 16, 1770",,,,,"Jan. 19, 1748/9",,,012-11-GEN,,,,,,,,,,,,,
+12,012-13-GEN,,,,Ebenezer Moody,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,
+12,012-14-GEN,,,,Joseph Smith,,,012-16-GEN,012-17-GEN,M,"Nov. 9, 1681",,,,"Oct. 21, 1767",,,,,"Nov. 10, 1715",,,012-15-GEN,,,,,,,,,,,,,
+12,012-15-GEN,,,,Sarah Alexander,,,,,F,,,,,"Jan. 31, 1768",,,,,"Nov. 10, 1715",,,012-14-GEN,,,,,,,,,,,,,
+12,012-16-GEN,,,,Sergt. Joseph Smith,,,012-18-GEN,012-19-GEN,M,Mar. 1657,,,,"Oct. 1, 1733",,,,,"Feb. 11, 1681",,,012-17-GEN,,,,,,,,,,,,,
+12,012-17-GEN,,,,Rebecca Dickinson,,,,,F,1658,,,,"Feb. 16, 1731",,,,,"Feb. 11, 1681",,,012-16-GEN,,,,,,,,,,,,,
+12,012-18-GEN,,,,Joseph Smith,,,,,M,1636,,,,"Jan. 17, 1689/90",,,,,"Apr. 20, 1656",,,012-19-GEN,,,,,,,,,,,,,"Freeman in Hartford, Conn., in 1655."
+12,012-19-GEN,,,,Lydia Huit,,,012-20-GEN,,F,,,,,1711,,,,,"Apr. 20, 1656",,,012-18-GEN,,,,,,,,,,,,,
+12,012-20-GEN,,,,Rev. Ephraim Huit,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Colleague of the Rev. John Wareham, first minister in Windsor, Conn."
+12,012-21-GEN,,,,Rev. John Wareham,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"First minister in Windsor, Conn."
+12,012-22-GEN,,,,Capt. Montague,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Capt. of Montague's Co., Col. Porter's Regt., Mass. militia (1780)."
+12,012-23-GEN,,,,Col. Porter,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Colonel of Col. Porter's Regt., Mass. militia (1780)."
+13,013-1-GEN,,,,MISS ANNE HAMPTON BARNES,,,013-2-GEN,013-3-GEN,F,,"Pittsburgh, Pennsylvania",,,,,,,,,,,,,,,,,,,,,,,,"Descendant of Thomas Barnes, through Revolutionary ancestor Moses Barnes."
+13,013-2-GEN,2,,,William Henry Barnes,,,013-4-GEN,013-5-GEN,M,"July 12, 1829",,,,,,,,,,,,013-3-GEN,,,,,,,,,,,,,
+13,013-3-GEN,,wife,,Eva Hampton,,,,,F,"May 6, 1832",,,,,,,,,,,,013-2-GEN,,,,,,,,,,,,,
+13,013-4-GEN,3,,,Henry Barnes,,,013-6-GEN,013-7-GEN,M,"Nov. 20, 1790",,,,"June 30, 1844",,,,,1817,,,013-5-GEN,,,,,,,,,,,,,
+13,013-5-GEN,,wife,,Marilla Weldon,,,,,F,"Apr. 12, 1797",,,,"Apr. 18, 1886",,,,,1817,,,013-4-GEN,,,,,,,,,,,,,
+13,013-6-GEN,4,,,Lovewell Barnes,,,013-8-GEN,013-9-GEN,M,"Dec. 26, 1764",,,,"Aug. 4, 1831",,,,,"Oct. 17, 1786",,,013-7-GEN,,,,,,,,,,,,,
+13,013-7-GEN,,1st w.,,Rebecca Eager,,,,,F,"Dec. 29, 1764",,,,"Jan. 23, 1830",,,,,"Oct. 17, 1786",,,013-6-GEN,,,,,,,,,,,,,
+13,013-8-GEN,5,,,Moses Barnes,,,013-10-GEN,013-11-GEN,M,"Dec. 14, 1740",,,,"Mar. 2, 1781",,,,,"Apr. 4, 1764",,,013-9-GEN,,,,,,,,,,,,,"Served as sergeant at Lexington Alarm in Capt. Daniel Barnes' Co., from Marlborough, Mass. 2d. Lieut. in Capt. Cranson's Company Aug-Oct 1775. Captain in Lieut. Col. Samuel Pierce's Regiment in 1779 on an alarm at R. I., wounded and died March 2, 1781."
+13,013-9-GEN,,wife,,Sarah Banister,,,,,F,"July 14, 1739",,,,"Jan. 18, 1826",,,,,"Apr. 4, 1764",,,013-8-GEN,,,,,,,,,,,,,
+13,013-10-GEN,6,,,John Barnes,,,013-12-GEN,013-13-GEN,M,"Mar. 23, 1716",,,,"July 3, 1794",,,,,"Dec. 6, 1738",,,013-11-GEN,,,,,,,,,,,,,
+13,013-11-GEN,,wife,,Elizabeth Cranston,,,,,F,,,,,"Aug. 25, 1749",,,,,"Dec. 6, 1738",,,013-10-GEN,,,,,,,,,,,,,
+13,013-12-GEN,7,,,John Barnes,,,013-14-GEN,013-15-GEN,M,"Dec. 25, 1666",,,,"Apr. 5, 1752",,,,,1685,,,013-13-GEN,,,,,,,,,,,,,
+13,013-13-GEN,,1st w.,,Hannah Howe,,,,,F,1676,,,,"Nov. 8, 1742",,,,,1685,,,013-12-GEN,,,,,,,,,,,,,
+13,013-14-GEN,8,,,Thomas Barnes,,,,,M,1636,,,,1679,,,,,,,,013-15-GEN,,,,,,,,,,,,,"Came to America in 1656 in the ""Speedwell."" Settled in Marlborough, Mass., where he purchased land in 1663. His house and goods were burned by the enemy in King Philip's War."
+13,013-15-GEN,,wife,,Abigail Goodnow,,,,,F,"Mar. 11, 1642",,,,,,,,,,,,013-14-GEN,,,,,,,,,,,,,
+13,013-16-GEN,,,,Capt. Daniel Barnes,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Captain of company from Marlborough, Mass., at Lexington Alarm."
+13,013-17-GEN,,,,Capt. Cranson,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Captain of company in which Moses Barnes was 2d. Lieut. Aug-Oct 1775.
+13,013-18-GEN,,,,Lieut. Col. Samuel Pierce,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Lieut. Col. of regiment in 1779.
+14,014-1-GEN,,,,SARAH ELIZABETH ROBINSON,,,014-4-GEN,014-5-GEN,F,,"Nantucket, Massachusetts",,,,,,,,,,,,,,,,,,,,,,,,"Descendant of Robert Davis, through the Revolutionary ancestor Hon. Daniel Davis."
+14,014-2-GEN,,,,Robert Davis,,,,,M,about 1608,,,,about 1693,"Barnstable, Mass.",,,,abt. 1657,,,014-3-GEN,,,,,,,,,,,,,"Early settler in Yarmouth, Mass. Able to bear arms in Aug 1643. Removed to Barnstable, Mass. before 1650, freeman in 1659."
+14,014-3-GEN,,2nd w.,,Anne ——,,,,,F,,,,,about 1701,,,,,abt. 1657,,,014-2-GEN,,,,,,,,,,,,,
+14,014-4-GEN,2,,,Jervis Robinson,,,,,M,"May 5, 1797",,,,"Jan. 7, 1877",,,,,"Nov. 5, 1823",,,014-5-GEN,,,,,,,,,,,,,
+14,014-5-GEN,,,,Evelina Davis,,,014-6-GEN,014-7-GEN,F,"Sept. 8, 1796",,,,"Sept. 24, 1885",,,,,"Nov. 5, 1823",,,014-4-GEN,,,,,,,,,,,,,
+14,014-6-GEN,3,,,Job Crocker Davis,,,014-8-GEN,014-9-GEN,M,"Nov. 18, 1771",,,,"Oct. 17, 1827",,,,,abt. 1790,,,014-7-GEN,,,,,,,,,,,,,
+14,014-7-GEN,,,,Desire Loring,,,,,F,"June 17, 1773",,,,"Aug. 3, 1862",,,,,abt. 1790,,,014-6-GEN,,,,,,,,,,,,,
+14,014-8-GEN,4,,,Dr. John Davis,,,014-10-GEN,014-11-GEN,M,"Oct. 7, 1744",,,,"Mar. 27, 1863",,,,,abt. 1770,,,014-9-GEN,,,,,,,,,,,,,
+14,014-9-GEN,,,,Mercy Crocker,,,,,F,"June 1, 1752",,,,about 1832,,,,,abt. 1770,,,014-8-GEN,,,,,,,,,,,,,
+14,014-10-GEN,5,,,Daniel Davis,,,014-14-GEN,014-15-GEN,M,"Sept. 28, 1713",,,,"Apr. 22, 1799",,,,,"Aug. 2, 1739",,,014-11-GEN,,,,,,,,,,,,,"Hon. Daniel Davis, Revolutionary ancestor. Represented Barnstable Co., Mass., in Provincial Congress and Council from 1774, represented town in General Court."
+14,014-11-GEN,,1st w.,,Mehitable Lothrop,,,014-12-GEN,014-13-GEN,F,,,"June 27, 1725",,"Nov. 9, 1764",,,,,"Aug. 2, 1739",,,014-10-GEN,,,,,,,,,,,,,
+14,014-12-GEN,,,,Thomas Lothrop,,,,,M,,,,,,,,,,,,,014-13-GEN,,,,,,,,,,,,,
+14,014-13-GEN,,,,Experience (Gorham),,,,,F,,,,,,,,,,,,,014-12-GEN,,,,,,,,,,,,,
+14,014-14-GEN,6,,,Joseph Davis,,,014-2-GEN,014-3-GEN,M,about 1662,,,,"Aug. 10, 1735",,,,,Mar. 1695,,,014-15-GEN,,,,,,,,,,,,,
+14,014-15-GEN,,,,Hannah Cobb,,,,,F,"Mar. 28, 1671",,,,"May 2, 1739",,,,,Mar. 1695,,,014-14-GEN,,,,,,,,,,,,,
+15,015-1-GEN,,,,MISS CATHERINE HUTCHINSON HINSDALE,,,015-2-GEN,015-3-GEN,F,,"Kenosha, Wisconsin",,,,,,,,,,,,,,,,,,,,,,,,"Per page 15: Descendant of Robert Hinsdale of Massachusetts, through the Revolutionary ancestor Barnabas Hinsdale of Connecticut."
+15,015-2-GEN,2,,2,Henry Butler Hinsdale,,,015-4-GEN,015-5-GEN,M,"Feb. 9, 1807",,,,"Feb. 15, 1889",,,,,"May 28, 1839",,,015-3-GEN,,,,,,,,,,,,,
+15,015-3-GEN,,,,Mary Anne Hatch,,,,,F,"Nov. 11, 1819",,,,"Nov. 9, 1892",,,,,"May 28, 1839",,,015-2-GEN,,,,,,,,,,,,,
+15,015-4-GEN,3,,3,Horace Seymour Hinsdale,,,015-6-GEN,015-7-GEN,M,"Oct. 7, 1782",,,,"June 1, 1858",,,,,"Apr. 30, 1806",,,015-5-GEN,,,,,,,,,,,,,
+15,015-5-GEN,,,,Sarah Ogden,,,,,F,"May 10, 1786",,,,"Sept. 21, 1821",,,,,"Apr. 30, 1806",,,015-4-GEN,,,,,,,,,,,,,
+15,015-6-GEN,4,,4,Capt. Barnabas Hinsdale,,,015-8-GEN,015-9-GEN,M,"Feb. 23, 1738",,,,"Apr. 29, 1790",,,,,abt. 1761,,,015-7-GEN,,,,,,,,,,,,,Revolutionary ancestor of Connecticut.
+15,015-7-GEN,,,,Magdalen Seymour,,,,,F,1740,,,,"Oct. 17, 1782",,,,,abt. 1761,,,015-6-GEN,,,,,,,,,,,,,
+15,015-8-GEN,5,,5,Dea. Daniel Hinsdale,,,015-10-GEN,015-11-GEN,M,"May 15, 1708",,,,"Sept. 18, 1781",,,,,"Aug. 21, 1737",,,015-9-GEN,,,,,,,,,,,,,
+15,015-9-GEN,,,,Catharine Curtis,,,,,F,1720,,,,"Apr. 12, 1778",,,,,"Aug. 21, 1737",,,015-8-GEN,,,,,,,,,,,,,
+15,015-10-GEN,6,,6,Barnabas Hinsdale,,,015-12-GEN,015-13-GEN,M,"Feb. 20, 1668",,,,"Jan. 25, 1725",,,,,"Nov. 9, 1693",,,015-11-GEN,,,,,,,,,,,,,
+15,015-11-GEN,,,,Martha Smith,,,,,F,1670,,,,Dec. 1738/9,,,,,"Nov. 9, 1693",,,015-10-GEN,,,,,,,,,,,,,
+15,015-12-GEN,7,,7,Barnabas Hinsdale,,,015-14-GEN,015-15-GEN,M,"Nov. 13, 1639",,,,"Sept. 18, 1675","Deerfield, Mass.",,,,"Oct. 15, 1666",,,015-13-GEN,,,,,,,,,,,,,"Slain in the fight with the Indians at Bloody Brook, Deerfield, Mass., Sept. 18, 1675."
+15,015-13-GEN,,,,Sarah (White) Taylor,,,,,F,,,,,"Aug. 10, 1702",,,,,"Oct. 15, 1666",,,015-12-GEN,,,,,,,,,,,,,Remarried.
+15,015-14-GEN,8,,8,Robert Hinsdale,,,,,M,,,,,"Sept. 18, 1675","Deerfield, Mass.",,,,bef. 1637,,,015-15-GEN,,,,,,,,,,,,,"Came from England; settled in Dedham, Mass.; founder of Medfield; moved to Hadley, then Deerfield, Mass. Slain with sons Barnabas, John, and Samuel in fight with Indians at Bloody Brook, Sept. 18, 1675."
+15,015-15-GEN,,1st w.,,Ann Woodward,,,,,F,,,,,"June 4, 1666",,,,,bef. 1637,,,015-14-GEN,,,,,,,,,,,,,
+15,015-16-GEN,,,,John,Hinsdale,015-14-GEN,015-14-GEN,015-15-GEN,M,,,,,"Sept. 18, 1675","Deerfield, Mass.",,,,,,,,,,,,,,,,,,,,"Son of Robert Hinsdale. Slain in the fight with the Indians at Bloody Brook, Deerfield, Mass., Sept. 18, 1675."
+15,015-17-GEN,,,,Samuel,Hinsdale,015-14-GEN,015-14-GEN,015-15-GEN,M,,,,,"Sept. 18, 1675","Deerfield, Mass.",,,,,,,,,,,,,,,,,,,,"Son of Robert Hinsdale. Slain in the fight with the Indians at Bloody Brook, Deerfield, Mass., Sept. 18, 1675."
+15,015-18-GEN,,,,Capt. Lothrop,,,,,M,,,,,"Sept. 18, 1675",Bloody Brook,,,,,,,,,,,,,,,,,,,,Per page 15 narrative: 'fell at Bloody Brook'.
+16,016-1-GEN,,,,Barnabas Hinsdale,,,,,M,about 1738,,,,about 1790,,,,,,,,,,,,,,,,,,,,,"Ensign in 1776; Lieutenant in May 1777 in Second Company, First Regiment, Connecticut troops."
+17,017-1-GEN,,,,KATHARINE SMITH,,,017-3-GEN,017-4-GEN,F,,,,,,,,,,,,,017-2-GEN,,,,,,,,,,,,,MRS. WILLIAM J. RAINEY
+17,017-2-GEN,,husband,,WILLIAM J. RAINEY,,,,,M,,,,,,,,,,,,,017-1-GEN,,,,,,,,,,,,,
+17,017-3-GEN,,,2,John Keyzar Smith,,,017-5-GEN,017-6-GEN,M,"Nov. 29, 1785",,,,"Apr. 17, 1854",,,,,"Dec. 2, 1818",,,017-4-GEN,,,,,,,,,,,,,
+17,017-4-GEN,,,,Catharine MacDonald,,,,,F,"Oct. 31, 1795",,,,"Aug. 22, 1881",,,,,"Dec. 2, 1818",,,017-3-GEN,,,,,,,,,,,,,
+17,017-5-GEN,,,3,"Abraham (Abram) Smith, Jr.",,,017-7-GEN,017-8-GEN,M,"Aug. 15, 1754",,,,Mar. 1808,,,,,"Nov. 19, 1778",,,017-6-GEN,,,,,,,,,,,,,"Served as a private in Col. Thaddeus Crane's regiment of Westchester County, New York militia, during the Revolution."
+17,017-6-GEN,,,,Sarah Crane,,,,,F,"Sept. 5, 1757",,,,"Oct. 20, 1829",,,,,"Nov. 19, 1778",,,017-5-GEN,,,,,,,,,,,,,
+17,017-7-GEN,,,4,Lieut. Abraham Smith,,,017-10-GEN,017-11-GEN,M,"June 6, 1733",,,,"Mar. 20, 1784",,,,,bef. 1754,,,017-8-GEN,,,,,,,,,,,,,"Served as a Lieutenant in Col. Thaddeus Crane's regiment of Westchester County, New York militia, during the Revolution."
+17,017-8-GEN,,,,Mary Baxter,,,017-9-GEN,,F,"Mar. 11, 1734",,,,June 1802,,,,,bef. 1754,,,017-7-GEN,,,,,,,,,,,,,dau. John
+17,017-9-GEN,,,,John Baxter,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Father of Mary Baxter (""John 4"")"
+17,017-10-GEN,,,5,Jabez Smith,,,017-12-GEN,017-13-GEN,M,"Nov. 29, 1705",,,,"Sept. 22, 1787",,,,,"June 12, 1729",,,017-11-GEN,,,,,,,,,,,,,
+17,017-11-GEN,,,,Ruth Seymour,,,,,F,,,,,"Sept. 9, 1776",,,,,"June 12, 1729",,,017-10-GEN,,,,,,,,,,,,,
+17,017-12-GEN,,,6,Thomas Smith,,,017-14-GEN,017-15-GEN,M,"Mar. 17, 1677",,,,"Sept. 15, 1748",,,,,"Dec. 2, 1699",,,017-13-GEN,,,,,,,,,,,,,
+17,017-13-GEN,,,,Hannah Camp,,,,,F,"Jan. 31, 1677",,,,,,,,,"Dec. 2, 1699",,,017-12-GEN,,,,,,,,,,,,,
+17,017-14-GEN,,,7,John Smith,,,017-16-GEN,017-17-GEN,M,"Aug. 29, 1646",,,,"Jan. 8, 1732",,,,,"Jan. 23, 1673",,,017-15-GEN,,,,,,,,,,,,,
+17,017-15-GEN,,,,Phoebe Canfield,,,,,F,,,"Mar. 9, 1650",,"May 3, 1730",,,,,"Jan. 23, 1673",,,017-14-GEN,,,,,,,,,,,,,
+17,017-16-GEN,,,8,John Smith,,,,,M,,,,,1684,,,,,,,,017-17-GEN,,,,,,,,,,,,,"First on record in New Haven, Conn., in 1639, having arrived there directly from England. Inscription on Memorial Bridge at Milford: ""John Smith Obit 1684, Grace his wife."""
+17,017-17-GEN,,,,Grace Hawley,,,,,F,,,,,Oct. 1690,,,,,,,,017-16-GEN,,,,,,,,,,,,,
+17,017-18-GEN,,,,Col. Thaddeus Crane,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Commander of Westchester County, New York militia regiment during the Revolution."
+18,018-1-GEN,,,,FRANCES GREY SMITH,,,,,F,,,,,,,,,,,,,,,,,,,,,,,,,,Subject of the lineage entry.
+18,018-2-GEN,,,,John Keyzar Smith,,,018-4-GEN,018-5-GEN,M,"Nov. 29, 1785",,,,"Apr. 17, 1854",,,,,"Dec. 2, 1818",,,018-3-GEN,,,,,,,,,,,,,Generational line entry 2.
+18,018-3-GEN,,,,Catharine MacDonald,,,,,F,"Oct. 31, 1795",,,,"Aug. 22, 1881",,,,,"Dec. 2, 1818",,,018-2-GEN,,,,,,,,,,,,,
+18,018-4-GEN,,,,"Abraham (Abram) Smith, Jr.",,,018-6-GEN,018-7-GEN,M,"Aug. 15, 1754",,,,Mar. 1808,,,,,"Nov. 19, 1778",,,018-5-GEN,,,,,,,,,,,,,"Generational line entry 3. Served as private in Col. Thaddeus Crane's regiment of Westchester County, New York militia."
+18,018-5-GEN,,,,Sarah Crane,,,,,F,"Sept. 5, 1757",,,,"Oct. 20, 1829",,,,,"Nov. 19, 1778",,,018-4-GEN,,,,,,,,,,,,,
+18,018-6-GEN,,,,Lieut. Abraham Smith,,,018-9-GEN,018-10-GEN,M,"June 6, 1733",,,,"Mar. 20, 1784",,,,,bef. 1754,,,018-7-GEN,,,,,,,,,,,,,"Generational line entry 4. Served as Lieutenant in Col. Thaddeus Crane's regiment of Westchester County, New York militia."
+18,018-7-GEN,,,,Mary Baxter,,,018-8-GEN,,F,"Mar. 11, 1734",,,,June 1802,,,,,bef. 1754,,,018-6-GEN,,,,,,,,,,,,,Daughter of John Baxter.
+18,018-8-GEN,,,,John Baxter,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Father of Mary Baxter (""dau. John"")."
+18,018-9-GEN,,,,Jabez Smith,,,018-11-GEN,018-12-GEN,M,"Nov. 29, 1705",,,,"Sept. 22, 1787",,,,,"June 12, 1729",,,018-10-GEN,,,,,,,,,,,,,Generational line entry 5.
+18,018-10-GEN,,,,Ruth Seymour,,,,,F,,,,,"Sept. 9, 1776",,,,,"June 12, 1729",,,018-9-GEN,,,,,,,,,,,,,
+18,018-11-GEN,,,,Thomas Smith,,,018-13-GEN,018-14-GEN,M,"Mar. 17, 1677",,,,"Sept. 15, 1743",,,,,"Dec. 2, 1699",,,018-12-GEN,,,,,,,,,,,,,Generational line entry 6.
+18,018-12-GEN,,,,Hannah Camp,,,,,F,"Jan. 31, 1677",,,,,,,,,"Dec. 2, 1699",,,018-11-GEN,,,,,,,,,,,,,
+18,018-13-GEN,,,,John Smith,,,018-15-GEN,018-16-GEN,M,"Aug. 29, 1646",,,,"Jan. 8, 1752",,,,,"Jan. 23, 1673",,,018-14-GEN,,,,,,,,,,,,,Generational line entry 7.
+18,018-14-GEN,,,,Phoebe Canfield,,,,,F,,,"Mar. 9, 1650",,"May 3, 1730",,,,,"Jan. 23, 1673",,,018-13-GEN,,,,,,,,,,,,,
+18,018-15-GEN,,,,John Smith,,,,,M,,,,,1684,,,,,,,,018-16-GEN,,,,,,,,,,,,,"Generational line entry 8. First on record in New Haven, Conn., in 1639, having arrived directly from England."
+18,018-16-GEN,,,,Grace Hawley,,,,,F,,,,,Oct. 1690,,,,,,,,018-15-GEN,,,,,,,,,,,,,
+18,018-17-GEN,,,,Col. Thaddeus Crane,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Commander of Westchester County, New York militia regiment during the Revolution."
+19,019-1-GEN,,,,Ella Myers,,,019-3-GEN,019-4-GEN,F,,"New Haven, Connecticut",,,,,,,,,,,019-2-GEN,,,,,,,,,,,,,"Descendant of Thomas Canfield, through Dr. Josiah Canfield."
+19,019-2-GEN,,,,Cyrus Berry Peets,,,,,M,,,,,,,,,,,,,019-1-GEN,,,,,,,,,,,,,Husband of Ella Myers (Mrs. Cyrus Berry Peets).
+19,019-3-GEN,2,,,John A. Myers,,,,,M,Apr. 1814,,,,"Aug. 4, 1884",,,,,bef. 1837,,,019-4-GEN,,,,,,,,,,,,,
+19,019-4-GEN,,,,Naomi Grace Canfield,,,019-5-GEN,019-6-GEN,F,"May 26, 1816",,,,"Sept. 27, 1883",,,,,bef. 1837,,,019-3-GEN,,,,,,,,,,,,,
+19,019-5-GEN,3,,,Sheldon Canfield,,,019-7-GEN,019-8-GEN,M,1776,,,,1837,,,,,bef. 1815,,,019-6-GEN,,,,,,,,,,,,,
+19,019-6-GEN,,,,Betsey Pease,,,,,F,1784,,,,1854,,,,,bef. 1815,,,019-5-GEN,,,,,,,,,,,,,
+19,019-7-GEN,4,,,Dr. Josiah Canfield,,,019-9-GEN,019-10-GEN,M,"Dec. 31, 1739",,,,"Feb. 11, 1778",,,,,"Feb. 28, 1768",,,019-8-GEN,,,,,,,,,,,,,"Served as a private in Capt. John Ely's Co., Col. Parson's 6th Connecticut Regiment. Enlisted May, 1775."
+19,019-8-GEN,,2d. w.,,Naomi Davis,,,,,F,"Nov. 1, 1743",,,,,,,,,"Feb. 28, 1768",,,019-7-GEN,,,,,,,,,,,,,
+19,019-9-GEN,5,,,Abiram Canfield,,,019-11-GEN,019-12-GEN,M,,,"Jan. 5, 1689",,1772,,,,,"Sept. 12, 1717",,,019-10-GEN,,,,,,,,,,,,,
+19,019-10-GEN,,,,Ruth Washburn,,,,,F,July 1697,,,,"Sept. 24, 1784",,,,,"Sept. 12, 1717",,,019-9-GEN,,,,,,,,,,,,,
+19,019-11-GEN,6,,,Thomas Canfield,,,019-13-GEN,019-14-GEN,M,"Oct. 14, 1654",,,,"Aug. 1, 1689",,,,,"Feb. 26, 1679",,,019-12-GEN,,,,,,,,,,,,,
+19,019-12-GEN,,,,Rebecca Atkinson,,,,,F,,,,,Aug. 1689,,,,,"Feb. 26, 1679",,,019-11-GEN,,,,,,,,,,,,,
+19,019-13-GEN,7,,,Lieut. Thomas Canfield,,,,,M,,,,,"Feb. 22, 1689",,,,,bef. 1650,,,019-14-GEN,,,,,,,,,,,,,"First found in New Haven, Conn. In 1646 in Milford, Conn. Represented Milford in General Court in 1674 and 1676."
+19,019-14-GEN,,,,Phebe Crane,,,,,F,,,,,1690,,,,,bef. 1650,,,019-13-GEN,,,,,,,,,,,,,
+19,019-15-GEN,,,,Capt. John Ely,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Captain of company in Col. Parson's 6th Connecticut Regiment in which Dr. Josiah Canfield served.
+19,019-16-GEN,,,,Col. Parson,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Colonel of 6th Connecticut Regiment.
+20,020-1-GEN,,,,ELLEN HALL,,,020-2-GEN,020-3-GEN,F,,"Bedford, Pennsylvania",,,,,,,,,,,020-15-GEN,,,,,,,,,,,,,"MRS. J. HERON CROSMAN. Descendant of Richard Hall, through Revolutionary ancestor Elihu Hall."
+20,020-2-GEN,2,,,William Maclay Hall,,,020-4-GEN,020-5-GEN,M,1801,,,,1851,,,,,bef. 1846,,,020-3-GEN,,,,,,,,,,,,,
+20,020-3-GEN,,,,Ellen Campbell Williams,,,,,F,1804,,,,1878,,,,,bef. 1846,,,020-2-GEN,,,,,,,,,,,,,
+20,020-4-GEN,3,,,"Henry Hall, M. D.",,,020-6-GEN,020-7-GEN,M,1775,,,,1808,,,,,"Apr. 26, 1800",,,020-5-GEN,,,,,,,,,,,,,
+20,020-5-GEN,,,,Esther Maclay (Hester),,,,,F,"Apr. 19, 1778",,,,"Sept. 7, 1819",,,,,"Apr. 26, 1800",,,020-4-GEN,,,,,,,,,,,,,
+20,020-6-GEN,4,,,Col. Elihu Hall,,,020-8-GEN,020-9-GEN,M,1723,,,,1790,,,,,"June 16, 1757",,,020-7-GEN,,,,,,,,,,,,,Conspicuous patriot during the Revolution. Active in equipping troops and served as Lieut. Col. of a Maryland Regiment. Entertained General Lafayette at his home 'Mt. Welcome'.
+20,020-7-GEN,,,,Catherine Orrick,,,,,F,,,,,,,,,,"June 16, 1757",,,020-6-GEN,,,,,,,,,,,,,
+20,020-8-GEN,5,,,Elihu Hall,,,020-10-GEN,020-11-GEN,M,1692,,,,1753,,,,,1722,,,020-9-GEN,,,,,,,,,,,,,
+20,020-9-GEN,,,,Elizabeth Harrison,,,,,F,,,,,,,,,,1722,,,020-8-GEN,,,,,,,,,,,,,
+20,020-10-GEN,6,,,Elisha Hall,,,020-12-GEN,020-13-GEN,M,1663,,,,1716,,,,,"Sept. 16, 1688",,,020-11-GEN,,,,,,,,,,,,,
+20,020-11-GEN,,,,Sarah Wingfield,,,,,F,,,,,,,,,,"Sept. 16, 1688",,,020-10-GEN,,,,,,,,,,,,,
+20,020-12-GEN,7,,,Richard Hall,,,,,M,1600,Eng.,,,1688,,,,,,,,020-13-GEN,,,,,,,,,,,,,"Early settler on the Octorara in Maryland, believed to have patented 'Mt. Welcome' in Cecil Co. in 1640."
+20,020-13-GEN,,,,Elizabeth Wingfield,,,,,F,,,,,,,,,,,,,020-12-GEN,,,,,,,,,,,,,
+20,020-14-GEN,,,,General Lafayette,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Entertained by Col. Elihu Hall at 'Mt. Welcome'.
+20,020-15-GEN,,,,J. HERON CROSMAN,,,,,M,,,,,,,,,,,,,020-1-GEN,,,,,,,,,,,,,
+21,021-1-GEN,,,,MARION ADELE LONGFELLOW,,,021-3-GEN,021-4-GEN,F,,"Portland, Maine",,,,,,,,,,,021-2-GEN,,,,,,,,,,,,,MRS. MICHAEL FRANCIS O'DONOGHUE (DROPPED O'DONOGHUE). Descendant of Abraham Preble of Massachusetts.
+21,021-2-GEN,,husband,,MICHAEL FRANCIS O'DONOGHUE,,,,,M,,,,,,,,,,,,,021-1-GEN,,,,,,,,,,,,,
+21,021-3-GEN,,,,"Stephen Longfellow, Jr.",,,,,M,"Aug. 14, 1805",,,,"Sept. 19, 1850",,,,,"Aug. 17, 1831",,,021-4-GEN,,,,,,,,,,,,,
+21,021-4-GEN,,,,Marianne Preble,,,021-5-GEN,021-6-GEN,F,"July 30, 1812",,,,"Mar. 14, 1888",,,,,"Aug. 17, 1831",,,021-3-GEN,,,,,,,,,,,,,
+21,021-5-GEN,,,,Judge William Pitt Preble,,,021-7-GEN,021-8-GEN,M,"Nov. 27, 1783",,,,"Oct. 11, 1857",,,,,"Sept. 7, 1810",,,021-6-GEN,,,,,,,,,,,,,
+21,021-6-GEN,,1st w.,,Nancy Gale Tucker,,,,,F,"Sept. 16, 1786",,,,"Oct. 17, 1849",,,,,"Sept. 7, 1810",,,021-5-GEN,,,,,,,,,,,,,
+21,021-7-GEN,,,,Capt. Esaias Preble,,,021-9-GEN,021-10-GEN,M,"Apr. 26, 1742",,,,"Dec. 14, 1813",,,,,"June 30, 1776",,,021-8-GEN,,,,,,,,,,,,,Revolutionary ancestor of Maine.
+21,021-8-GEN,,,,Lydia Ingraham,,,,,F,"Mar. 28, 1749",,,,,,,,,"June 30, 1776",,,021-7-GEN,,,,,,,,,,,,,
+21,021-9-GEN,,,,Samuel Preble,,,021-11-GEN,021-12-GEN,M,"Apr. 19, 1699",,,,"Mar. 22, 1746",,,,,"Dec. 3, 1725",,,021-10-GEN,,,,,,,,,,,,,
+21,021-10-GEN,,,,Sarah Muchmore,,,,,F,,,,,,,,,,"Dec. 3, 1725",,,021-9-GEN,,,,,,,,,,,,,
+21,021-11-GEN,,,,Judge Abraham Preble,,,021-13-GEN,021-14-GEN,M,Apr.....1642,,,,"Oct. 14, 1704",,,,,"May 13, 1685",,,021-12-GEN,,,,,,,,,,,,,
+21,021-12-GEN,,,,Hannah Kelley,,,,,F,,,,,"May 9, 1751",,,,,"May 13, 1685",,,021-11-GEN,,,,,,,,,,,,,
+21,021-13-GEN,,,,Maj. Abraham Preble,,,,,M,"Jan. 23, 1603",,,,"Jan. 23, 1663",,,,,"June 3, 1641",,,021-14-GEN,,,,,,,,,,,,,"Came from England with the 'Men of Kent,' settled in Scituate, Plymouth Colony, abt 1636; removed to York, Me. Mayor of York; Councillor; Associate Justice; Treasurer; Major."
+21,021-14-GEN,,,,Judith Tilden,,,021-15-GEN,,F,,,,,,,,,,"June 3, 1641",,,021-13-GEN,,,,,,,,,,,,,Daughter of Elder Nathaniel Tilden. Living 1663.
+21,021-15-GEN,,,,Elder Nathaniel Tilden,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Father of Judith Tilden.
+21,021-16-GEN,,,,Sir Ferdinando Gorges,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Mentioned in historical text.
+21,021-17-GEN,,,,Edward Godfrey,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Mentioned in historical text.
+22,022-1-GEN,,,,Col. Ebenezer Sayer,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Col. Ebenezer Sayer's 1st York County, Mass., militia in 1776."
+22,022-2-GEN,,,,Col. Jacob Gerrish,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Col. Jacob Gerrish's Regiment in 1778.
+23,023-1-GEN,,,,MARION ADELE LONGFELLOW,,,023-2-GEN,023-3-GEN,F,,,,,,,,,,,,,023-18-GEN,,,,,,,,,,,,,MRS. MICHAEL FRANCIS O'DONOGHUE (DROPPED O'DONOGHUE)
+23,023-2-GEN,,,,Stephen Longfellow,,,023-4-GEN,023-5-GEN,M,"Aug. 14, 1805",,,,"Sept. 19, 1850",,,,,"Aug. 17, 1831",,,023-3-GEN,,,,,,,,,,,,,
+23,023-3-GEN,,,,Marianne Preble,,,,,F,"July 30, 1812",,,,"Mar. 14, 1888",,,,,"Aug. 17, 1831",,,023-2-GEN,,,,,,,,,,,,,
+23,023-4-GEN,,,,Stephen Longfellow,,,023-6-GEN,023-7-GEN,M,"Mar. 23, 1776",,,,"Aug. 3, 1849",,,,,"Jan. 1, 1804",,,023-5-GEN,,,,,,,,,,,,,
+23,023-5-GEN,,,,Zilpah Wadsworth,,,,,F,"Jan. 6, 1778",,,,"Mar. 12, 1851",,,,,"Jan. 1, 1804",,,023-4-GEN,,,,,,,,,,,,,
+23,023-6-GEN,,,,Stephen Longfellow,,,023-8-GEN,023-9-GEN,M,"Aug. 13, 1750",,,,"Mar. 25, 1824",,,,,"Dec. 13, 1773",,,023-7-GEN,,,,,,,,,,,,,
+23,023-7-GEN,,,,Patience Young,,,,,F,1745,,,,"Aug. 19, 1830",,,,,"Dec. 13, 1773",,,023-6-GEN,,,,,,,,,,,,,
+23,023-8-GEN,,,,Stephen Longfellow,,,023-10-GEN,023-11-GEN,M,"Feb. 7, 1723",,,,"May 1, 1790","Gorham, Me.",,,,"Oct. 1, 1749",,,023-9-GEN,,,,,,,,,,,,,"Graduate of Harvard; Clerk of the Judicial Court of Portland, Me., until the town was burned in 1775. In 1774 member of a convention. Removed after 1775 to Gorham, Me."
+23,023-9-GEN,,,,Tabitha Bragdon,,,,,F,"Dec. 1, 1723",,,,"Jan. 10, 1777",,,,,"Oct. 1, 1749",,,023-8-GEN,,,,,,,,,,,,,
+23,023-10-GEN,,,,Stephen Longfellow,,,023-12-GEN,023-13-GEN,M,"Sept. 22, 1685",,,,"Nov. 19, 1764",,,,,"Mar. 13, 1719",,,023-11-GEN,,,,,,,,,,,,,
+23,023-11-GEN,,,,Abigail Thompson,,,,,F,1693,,,,"Sept. 10, 1778",,,,,"Mar. 13, 1719",,,023-10-GEN,,,,,,,,,,,,,
+23,023-12-GEN,,,,Ensign William Longfellow,,,023-14-GEN,023-15-GEN,M,"Oct. 20, 1650","Horsforth, England",,,"Oct. 30, 1690",Anticosti,,,,"Nov. 10, 1678",,,023-13-GEN,,,,,,,,,,,,,"Came to Newbury, Mass., a youth; took Oath of Allegiance in 1678 at age 27. Ensign in Sir William Phipps' Expedition against Quebec; perished on return trip at Anticosti."
+23,023-13-GEN,,,,Anne Sewell,,,,,F,"Sept. 3, 1662",,,,"Oct. 17, 1704",,,,,"Nov. 10, 1678",,,023-12-GEN,,,,,,,,,,,,,
+23,023-14-GEN,,,,William Longfellow,,,,,M,"Oct. 14, 1619",,,,,,,,,"Sept. 10, 1646",,,023-15-GEN,,,,,,,,,,,,,
+23,023-15-GEN,,,,Elizabeth Thornton,,,,,F,,,,,,,,,,"Sept. 10, 1646",,,023-14-GEN,,,,,,,,,,,,,
+23,023-17-GEN,,,,Sir William Phipps,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Led Expedition against Quebec.
+23,023-18-GEN,,,,MICHAEL FRANCIS O'DONOGHUE,,,,,M,,,,,,,,,,,,,023-1-GEN,,,,,,,,,,,,,
+24,024-1-GEN,,,,SARAH MORRIS PEROT,,,024-3-GEN,024-4-GEN,F,,"Philadelphia, Pennsylvania",,,,,,,,,,,024-2-GEN,,,,,,,,,,,,,Descendant of Anthony Morris.
+24,024-2-GEN,,husband,,EDWARD H. OGDEN,,,,,M,,,,,,,,,,,,,024-1-GEN,,,,,,,,,,,,,
+24,024-3-GEN,2,,2,Francis Perot,,,,,M,"Aug. 23, 1796",,,,"Mar. 24, 1885",,,,,"June 17, 1823",,,024-4-GEN,,,,,,,,,,,,,
+24,024-4-GEN,,,,Elizabeth Marshall Morris,,,024-5-GEN,024-6-GEN,F,"Feb. 2, 1802",,,,"May 11, 1878",,,,,"June 17, 1823",,,024-3-GEN,,,,,,,,,,,,,
+24,024-5-GEN,3,,3,Thomas Morris,,,024-7-GEN,024-8-GEN,M,"July 13, 1774",,,,"Apr. 14, 1841",,,,,"June 8, 1797",,,024-6-GEN,,,,,,,,,,,,,
+24,024-6-GEN,,,,Sarah Marshall,,,,,F,,,,,"Apr. 2, 1824",,,,,"June 8, 1797",,,024-5-GEN,,,,,,,,,,,,,
+24,024-7-GEN,4,,4,Thomas Morris,,,024-9-GEN,024-10-GEN,M,"Nov. 25, 1745/6",,,,"Oct. 2, 1809",,,,,"Oct. 6, 1768",,,024-8-GEN,,,,,,,,,,,,,Revolutionary ancestor of Pennsylvania.
+24,024-8-GEN,,,,Mary Saunders,,,,,F,"Feb. 14, 1748",,,,"July 22, 1774",,,,,"Oct. 6, 1768",,,024-7-GEN,,,,,,,,,,,,,
+24,024-9-GEN,5,,5,Anthony Morris,,,024-11-GEN,024-12-GEN,M,"Nov. 14, 1705",,,,"Oct. 2, 1780",,,,,"Dec. 1, 1730",,,024-10-GEN,,,,,,,,,,,,,Subscribed to the non-im-
+24,024-10-GEN,,1st w.,,Sarah Powell,,,,,F,"Apr. 29, 1713",,,,"Feb. 10, 1751",,,,,"Dec. 1, 1730",,,024-9-GEN,,,,,,,,,,,,,
+24,024-11-GEN,6,,6,Anthony Morris,,,024-13-GEN,024-14-GEN,M,"Mar. 15, 1681/2",,,,"Sept. 23, 1763",,,,,"Mar. 10, 1704",,,024-12-GEN,,,,,,,,,,,,,"Son who came to America with parents in Feb., 1682."
+24,024-12-GEN,,,,Phoebe Guest,,,,,F,"July 28, 1685",,,,"Mar. 18, 1768",,,,,"Mar. 10, 1704",,,024-11-GEN,,,,,,,,,,,,,
+24,024-13-GEN,7,,7,Anthony Morris,,,,,M,"Aug. 23, 1654","London, England",,,"Aug. 23, 1721",,,,,"Jan. 30, 1675",,,024-14-GEN,,,,,,,,,,,,,"Anthony Morris of New Jersey. Landed at Burlington, Province of New Jersey, Feb. 1682. Removed to Philadelphia 1685. Alderman in 1691; Justice of the Peace; Justice of Court of Common Pleas; Presiding Justice 1693; Justice of Supreme Court of PA 1694; Provincial Council 1695/6; Assembly representative 1698-1704; Mayor of Philadelphia 1703; Society of Friends active member and preacher."
+24,024-14-GEN,,1st w.,,Mary Jones,,,,,F,,,,,"Mar. 8, 1688",,,,,"Jan. 30, 1675",,,024-13-GEN,,,,,,,,,,,,,"Came to America with husband Anthony and son Anthony, landed Feb. 1682."
+25,025-1-GEN,,,,Thomas,,,,,M,1745,,,,1809,,,,,,,,,,,,,,,,,,,,,"Overseer of the public schools in Philadelphia, Pa. in 1782. Gave 500 pounds to the Pennsylvania Hospital in 1780."
+26,026-1-GEN,,,,LUCY WILLIAMS HALLAM,,,026-2-GEN,026-3-GEN,F,,"Chicago, Illinois",,,,,,,,,,,026-17-GEN,,,,,,,,,,,,,MRS. T. H. WHITNEY
+26,026-2-GEN,2,,,Isaac Williams Hallam,,,026-4-GEN,026-5-GEN,M,"Nov. 20, 1809",,,,"Feb. 21, 1888",,,,,bef. 1849,,,026-3-GEN,,,,,,,,,,,,,
+26,026-3-GEN,2,,,Nancy Hallam,,,,,F,"Oct. 4, 1810",,,,"Jan. 23, 1896",,,,,bef. 1849,,,026-2-GEN,,,,,,,,,,,,,
+26,026-4-GEN,3,,,Giles Russell Hallam,,,026-6-GEN,026-7-GEN,M,"Feb. 19, 1776",,,,"June 2, 1863",,,,,"Feb. 2, 1806",,,026-5-GEN,,,,,,,,,,,,,
+26,026-5-GEN,3,,,Lucy Williams,,,,,F,"Sept. 29, 1785",,,,"Apr. 4, 1862",,,,,"Feb. 2, 1806",,,026-4-GEN,,,,,,,,,,,,,
+26,026-6-GEN,4,,,Capt. Amos Hallam,,,026-8-GEN,026-9-GEN,M,"Aug. 26, 1738",,,,"Jan. 3, 1816",,,,,"Oct. 18, 1758",,,026-7-GEN,,,,,,,,,,,,,Served as a Lieut. and Captain during the Revolution.
+26,026-7-GEN,4,,,Desire Stanton,,,,,F,"Apr. 22, 1734",,,,"Aug. 6, 1825",,,,,"Oct. 18, 1758",,,026-6-GEN,,,,,,,,,,,,,
+26,026-8-GEN,5,,,John Hallam,,,026-10-GEN,026-11-GEN,M,"Nov. 7, 1719",,,,"Dec. 27, 1785",,,,,"Aug. 20, 1737",,,026-9-GEN,,,,,,,,,,,,,
+26,026-9-GEN,5,,,Abigail Noyes,,,,,F,"May 12, 1721",,,,"Oct. 6, 1801",,,,,"Aug. 20, 1737",,,026-8-GEN,,,,,,,,,,,,,
+26,026-10-GEN,6,,,Ensign Amos Hallam,,,026-12-GEN,026-13-GEN,M,"Dec. 8, 1695",,,,"Dec. 11, 1728",,,,,"Dec. 8, 1716",,,026-11-GEN,,,,,,,,,,,,,
+26,026-11-GEN,6,,,Phoebe Greenman,,,,,F,"Jan. 29, 1693",,,,,,,,,"Dec. 8, 1716",,,026-10-GEN,,,,,,,,,,,,,
+26,026-12-GEN,7,,,John Hallam,,,,,M,1662,"Barbadoes, West Indies",,,"Nov. 20, 1700",,,,,"Mar. 15, 1683",,,026-13-GEN,,,,,,,,,,,,,"Came in 1675 with mother, step-father John Liveen, and brother Nicholas to New London, Conn. Removed to Stonington, Conn. Died of smallpox."
+26,026-13-GEN,7,,,Prudence Richardson,,,,,F,"Jan. 31, 1661/2",,,,"Aug. 6, 1716",,,,,"Mar. 15, 1683",,,026-12-GEN,,,,,,,,,,,,,
+26,026-14-GEN,,,,John Liveen,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Step-father of John Hallam, came to New London, Conn. in 1675."
+26,026-15-GEN,,,,Nicholas,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Younger brother of John Hallam.
+26,026-16-GEN,,,,Jonathan Trumbull,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Commander-in-Chief of the State of Conn., signed commissions for Amos Hallam in 1777 and 1779."
+26,026-17-GEN,,,,T. H. WHITNEY,,,,,M,,,,,,,,,,,,,026-1-GEN,,,,,,,,,,,,,Husband of Lucy Williams Hallam
+27,027-1-GEN,,,,MARY FRANCES FOWLER,,,027-3-GEN,027-4-GEN,F,,"Memphis, Tennessee",,,,,,,,,,,027-2-GEN,,,,,,,,,,,,,"Subject of lineage application, descendant of Abraham Perkins through Nathaniel Perkins."
+27,027-2-GEN,,husband,,CHARLES CLIFTON GIBSON,,,,,M,,,,,,,,,,,,,027-1-GEN,,,,,,,,,,,,,
+27,027-3-GEN,2,,,Ebenezer Fowler,,,,,M,"Dec. 2, 1812",,,,"Oct. 5, 1856",,,,,bef. 1845,,,027-4-GEN,,,,,,,,,,,,,
+27,027-4-GEN,,,,Sarah Jane Perkins,,,027-5-GEN,027-6-GEN,F,"Aug. 11, 1820",,,,"Dec. 14, 1871",,,,,bef. 1845,,,027-3-GEN,,,,,,,,,,,,,
+27,027-5-GEN,3,,,Peter D. Perkins,,,027-7-GEN,027-8-GEN,M,1790,,,,1861,,,,,,,,027-6-GEN,,,,,,,,,,,,,
+27,027-6-GEN,,,,Jane Ames,,,,,F,"Jan. 13, 1797",,,,"Jan. 5, 1845",,,,,,,,027-5-GEN,,,,,,,,,,,,,
+27,027-7-GEN,4,,,Nathaniel Perkins,,,027-9-GEN,027-10-GEN,M,"June 27, 1753",,,,1812,,,,,,,,027-8-GEN,,,,,,,,,,,,,"Revolutionary ancestor of New Hampshire. Enlisted in Rochester, N.H. 1775, private in Capt. Jonathan Wentworth's Co., Col. Enoch Poor's Regt. Enlisted Dec 1776 under Capt. Wallingford and Col. David Gilman; also 1777 under Capt. James Libbey and Col. Stephen Evans. [validation: date-inconsistent: born-after-parent-death]"
+27,027-8-GEN,,,,Polly Bryant,,,,,F,1761,,,,1845,,,,,,,,027-7-GEN,,,,,,,,,,,,,"Widow resident of Wakefield, N. H., received pension in 1842 aged 80."
+27,027-9-GEN,5,,,Solomon Perkins,,,027-11-GEN,027-12-GEN,M,"June 30, 1712",,,,"Sept. 29, 1742/3",,,,,"Dec. 31, 1733",,,027-10-GEN,,,,,,,,,,,,,
+27,027-10-GEN,,,,Lydia Sprague,,,,,F,"July 31, 1715",,,,,,,,,"Dec. 31, 1733",,,027-9-GEN,,,,,,,,,,,,,
+27,027-11-GEN,6,,,Nathan Perkins,,,027-13-GEN,027-14-GEN,M,,,"Sept. 13, 1685",,1723,,,,,"Nov. 9, 1709",,,027-12-GEN,,,,,,,,,,,,,
+27,027-12-GEN,,,,Martha Leonard,,,,,F,,,,,,,,,,"Nov. 9, 1709",,,027-11-GEN,,,,,,,,,,,,,
+27,027-13-GEN,7,,,David Perkins,,,027-15-GEN,027-16-GEN,M,"Feb. 28, 1654",,,,"Oct. 1, 1736",,,,,abt. 1675,,,027-14-GEN,,,,,,,,,,,,,
+27,027-14-GEN,,1st wife,,Elizabeth Brown,,,,,F,"June 17, 1654",,,,bef. 1699,,,,,abt. 1675,,,027-13-GEN,,,,,,,,,,,,,
+27,027-15-GEN,8,,,Abraham Perkins,,,,,M,abt. 1619,,,,"Aug. 31, 1683",,,,,abt. 1638,,,027-16-GEN,,,,,,,,,,,,,"Admitted freeman in Hampton, New Hampshire May 13, 1640. Marshal in 1654. Will dated August 22, 1683, probated September 18, 1683."
+27,027-16-GEN,,,,Mary Wise,,,,,F,1620,,,,"May 29, 1706",,,,,abt. 1638,,,027-15-GEN,,,,,,,,,,,,,
+27,027-17-GEN,,,,Capt. Jonathan Wentworth,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Captain under whom Nathaniel Perkins served in 1775.
+27,027-18-GEN,,,,Col. Enoch Poor,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Colonel of regiment in New Hampshire Militia in 1775.
+27,027-19-GEN,,,,Capt. Wallingford,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Captain under whom Nathaniel Perkins served in Dec 1776.
+27,027-20-GEN,,,,Col. David Gilman,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Colonel under whom Nathaniel Perkins served in Dec 1776.
+27,027-21-GEN,,,,Capt. James Libbey,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Captain under whom Nathaniel Perkins served in 1777.
+27,027-22-GEN,,,,Col. Stephen Evans,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Colonel under whom Nathaniel Perkins served in 1777.
+28,028-1-GEN,,,,MARY FRANCES FOWLER,,,,,F,,,,,,,,,,,,,028-2-GEN,,,,,,,,,,,,,Subject of supplemental lineage paper.
+28,028-2-GEN,,husband,,CHARLES CLIFTON GIBSON,,,,,M,,,,,,,,,,,,,028-1-GEN,,,,,,,,,,,,,
+28,028-3-GEN,,,,Ebenezer Fowler,,,028-5-GEN,028-6-GEN,M,"Dec. 2, 1812",,,,"Oct. 5, 1856",,,,,bef. 1845,,,028-4-GEN,,,,,,,,,,,,,Gen 2 in lineage. [validation: date-inconsistent: born-after-parent-death]
+28,028-4-GEN,,,,Sarah Jane Perkins,,,,,F,"Aug. 20, 1817",,,,"Dec. 14, 1870",,,,,bef. 1845,,,028-3-GEN,,,,,,,,,,,,,
+28,028-5-GEN,,,,Jacob Fowler,,,028-7-GEN,028-8-GEN,M,1760,,,,after 1786,,,,,,,,028-6-GEN,,,,,,,,,,,,,Revolutionary ancestor. Mentioned in will of grandfather Thomas in 1786 as son of deceased son Enoch. Served at Battle of Bunker Hill.
+28,028-6-GEN,,,,Elizabeth Ford,,,,,F,,,,,,,,,,,,,028-5-GEN,,,,,,,,,,,,,
+28,028-7-GEN,,,,Enoch Fowler,,,028-9-GEN,028-10-GEN,M,"Aug. 11, 1732",,,,"Feb. 7, 1784",,,,,"July 8, 1754",,,028-8-GEN,,,,,,,,,,,,,Gen 4 in lineage. Deceased prior to 1786.
+28,028-8-GEN,,,,Nancy Goodale,,,,,F,,,,,,,,,,"July 8, 1754",,,028-7-GEN,,,,,,,,,,,,,
+28,028-9-GEN,,,,Thomas Fowler,,,028-11-GEN,028-12-GEN,M,"Oct. 19, 1703",,,,aft. 1786,,,,,"Jan. 31, 1730/1",,,028-10-GEN,,,,,,,,,,,,,"Gen 5 in lineage. Made a will in 1786 mentioning grandson Jacob, son of deceased son Enoch."
+28,028-10-GEN,,,,Ruth Hackett,,,,,F,"Mar. 16, 1710/11",,,,,,,,,"Jan. 31, 1730/1",,,028-9-GEN,,,,,,,,,,,,,
+28,028-11-GEN,,,,"Samuel Fowler, Jr.",,,028-13-GEN,028-14-GEN,M,abt. 1660,,,,"Dec. 24, 1737",,,,,"Dec. 5, 1684",,,028-12-GEN,,,,,,,,,,,,,Gen 6 in lineage.
+28,028-12-GEN,,,,Hannah Worthen,,,,,F,"Apr. 21, 1663",,,,aft. 1737,,,,,"Dec. 5, 1684",,,028-11-GEN,,,,,,,,,,,,,
+28,028-13-GEN,,,,Samuel Fowler,,,028-15-GEN,028-16-GEN,M,abt. 1618,Eng.,,,Jan. 1710,,,,,abt. 1653,,,028-14-GEN,,,,,,,,,,,,,Gen 7 in lineage.
+28,028-14-GEN,,,,Margaret (Norman) Morgan,,,,,F,,,,,bef. 1673,,,,,abt. 1653,,,028-13-GEN,,,,,,,,,,,,,
+28,028-15-GEN,,,,Philip Fowler,,,,,M,abt. 1590/1,Eng.,,,"June 24, 1679",,,,,,Eng.,,028-16-GEN,,,,,,,,,,,,,"Born in England. Came to America 1634 in the ""Mary and John"" of London. Grant of land in Ipswich, Mass. 1634; freeman's oath 1634; jury of trials 1642; Judge of Defaults 1645; Surveyor 1648, 1654-1657."
+28,028-16-GEN,,1st wife,,Mary Winsley,,,,,F,,Eng.,,,"Aug. 30, 1659",,,,,,Eng.,,028-15-GEN,,,,,,,,,,,,,
+28,028-17-GEN,,,,Robert Sayres,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Master of the ship ""Mary and John"" of London in 1634. [exclude-from-tree: non-family-role]"
+29,029-1-GEN,,,,Jacob Fowler,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Of Seabrook, N. H. Mentioned as cousin whose Revolutionary service was believed to have belonged to the subject."
+30,030-1-GEN,,,,LOUISE AYMAR,,,030-3-GEN,030-4-GEN,F,,"New York City, N. Y.",,,,,,,,,,,030-2-GEN,,,,,,,,,,,,,"Born in New York City, N. Y."
+30,030-2-GEN,,husband,,ROBERT VAN BUREN,,,,,M,,,,,,,,,,,,,030-1-GEN,,,,,,,,,,,,,
+30,030-3-GEN,,,2,Samuel Aymar,,,,,M,"Aug. 14, 1801",,,,"Feb. 11, 1880",,,,,"Oct. 31, 1836",,,030-4-GEN,,,,,,,,,,,,,
+30,030-4-GEN,,,,Mary Seymour,,,030-5-GEN,030-6-GEN,F,"May 21, 1814",,,,"Mar. 18, 1888",,,,,"Oct. 31, 1836",,,030-3-GEN,,,,,,,,,,,,,
+30,030-5-GEN,,,3,James Seymour,,,030-7-GEN,030-8-GEN,M,"Mar. 16, 1775",,,,Apr. 1854,,,,,"Feb. 3, 1799",,,030-6-GEN,,,,,,,,,,,,,
+30,030-6-GEN,,,,Sarah Raymond,,,,,F,"July 27, 1778",,,,"Apr., 1867",,,,,"Feb. 3, 1799",,,030-5-GEN,,,,,,,,,,,,,
+30,030-7-GEN,,,4,James Seymour,,,030-9-GEN,030-10-GEN,M,"May 26, 1752",,,,"Dec. 11, 1834",,,,,"Feb. 13, 1775",,,030-8-GEN,,,,,,,,,,,,,Revolutionary ancestor of Connecticut. Enlisted July 1776 in Capt. Seth Seymour's Co. under Col. John Mead. Served as Quartermaster. Re-enlisted under Capt. Ozias Marvin.
+30,030-8-GEN,,,,Rebekah Keeler,,,,,F,1752,,,,"Oct. 13, 1840",,,,,"Feb. 13, 1775",,,030-7-GEN,,,,,,,,,,,,,
+30,030-9-GEN,,,5,John Seymour,,,030-11-GEN,030-12-GEN,M,1711,,,,"Sept. 8, 1796",,,,,,,,030-10-GEN,,,,,,,,,,,,,
+30,030-10-GEN,,,,Ruth Belden,,,,,F,"Jan. 18, 1712/13",,,,"May 22, 1782",,,,,,,,030-9-GEN,,,,,,,,,,,,,
+30,030-11-GEN,,,6,John Seymour,,,030-13-GEN,030-14-GEN,M,1672,,,,,,,,,,,,030-12-GEN,,,,,,,,,,,,,"will proved Aug. 5, 1746"
+30,030-12-GEN,,,,Sarah Gregory,,,,,F,"Sept. 15, 1678",,,,,,,,,,,,030-11-GEN,,,,,,,,,,,,,
+30,030-13-GEN,,,7,Capt. Thomas Seymour,,,030-15-GEN,030-16-GEN,M,"July 15, 1632",Eng.,,,"bet. Sept. 22, Oct. 15, 1712",,,,,"Jan. 5, 1654",,,030-14-GEN,,,,,,,,,,,,,
+30,030-14-GEN,,1st w.,,Hannah Marvin,,,,,F,abt. Oct. 1634,,,,aft. 1680,,,,,"Jan. 5, 1654",,,030-13-GEN,,,,,,,,,,,,,
+30,030-15-GEN,,,8,Richard Seymour,,,,,M,,,"Jan. 27, 1604/5",,"Nov. 25, 1655",Norwalk,,,,"Apr. 18, 1631",,,030-16-GEN,,,,,,,,,,,,,"Settled in Hartford, Conn. in 1639. Name on Ludlow Agreement Articles June 19, 1650. Removed to Farmington, Conn. in 1652, then to Norwalk, where chosen Townsman in 1655."
+30,030-16-GEN,,,,Mercy Ruscoe,,,,,F,abt. 1610,,,,"Feb. 27, 1664/5",,,,,"Apr. 18, 1631",,,030-15-GEN,,,,030-18-GEN,,,,,,,,,Married second John Steele.
+30,030-17-GEN,,,,Robert Seymour,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Ancestor mentioned in headnote: ""Descendant of Robert Seymour, through the Revolutionary ancestor James Seymour, both of Connecticut"""
+30,030-18-GEN,,,,John Steele,,,,,M,,,,,,,,,,,,,030-16-GEN,,,,,,,,,,,,,Second husband of Mercy Ruscoe.
+30,030-19-GEN,,,,Capt. Seth Seymour,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Captain under whom James Seymour enlisted in July 1776.
+30,030-20-GEN,,,,Col. John Mead,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Colonel under whom Capt. Seth Seymour's Co. marched to New York.
+30,030-21-GEN,,,,Capt. Ozias Marvin,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Captain under whom James Seymour served one year guarding the sea coast.
+31,031-1-GEN,,,,Capt. Uriah Raymond,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Per page narrative: Capt. Uriah Raymond's Co., on guard at Norwalk and vicinity from spring of 1780 to close of the war."
+32,032-1-GEN,,,,MARY ESTHER TAYLOR,,,032-3-GEN,032-4-GEN,F,,"Pompey, N. Y.",,,,,,,,,,,032-2-GEN,,,,,,,,,,,,,MRS. KELLOGG SEXTON
+32,032-2-GEN,,husband,,KELLOGG SEXTON,,,,,M,,,,,,,,,,,,,032-1-GEN,,,,,,,,,,,,,
+32,032-3-GEN,2,,,Anson Hawley Taylor,,,,,M,"Dec. 29, 1800",,,,"Sept. 6, 1864",,,,,abt. 1830,,,032-4-GEN,,,,,,,,,,,,,
+32,032-4-GEN,,wife,,Esther Denison,,,032-5-GEN,032-6-GEN,F,"May 22, 1800",,,,"Sept. 27, 1869",,,,,abt. 1830,,,032-3-GEN,,,,,,,,,,,,,
+32,032-5-GEN,3,,,Henry Denison,,,032-7-GEN,032-8-GEN,M,"Nov. 26, 1751",,,,1836,N. Y.,,,,1778,,,032-6-GEN,,,,,,,,,,,,,"Revolutionary ancestor. Enlisted from Stonington, Conn. in April, 1775, served seven months under Lieut. Elnathan Roseter; sergeant for one year under Capt. Jonathan Brewster; commissioned Second Lieut. in Capt. Latham's Co. of Matrosses at Fort Griswold, Conn.; in command of Marines on the sloop ""Hancock""."
+32,032-6-GEN,,wife,,Mary Gallup,,,,,F,"Jan. 31, 1759",,,,"Jan., 1843",,,,,1778,,,032-5-GEN,,,,,,,,,,,,,
+32,032-7-GEN,4,,,Daniel Denison,,,032-9-GEN,032-10-GEN,M,"Mar. 22, 1721",,,,"May 9, 1776",,,,,"May 27, 1742",,,032-8-GEN,,,,,,,,,,,,,
+32,032-8-GEN,,wife,,Esther Wheeler,,,,,F,"Feb. 25, 1722",,,,"Mar. 31, 1814",,,,,"May 27, 1742",,,032-7-GEN,,,,,,,,,,,,,
+32,032-9-GEN,5,,,Daniel Denison,,,032-11-GEN,032-12-GEN,M,"Mar. 28, 1680",,,,"Oct. 13, 1747",,,,,"Jan. 1, 1703",,,032-10-GEN,,,,,,,,,,,,,
+32,032-10-GEN,,1st wife,,Mary Stanton,,,,,F,"Feb. 3, 1687",,,,"Sept. 2, 1724",,,,,"Jan. 1, 1703",,,032-9-GEN,,,,,,,,,,,,,
+32,032-11-GEN,6,,,John Denison,,,032-13-GEN,032-14-GEN,M,"July 14, 1646",,,,1698,,,,,"Nov. 26, 1667",,,032-12-GEN,,,,,,,,,,,,,
+32,032-12-GEN,,wife,,Phoebe Lay,,,,,F,abt. 1650,,,,1699,,,,,"Nov. 26, 1667",,,032-11-GEN,,,,,,,,,,,,,
+32,032-13-GEN,7,,,Capt. George Denison,,,032-15-GEN,032-16-GEN,M,1618,Connecticut,,,"Oct. 23, 1694",,,,,abt. 1645,,,032-14-GEN,,,,,,,,,,,,,
+32,032-14-GEN,,2d w.,,Ann Borrodel,,,,,F,"abt., 1615",,,,"Sept. 26, 1712",,,,,abt. 1645,,,032-13-GEN,,,,,,,,,,,,,
+32,032-15-GEN,8,,,William Denison,,,,,M,1568,Massachusetts,,,"Jan. 25, 1653",Roxbury,,,,1603,,,032-16-GEN,,,,,,,,,,,,,"Of Stortford (or Stratford) England; came to America in 1631 with wife and three younger sons; freeman in Roxbury, Mass. in 1632; Deputy to General Court in 1634; died in Roxbury in 1653."
+32,032-16-GEN,,wife,,Margaret (Chandler) Monck,,,,,F,,,,,"Feb. 23, 1645",,,,,1603,,,032-15-GEN,,,,,,,,,,,,,Came to America in 1631 with husband William Denison and three younger sons.
+32,032-17-GEN,,,,Elnathan Roseter,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Lieut. in the Conn. State Line under whom Henry Denison served seven months.
+32,032-18-GEN,,,,Jonathan Brewster,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Capt. under whom Henry Denison served as sergeant for one year.
+32,032-19-GEN,,,,Latham,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Capt. of Co. of Matrosses stationed at Fort Griswold, Conn. where Henry Denison was commissioned Second Lieut. April 21, 1778."
+33,033-1-GEN,,,,MARY FRANCES RUSSELL,,,033-3-GEN,033-4-GEN,F,,"Marine City, Michigan",,,,,,,,,,,033-2-GEN,,,,,,,,,,,,,Descendant of John Smith of Connecticut.
+33,033-2-GEN,,husband,,HORACE H. ROGERS,,,,,M,,,,,,,,,,,,,033-1-GEN,,,,,,,,,,,,,
+33,033-3-GEN,,,2,Samuel Russell,,,,,M,"July 22, 1813",,,,"Dec. 31, 1879",,,,,,,,033-4-GEN,,,,,,,,,,,,,
+33,033-4-GEN,,,,Sarah Crane Smith,,,033-5-GEN,033-6-GEN,F,"Dec. 25, 1820",,,,"Sept. 1, 1887",,,,,,,,033-3-GEN,,,,,,,,,,,,,
+33,033-5-GEN,,,3,John Keyzar Smith,,,033-7-GEN,033-8-GEN,M,"Nov. 29, 1785",,,,"Apr. 17, 1854",,,,,"Dec. 2, 1818",,,033-6-GEN,,,,,,,,,,,,,
+33,033-6-GEN,,,,Catharine MacDonald,,,,,F,"Oct. 31, 1795",,,,"Aug. 22, 1881",,,,,"Dec. 2, 1818",,,033-5-GEN,,,,,,,,,,,,,
+33,033-7-GEN,,,4,"Abraham (Abram) Smith, Jr.",,,033-9-GEN,033-10-GEN,M,"Aug. 15, 1754",,,,Mar. 1808,,,,,"Nov. 19, 1778",,,033-8-GEN,,,,,,,,,,,,,"Served as a private in Col. Thaddeus Crane's regiment of Westchester County, New York militia, during the Revolution."
+33,033-8-GEN,,,,Sarah Crane,,,,,F,"Sept. 5, 1757",,,,"Oct. 20, 1829",,,,,"Nov. 19, 1778",,,033-7-GEN,,,,,,,,,,,,,
+33,033-9-GEN,,,5,Lieut. Abraham Smith,,,033-12-GEN,033-13-GEN,M,"June 6, 1733",,,,"Mar. 20, 1784",,,,,bef. 1754,,,033-10-GEN,,,,,,,,,,,,,"Served as a Lieutenant in Col. Thaddeus Crane's regiment of Westchester County, New York militia, during the Revolution."
+33,033-10-GEN,,,,Mary Baxter,,,033-11-GEN,,F,"Mar. 11, 1734",,,,June 1802,,,,,bef. 1754,,,033-9-GEN,,,,,,,,,,,,,
+33,033-11-GEN,,,,John Baxter,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Referenced in line 5 as 'John 4', father of Mary Baxter."
+33,033-12-GEN,,,6,Jabez Smith,,,033-14-GEN,033-15-GEN,M,"Nov. 29, 1705",,,,"Sept. 22, 1787",,,,,"June 12, 1729",,,033-13-GEN,,,,,,,,,,,,,
+33,033-13-GEN,,,,Ruth Seymour,,,,,F,,,,,"Sept. 9, 1776",,,,,"June 12, 1729",,,033-12-GEN,,,,,,,,,,,,,
+33,033-14-GEN,,,7,Thomas Smith,,,033-16-GEN,033-17-GEN,M,"Mar. 17, 1677",,,,"Sept. 15, 1743",,,,,"Dec. 2, 1699",,,033-15-GEN,,,,,,,,,,,,,
+33,033-15-GEN,,,,Hannah Camp,,,,,F,"Jan. 31, 1677",,,,,,,,,"Dec. 2, 1699",,,033-14-GEN,,,,,,,,,,,,,
+33,033-16-GEN,,,8,John Smith,,,033-18-GEN,033-19-GEN,M,"Aug. 29, 1646",,,,"Jan. 8, 1732",,,,,"Jan. 23, 1673",,,033-17-GEN,,,,,,,,,,,,,
+33,033-17-GEN,,,,Phoebe Canfield,,,,,F,,,"Mar. 9, 1650",,"May 3, 1730",,,,,"Jan. 23, 1673",,,033-16-GEN,,,,,,,,,,,,,
+33,033-18-GEN,,,9,John Smith,,,,,M,,,,,1684,,,,,,,,033-19-GEN,,,,,,,,,,,,,"First on record in New Haven, Conn., in 1639, having arrived there directly from England. Inscription on Memorial Bridge in Milford: 'John Smith Obit 1684, Grace his wife.'"
+33,033-19-GEN,,,,Grace Hawley,,,,,F,,,,,"Oct., 1690",,,,,,,,033-18-GEN,,,,,,,,,,,,,Inscribed on Memorial Bridge in Milford as 'Grace his wife'.
+33,033-20-GEN,,,,Col. Thaddeus Crane,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Commander of Westchester County, New York militia regiment during the Revolution."
+34,034-1-GEN,,,,ALMA McGEOCH 71,,,034-2-GEN,034-3-GEN,F,,"Lakemills, Wisconsin",,,,,,,,,,,,,,,,,,,,,,,,"Per page narrative: Born in Lakemills, Wisconsin. Descendant of John Harvey of Massachusetts, through the Revolutionary ancestor Levi Harvey of New Hampshire."
+34,034-2-GEN,2,,2,Peter McGeoch,,,,,M,Feb. 1833,,,,Nov. 1895,,,,,bef. 1858,,,034-3-GEN,,,,,,,,,,,,,
+34,034-3-GEN,,,,Catherine Ellen Harvey,,,034-4-GEN,034-5-GEN,F,Dec. 1835,,,,Dec. 1885,,,,,bef. 1858,,,034-2-GEN,,,,,,,,,,,,,
+34,034-4-GEN,3,,3,Enoch Dole Harvey,,,034-6-GEN,034-7-GEN,M,June 1811,,,,Jan. 1888,,,,,bef. 1835,,,034-5-GEN,,,,,,,,,,,,,
+34,034-5-GEN,,,,Mary Hubbard Nye,,,,,F,Apr. 1812,,,,Jan. 1859,,,,,bef. 1835,,,034-4-GEN,,,,,,,,,,,,,
+34,034-6-GEN,4,,4,Joseph Harvey,,,034-8-GEN,034-9-GEN,M,"May 7, 1783",,,,1812,,,,,"Sept. 10, 1807",,,034-7-GEN,,,,,,,,,,,,,
+34,034-7-GEN,,,,Susanna Dole,,,,,F,Aug. 1782,,,,Apr. 1871,,,,,"Sept. 10, 1807",,,034-6-GEN,,,,,,,,,,,,,
+34,034-8-GEN,5,,5,Levi Harvey,,,034-10-GEN,034-11-GEN,M,"July 1, 1745","Amesbury, Mass.",,,1807,"Danville, Vt.",,,,abt. 1780,,,034-9-GEN,,,,,,,,,,,,,"Revolutionary ancestor of New Hampshire. Served as Sergeant in Capt. Nathan Sanborn's Co., Col. Stephen Evans' Regt., New Hampshire militia at Bennington in 1777."
+34,034-9-GEN,,,,Elizabeth (Betsey) Randlett,,,,,F,,,,,,,,,,abt. 1780,,,034-8-GEN,,,,,,,,,,,,,
+34,034-10-GEN,6,,6,Jonathan Harvey,,,034-12-GEN,034-13-GEN,M,"May 29, 1725",,,,1764,,,,,"Oct. 2, 1744",,,034-11-GEN,,,,,,,,,,,,,
+34,034-11-GEN,,,,Susanna George,,,,,F,,,,,Apr. 1817,,,,,"Oct. 2, 1744",,,034-10-GEN,,,,,,,,,,,,,Birth year given as 1727.
+34,034-12-GEN,7,,7,John Harvey,,,034-14-GEN,034-15-GEN,M,"Dec. 3, 1690",Massachusetts,,,"May 10, 1740",,,,,"Nov. 30, 1714",,,034-13-GEN,,,,,,,,,,,,,
+34,034-13-GEN,,,,Anna Davis,,,,,F,,,,,,,,,,"Nov. 30, 1714",,,034-12-GEN,,,,,,,,,,,,,"w.d. Apr. 22, 1748"
+34,034-14-GEN,8,,8,John Harvey,,,034-16-GEN,034-17-GEN,M,"Feb. 5, 1655",,,,"Mar. 8, 1706",,,,,abt. 1685,,,034-15-GEN,,,,,,,,,,,,,
+34,034-15-GEN,,,,Sarah (Barnes) Rowell,,,,,F,1650,,,,"Apr. 17, 1720",,,,,abt. 1685,,,034-14-GEN,,,,,,,,,,,,,
+34,034-16-GEN,9,,9,William Harvey,,,,,M,abt. 1614,Eng.,,,"Aug. 15, 1658",,,,,abt. 1650,,,034-17-GEN,,,,,,,,,,,,,"Admitted to the First Church in Boston, Mass., July 4, 1640. Inventory of estate taken in Boston, Jan. 18, 1658/9."
+34,034-17-GEN,,2d w.,,Mrs. Martha Slocum Copp,,,,,F,,,,,,,,,,abt. 1650,,,034-16-GEN,,,,,,,,,,,,,she re-married
+34,034-18-GEN,,,,Capt. Nathan Sanborn,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Per page narrative: Captain in New Hampshire militia at Bennington in 1777.
+34,034-19-GEN,,,,Col. Stephen Evans,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Per page narrative: Colonel in New Hampshire militia at Bennington in 1777.
+35,035-1-GEN,,,,CLARA McGEOCH,,,035-2-GEN,035-3-GEN,F,,"Milwaukee, Wisconsin",,,,,,,,,,,,,,,,,,,,,,,,"Descendant of John Harvey of Massachusetts, through Revolutionary ancestor Levi Harvey of New Hampshire."
+35,035-2-GEN,2,,,Peter McGeoch,,,,,M,Feb. 1833,,,,Nov. 1895,,,,,bef. 1858,,,035-3-GEN,,,,,,,,,,,,,
+35,035-3-GEN,,,,Catherine Ellen Harvey,,,035-4-GEN,035-5-GEN,F,Dec. 1835,,,,Dec. 1885,,,,,bef. 1858,,,035-2-GEN,,,,,,,,,,,,,
+35,035-4-GEN,3,,,Enoch Dole Harvey,,,035-6-GEN,035-7-GEN,M,June 1811,,,,Jan. 1888,,,,,bef. 1835,,,035-5-GEN,,,,,,,,,,,,,
+35,035-5-GEN,,,,Mary Hubbard Nye,,,,,F,Apr. 1812,,,,Jan. 1859,,,,,bef. 1835,,,035-4-GEN,,,,,,,,,,,,,
+35,035-6-GEN,4,,,Joseph Harvey,,,035-8-GEN,035-9-GEN,M,"May 7, 1783",,,,1812,,,,,"Sept. 10, 1807",,,035-7-GEN,,,,,,,,,,,,,
+35,035-7-GEN,,,,Susanna Dole,,,,,F,Aug. 1782,,,,Apr. 1871,,,,,"Sept. 10, 1807",,,035-6-GEN,,,,,,,,,,,,,
+35,035-8-GEN,5,,,Levi Harvey,,,035-10-GEN,035-11-GEN,M,"July 1, 1745","Amesbury, Mass.",,,1807,"Danville, Vt.",,,,abt. 1780,,,035-9-GEN,,,,,,,,,,,,,"Served as Sergeant in Capt. Nathan Sanborn's Co., Col. Stephen Evans' Regt., New Hampshire militia at Bennington in 1777."
+35,035-9-GEN,,,,Elizabeth (Betsey) Randlett,,,,,F,,,,,,,,,,abt. 1780,,,035-8-GEN,,,,,,,,,,,,,
+35,035-10-GEN,6,,,Jonathan Harvey,,,035-12-GEN,035-13-GEN,M,"May 29, 1725",,,,1764,,,,,"Oct. 2, 1744",,,035-11-GEN,,,,,,,,,,,,,
+35,035-11-GEN,,,,Susanna George,,,,,F,1727,,,,Apr. 1817,,,,,"Oct. 2, 1744",,,035-10-GEN,,,,,,,,,,,,,
+35,035-12-GEN,7,,,John Harvey,,,035-14-GEN,035-15-GEN,M,"Dec. 3, 1690",,,,"May 10, 1740",,,,,"Nov. 30, 1714",,,035-13-GEN,,,,,,,,,,,,,
+35,035-13-GEN,,,,Anna Davis,,,,,F,,,,,,,,,,"Nov. 30, 1714",,,035-12-GEN,,,,,,,,,,,,,"Will dated (w.d.) Apr. 22, 1748."
+35,035-14-GEN,8,,,John Harvey,,,035-16-GEN,035-17-GEN,M,"Feb. 5, 1655",,,,"Mar. 8, 1706",,,,,abt. 1685,,,035-15-GEN,,,,,,,,,,,,,
+35,035-15-GEN,,,,Sarah (Barnes) Rowell,,,,,F,1650,,,,"Apr. 17, 1720",,,,,abt. 1685,,,035-14-GEN,,,,,,,,,,,,,
+35,035-16-GEN,9,,,William Harvey,,,,,M,abt. 1614,Eng.,,,"Aug. 15, 1658",,,,,abt. 1650,,,035-17-GEN,,,,,,,,,,,,,"Admitted to the First Church in Boston, Mass., July 4, 1640. Inventory of estate taken in Boston, Jan. 18, 1658/9."
+35,035-17-GEN,,2d w.,,Mrs. Martha Slocum Copp.,,,,,F,,,,,,,,,,abt. 1650,,,035-16-GEN,,,,,,,,,,,,,She re-married.
+35,035-18-GEN,,,,Capt. Nathan Sanborn,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Captain of company in Col. Stephen Evans' Regt., New Hampshire militia."
+35,035-19-GEN,,,,Col. Stephen Evans,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Colonel of regiment in New Hampshire militia at Bennington in 1777.
+36,036-1-GEN,,,,Katherine McGeoch,,,036-3-GEN,036-4-GEN,F,,"Milwaukee, Wisconsin",,,,,,,,,,,036-2-GEN,,,,,,,,,,,,,Mrs. John Wyman Flint
+36,036-2-GEN,,husband,,John Wyman Flint,,,,,M,,,,,,,,,,,,,036-1-GEN,,,,,,,,,,,,,
+36,036-3-GEN,2,,,Peter McGeoch,,,,,M,Feb. 1833,,,,Nov. 1895,,,,,bef. 1858,,,036-4-GEN,,,,,,,,,,,,,
+36,036-4-GEN,,,,Catherine Ellen Harvey,,,036-5-GEN,036-6-GEN,F,Dec. 1835,,,,Dec. 1885,,,,,bef. 1858,,,036-3-GEN,,,,,,,,,,,,,
+36,036-5-GEN,3,,,Enoch Dole Harvey,,,036-7-GEN,036-8-GEN,M,June 1811,,,,Jan. 1888,,,,,bef. 1835,,,036-6-GEN,,,,,,,,,,,,,
+36,036-6-GEN,,,,Mary Hubbard Nye,,,,,F,Apr. 1812,,,,Jan. 1859,,,,,bef. 1835,,,036-5-GEN,,,,,,,,,,,,,
+36,036-7-GEN,4,,,Joseph Harvey,,,036-9-GEN,036-10-GEN,M,"May 7, 1783",,,,1812,,,,,"Sept. 10, 1807",,,036-8-GEN,,,,,,,,,,,,,
+36,036-8-GEN,,,,Susanna Dole,,,,,F,Aug. 1782,,,,Apr. 1871,,,,,"Sept. 10, 1807",,,036-7-GEN,,,,,,,,,,,,,
+36,036-9-GEN,5,,,Levi Harvey,,,036-11-GEN,036-12-GEN,M,"July 1, 1745","Amesbury, Mass.",,,1807,"Danville, Vt.",,,,abt. 1780,,,036-10-GEN,,,,,,,,,,,,,"Served as Sergeant in Capt. Nathan Sanborn's Co., Col. Stephen Evans' Regt., New Hampshire militia at Bennington in 1777."
+36,036-10-GEN,,,,Elizabeth (Betsey) Randlett,,,,,F,,,,,,,,,,abt. 1780,,,036-9-GEN,,,,,,,,,,,,,
+36,036-11-GEN,6,,,Jonathan Harvey,,,036-13-GEN,036-14-GEN,M,"May 29, 1725",,,,1764,,,,,"Oct. 2, 1744",,,036-12-GEN,,,,,,,,,,,,,
+36,036-12-GEN,,,,Susanna George,,,,,F,,,,,Apr. 1817,,,,,"Oct. 2, 1744",,,036-11-GEN,,,,,,,,,,,,,
+36,036-13-GEN,7,,,John Harvey,,,036-15-GEN,036-16-GEN,M,"Dec. 3, 1690",,,,"May 10, 1740",,,,,"Nov. 30, 1714",,,036-14-GEN,,,,,,,,,,,,,
+36,036-14-GEN,,,,Anna Davis,,,,,F,,,,,"w.d. Apr. 22, 1748",,,,,"Nov. 30, 1714",,,036-13-GEN,,,,,,,,,,,,,
+36,036-15-GEN,8,,,John Harvey,,,036-17-GEN,036-18-GEN,M,"Feb. 5, 1655",,,,"Mar. 8, 1706",,,,,abt. 1685,,,036-16-GEN,,,,,,,,,,,,,
+36,036-16-GEN,,,,Sarah (Barnes) Rowell,,,,,F,1650,,,,"Apr. 17, 1720",,,,,abt. 1685,,,036-15-GEN,,,,,,,,,,,,,
+36,036-17-GEN,9,,,William Harvey,,,,,M,abt. 1614,Eng.,,,"Aug. 15, 1658",,,,,abt. 1650,,,036-18-GEN,,,,,,,,,,,,,"Admitted to the First Church in Boston, Mass., July 4, 1640. Inventory of estate taken in Boston, Jan. 18, 1658/9."
+36,036-18-GEN,,2nd wife,,Mrs. Martha Slocum Copp,,,,,F,,,,,,,,,,abt. 1650,,,036-17-GEN,,,,,,,,,,,,,she re-married
+36,036-19-GEN,,,,Capt. Nathan Sanborn,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Capt. of Nathan Sanborn's Co.
+36,036-20-GEN,,,,Col. Stephen Evans,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Col. of Stephen Evans' Regt.
+37,037-1-GEN,,,,MARGARET E. BROWN,,,037-3-GEN,037-4-GEN,F,,"New York City, N. Y.",,,,,,,,,,,037-2-GEN,,,,,,,,,,,,,"MRS. JABEZ BACKUS. Descendant of Peter Brown of Massachusetts and Connecticut, through Revolutionary ancestor Elias Brown."
+37,037-2-GEN,,husband,,JABEZ BACKUS,,,,,M,,,,,,,,,,,,,037-1-GEN,,,,,,,,,,,,,
+37,037-3-GEN,2,,,Erastus Fitch Brown,,,037-5-GEN,037-6-GEN,M,"Oct. 7, 1830",,,,"Nov. 16, 1893",,,,,bef. 1854,,,037-4-GEN,,,,,,,,,,,,,
+37,037-4-GEN,,wife,,Caroline Platt Kenyon,,,,,F,"Mar. 11, 1827",,,,,,,,,bef. 1854,,,037-3-GEN,,,,,,,,,,,,,
+37,037-5-GEN,3,,,Erastus Joseph Fitch Brown,,,037-7-GEN,037-8-GEN,M,1804,,,,"June 24, 1832",,,,,abt. 1827,,,037-6-GEN,,,,,,,,,,,,,
+37,037-6-GEN,,wife,,Sarah Kingsland Ketcham,,,,,F,"May 9, 1805",,,,"June 29, 1843",,,,,abt. 1827,,,037-5-GEN,,,,,,,,,,,,,
+37,037-7-GEN,4,,,Erastus Fitch Brown,,,037-9-GEN,037-10-GEN,M,"Nov. 20, 1779",,,,1807,,,,,abt. 1801/2,,,037-8-GEN,,,,,,,,,,,,,
+37,037-8-GEN,,wife,,Susannah (Ingham) Steele,,,,,F,,,,,aft. 1807,,,,,abt. 1801/2,,,037-7-GEN,,,,,,,,,,,,,
+37,037-9-GEN,5,,,Elias Brown,,,037-11-GEN,037-12-GEN,M,"Mar. 16, 1758",,,,1843,,,,,abt. 1778,,,037-10-GEN,,,,,,,,,,,,,Revolutionary ancestor of Connecticut.
+37,037-10-GEN,,1st wife,,Prudence Fitch,,,,,F,"Mar. 15, 1761",,,,,,,,,abt. 1778,,,037-9-GEN,,,,,,,,,,,,,
+37,037-11-GEN,6,,,"Ephraim Brown, Jr.",,,037-13-GEN,037-14-GEN,M,"Oct. 16, 1738",,,,,,,,,"Apr. 13, 1757",,,037-12-GEN,,,,,,,,,,,,,
+37,037-12-GEN,,wife,,Mercy Westland,,,,,F,"June 15, 1734",,,,,,,,,"Apr. 13, 1757",,,037-11-GEN,,,,,,,,,,,,,
+37,037-13-GEN,7,,,Ephraim Brown,,,037-15-GEN,037-16-GEN,M,"Aug. 25, 1712",,,,,,,,,"Dec. 10, 1737",,,037-14-GEN,,,,,,,,,,,,,
+37,037-14-GEN,,wife,,Thankful Brown,,,,,F,,,,,"Jan. 9, 1774",,,,,"Dec. 10, 1737",,,037-13-GEN,,,,,,,,,,,,,
+37,037-15-GEN,8,,,Jonathan Brown,,,037-17-GEN,037-18-GEN,M,"Mar. 30, 1670",,,,"Aug. 26, 1747",,,,,"Oct. 1, 1696",,,037-16-GEN,,,,,,,,,,,,,
+37,037-16-GEN,,wife,,Mindwell Loomis,,,,,F,"July 20, 1678",,,,"Mar. 1, 1767",,,,,"Oct. 1, 1696",,,037-15-GEN,,,,,,,,,,,,,
+37,037-17-GEN,9,,,"Peter Brown, Jr.",,,037-19-GEN,037-20-GEN,M,"Oct. 4, 1632",,,,"Mar. 9, 1691/2",Windsor,,,,"July 15, 1658",,,037-18-GEN,,,,,,,,,,,,,"Admitted to church at Windsor, Conn., from Duxbury, Mass., in 1662. Bought in 1664 a house and lot known as 'the Peter Brown place'. Contributed in 1676 to Conn. Relief fund; died leaving estate over 400 pounds. Supposed to be son of Peter Brown of the Mayflower."
+37,037-18-GEN,,wife,,Mary Gillett,,,,,F,,Eng.,,,,,,,,"July 15, 1658",,,037-17-GEN,,,,,,,,,,,,,
+37,037-19-GEN,10,,,Peter Brown,,,,,M,,,,,1633,,,,,,Eng.,,037-20-GEN,,,,,,,,,,,,,Of Massachusetts and Connecticut. Of the Mayflower.
+37,037-20-GEN,,2d wife,,Mary,Brown,037-17-GEN,,,F,,,,,,,,,,,Eng.,,037-19-GEN,,,,,,,,,,,,,
+37,037-21-GEN,,,,George Ernest Bowman,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Secretary of the Mayflower Society.
+38,038-1-GEN,,,,Peter Brown,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Of the Mayflower; estate divided equally between his three daughters, his only descendants."
+38,038-2-GEN,,,,Elias Brown,,,,,M,1758,,,,1843,,,,,,,,,,,,,,,,,,,,,"Enlisted at Windsor, Conn., April 1, 1777, for the war; fifer in Capt. Abner Pryor's Co., Col. Philip B. Bradley; transferred at White Plains, New York, August 1, 1778, to the Commander-in-Chief's Guard; fife-major Sept. 7, 1781; discharged Nov. 3, 1783. Revolutionary pensioner living in 1840, resident of Farmington, Conn."
+38,038-3-GEN,,,,Capt. Abner Pryor,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Captain under whom Elias Brown served as fifer.
+38,038-4-GEN,,,,Col. Philip B. Bradley,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Colonel under whom Elias Brown served.
+39,039-1-GEN,,,,MARY EVEREST,,,039-3-GEN,039-4-GEN,F,,"Oswego, New York",,,,,,,,,,,039-2-GEN,,,,,,,,,,,,,"Per page narrative: (MRS. CHARLES LEE ROCKWELL) 75. Descendant of Andrew Everest (Averett) of York, Massachusetts, through the Revolutionary ancestor Daniel Everest of Connecticut."
+39,039-2-GEN,,husband,,CHARLES LEE ROCKWELL,,,,,M,,,,,,,,,,,,,039-1-GEN,,,,,,,,,,,,,Husband of Mary Everest.
+39,039-3-GEN,,,,Rev. Charles Hall Everest,,,039-5-GEN,039-6-GEN,M,"Feb. 14, 1837",,,,,,,,,"Feb. 11, 1862",,,039-4-GEN,,,,,,,,,,,,,
+39,039-4-GEN,,wife,,Maria Louisa Wadham,,,,,F,"May 31, 1832",,,,,,,,,"Feb. 11, 1862",,,039-3-GEN,,,,,,,,,,,,,
+39,039-5-GEN,,,,Frederick W. Everest,,,039-7-GEN,039-8-GEN,M,"Feb. 27, 1804",,,,"Feb. 2, 1888",,,,,"Apr. 9, 1832",,,039-6-GEN,,,,,,,,,,,,,
+39,039-6-GEN,,wife,,Lucy Hall,,,,,F,"Aug. 17, 1812",,,,"Oct. 28, 1895",,,,,"Apr. 9, 1832",,,039-5-GEN,,,,,,,,,,,,,
+39,039-7-GEN,,,,Dr. Isaac Everest,,,039-9-GEN,039-10-GEN,M,"Oct. 10, 1777",,,,"Apr. 6, 1850",,,,,"Sept. 29, 1802",,,039-8-GEN,,,,,,,,,,,,,
+39,039-8-GEN,,wife,,Sally Cornwell,,,,,F,"May 10, 1785",,,,"Apr. 2, 1868",,,,,"Sept. 29, 1802",,,039-7-GEN,,,,,,,,,,,,,
+39,039-9-GEN,,,,Daniel Everest,,,039-11-GEN,039-12-GEN,M,"Apr. 16, 1752",,,,"July 25, 1825",,,,,"Nov. 27, 1774",,,039-10-GEN,,,,,,,,,,,,,"Revolutionary ancestor of Connecticut. Private in Capt. John Stevens' Co., Col. Charles Burrall's regiment, Conn. Militia in 1776. Served in the Northern Department under Gen. Schuyler."
+39,039-10-GEN,,wife,,Eunice Patterson,,,,,F,"Oct. 18, 1755",,,,"Sept. 6, 1838",,,,,"Nov. 27, 1774",,,039-9-GEN,,,,,,,,,,,,,
+39,039-11-GEN,,,,Daniel Everest,,,039-13-GEN,039-15-GEN,M,"July 29, 1725",,,,"Aug. 23, 1762",,,,,,,,039-12-GEN,,,,,,,,,,,,,
+39,039-12-GEN,,wife,,Lydia Morse,,,,,F,,,,,,,,,,,,,039-11-GEN,,,,,,,,,,,,,
+39,039-13-GEN,,,,Benjamin Everest,,,039-16-GEN,039-17-GEN,M,,,,,,,,,,1708,,,039-15-GEN,,,,,,,,,,,,,
+39,039-14-GEN,,,,Nathaniel Jones,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Father of Hannah Jones.
+39,039-15-GEN,,wife,,Hannah Jones,,,039-14-GEN,,F,"May 6, 1687",,,,,,,,,1708,,,039-13-GEN,,,,,,,,,,,,,Daughter of Nathaniel Jones.
+39,039-16-GEN,,,,Isaac Everest,,,039-18-GEN,039-19-GEN,M,,,,,"Jan. 28, 1697",,,,,,,,039-17-GEN,,,,,,,,,,,,,
+39,039-17-GEN,,wife,,Joanna ——,,,,,F,,,,,"Nov. 8, 1703",,,,,,,,039-16-GEN,,,,,,,,,,,,,
+39,039-18-GEN,,,,Andrew Everest,,,,,M,,,,,,,,,,,,,039-19-GEN,,,,,,,,,,,,,"Of York, Mass. / Province of Maine in 1646. Made a freeman in 1652. Swore allegiance to king in 1680. Designated as Planter on March 18, 1681 when he and wife Barbara deeded land to Benjamin Curtis in Township of York."
+39,039-19-GEN,,wife,,Barbery (Barbara) ——,,,,,F,,,,,,,,,,,,,039-18-GEN,,,,,,,,,,,,,"Wife Barbara deeded land with Andrew Everest on March 18, 1681 to Benjamin Curtis in Township of York."
+39,039-20-GEN,,,,Benjamin Curtis,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Deeded land by Andrew Everest and wife Barbara on March 18, 1681 in Township of York."
+39,039-21-GEN,,,,Capt. John Stevens,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Captain of company in Col. Charles Burrall's regiment, Conn. Militia in 1776."
+39,039-22-GEN,,,,Col. Charles Burrall,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Colonel of regiment in Conn. Militia in 1776.
+39,039-23-GEN,,,,Gen. Schuyler,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,General in Northern Department during Revolutionary War.
+40,040-1-GEN,,,,MELINDA HARRIET VAN VORST,,,040-3-GEN,040-4-GEN,F,,"Schenectady, New York",,,,,,,,,,,040-2-GEN,,,,,,,,,,,,,MRS. F. HASBROUCK
+40,040-2-GEN,,husband,,F. HASBROUCK,,,,,M,,,,,,,,,,,,,040-1-GEN,,,,,,,,,,,,,
+40,040-3-GEN,2,,,James Baker Van Vorst,,,,,M,"Mar. 5, 1813",,,,"Apr. 28, 1883",,,,,"Nov. 9, 1840",,,040-4-GEN,,,,,,,,,,,,,
+40,040-4-GEN,,,,Elizabeth Livingston Butterfield,,,040-5-GEN,040-6-GEN,F,"Nov. 7, 1822",,,,"Mar. 14, 1893",,,,,"Nov. 9, 1840",,,040-3-GEN,,,,,,,,,,,,,
+40,040-5-GEN,3,,,John Butterfield,,,040-7-GEN,040-8-GEN,M,"Mar. 18, 1801",,,,"Nov. 14, 1869",,,,,"Feb. 4, 1822",,,040-6-GEN,,,,,,,,,,,,,
+40,040-6-GEN,,,,Malinda Harriet Baker,,,,,F,"Oct. 23, 1799",,,,"Aug. 20, 1883",,,,,"Feb. 4, 1822",,,040-5-GEN,,,,,,,,,,,,,
+40,040-7-GEN,4,,,Daniel Butterfield,,,040-9-GEN,040-10-GEN,M,"Feb. 13, 1776",,,,"Apr. 18, 1849",,,,,"July 9, 1797",,,040-8-GEN,,,,,,,,,,,,,
+40,040-8-GEN,,,,Catherine Eberts,,,,,F,"Nov. 9, 1777",,,,"Aug. 16, 1843",,,,,"July 9, 1797",,,040-7-GEN,,,,,,,,,,,,,
+40,040-9-GEN,5,,,Timothy Butterfield,,,040-11-GEN,040-12-GEN,M,"June 26, 1730","Westfield, Mass.",,,"Apr. 10, 1819","Westmoreland, N. H.",,,,"Feb. 10, 1757",,,040-10-GEN,,,,,,,,,,,,,"Served as Sergeant under Capt. Daniel Carlisle, Col. Timothy Bedel's regiment of New Hampshire militia in 1776."
+40,040-10-GEN,,,,Lucretia Adams,,,,,F,,,,,1813,,,,,"Feb. 10, 1757",,,040-9-GEN,,,,,,,,,,,,,
+40,040-11-GEN,6,,,Benjamin Butterfield,,,040-13-GEN,040-14-GEN,M,"May 25, 1702",,,,"Sept. 13, 1747",,,,,"July 7, 1723",,,040-12-GEN,,,,,,,,,,,,,
+40,040-12-GEN,,,,Kezia Patterson (or Pattison),,,,,F,"Feb. 5, 1705",,,,,,,,,"July 7, 1723",,,040-11-GEN,,,,,,,,,,,,,
+40,040-13-GEN,7,,,Benjamin Butterfield,,,040-15-GEN,040-16-GEN,M,"Feb. 24, 1679",,,,1714/15,,,,,"Oct. 8, 1708",,,040-14-GEN,,,,,,,,,,,,,
+40,040-14-GEN,,,,Elizabeth (Fletcher),,,,,F,,,,,,,,,,"Oct. 8, 1708",,,040-13-GEN,,,,,,,,,,,,,
+40,040-15-GEN,8,,,Joseph Butterfield,,,040-17-GEN,040-18-GEN,M,"Aug. 15, 1649",,,,1720,,,,,"Feb. 12, 1674",,,040-16-GEN,,,,,,,,,,,,,
+40,040-16-GEN,,,,Lydia Ballard,,,,,F,"Apr. 13, 1657",,,,,,,,,"Feb. 12, 1674",,,040-15-GEN,,,,,,,,,,,,,
+40,040-17-GEN,9,,,Benjamin Butterfield,,,,,M,Eng.,,,,"Mar. 2, 1688",,,,,,,,040-18-GEN,1663,,,,,,,,,,,,"In Charlestown, Mass. in 1638. Founder of Woburn, Mass., in 1640; freeman in 1643. Petitioner for land incorporated as Chelmsford in 1653."
+40,040-18-GEN,,1st wife,,Ann ——,,,,,F,,,,,"May 19, 1660",Chelmsford,,,,,,,040-17-GEN,,,,,,,,,,,,,
+40,040-20-GEN,,,,Thomas Whittemore,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Of Malden. [validation: spouse-not-reciprocal] [moved from death_date: deceased]
+40,040-21-GEN,,,,Daniel Carlisle,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Capt. in Revolutionary War.
+40,040-22-GEN,,,,Timothy Bedel,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Col. in Revolutionary War, New Hampshire militia."
+41,041-1-GEN,,,,ANNA WEATHERBURN HINSDALE,,,041-2-GEN,041-3-GEN,F,,"Poughkeepsie, New York",,,,,,,,,,,041-18-GEN,,,,,,,,,,,,,MRS. H. M. THOMPSON
+41,041-2-GEN,2,,,Henry Butler Hinsdale,,,041-4-GEN,041-5-GEN,M,"Feb. 9, 1807",,,,"Feb. 15, 1889",,,,,"May 28, 1839",,,041-3-GEN,,,,,,,,,,,,,
+41,041-3-GEN,,2nd w.,,Mary Anne Hatch,,,,,F,"Nov. 11, 1819",,,,"Nov. 9, 1892",,,,,"May 28, 1839",,,041-2-GEN,,,,,,,,,,,,,
+41,041-4-GEN,3,,,Horace Seymour Hinsdale,,,041-6-GEN,041-7-GEN,M,"Oct. 7, 1782",,,,"June 1, 1858",,,,,"Apr. 30, 1806",,,041-5-GEN,,,,,,,,,,,,,
+41,041-5-GEN,,,,Sarah Ogden,,,,,F,"May 10, 1786",,,,"Sept. 21, 1821",,,,,"Apr. 30, 1806",,,041-4-GEN,,,,,,,,,,,,,
+41,041-6-GEN,4,,,Capt. Barnabas Hinsdale,,,041-8-GEN,041-9-GEN,M,"Feb. 23, 1738",,,,"Apr. 29, 1790",,,,,abt. 1761,,,041-7-GEN,,,,,,,,,,,,,Revolutionary ancestor of Connecticut
+41,041-7-GEN,,,,Magdalen Seymour,,,,,F,1740,,,,"Oct. 17, 1782",,,,,abt. 1761,,,041-6-GEN,,,,,,,,,,,,,
+41,041-8-GEN,5,,,Dea. Daniel Hinsdale,,,041-10-GEN,041-11-GEN,M,"May 15, 1708",,,,"Sept. 13, 1781",,,,,"Aug. 21, 1737",,,041-9-GEN,,,,,,,,,,,,,
+41,041-9-GEN,,,,Catharine Curtis,,,,,F,1720,,,,"Apr. 12, 1778",,,,,"Aug. 21, 1737",,,041-8-GEN,,,,,,,,,,,,,
+41,041-10-GEN,6,,,Barnabas Hinsdale,,,041-12-GEN,041-13-GEN,M,"Feb. 20, 1668",,,,"Jan. 25, 1725",,,,,"Nov. 9, 1693",,,041-11-GEN,,,,,,,,,,,,,
+41,041-11-GEN,,,,Martha Smith,,,,,F,1670,,,,Dec. 1738,,,,,"Nov. 9, 1693",,,041-10-GEN,,,,,,,,,,,,,
+41,041-12-GEN,7,,,Barnabas Hinsdale,,,041-14-GEN,041-15-GEN,M,"Nov. 13, 1639",,,,"Sept. 18, 1675",,,,,"Oct. 15, 1666",,,041-13-GEN,,,,,,,,,,,,,"Slain in the fight with Indians at Deerfield, Mass."
+41,041-13-GEN,,,,Sarah (White) Taylor,,,,,F,,,,,,,,,,"Oct. 15, 1666",,,041-12-GEN,,,,,,,,,,,,,"remarried-Aug. 10, 1702"
+41,041-14-GEN,8,,,Robert Hinsdale,,,,,M,,England,,,"Sept. 18, 1675",,,,,bef. 1637,,,041-15-GEN,,,,,,,,,,,,,"Settled first in Dedham, Mass.; proprietor 1637; founder first church Nov. 9, 1638; selectman 1645; member Ancient and Honorable Artillery of Mass. Founder Medfield 1649 and selectman 6 yrs. Removed to Conn. Valley abt. 1667, settling at Hadley. Proprietor Deerfield 1673. Slain in fight with Indians."
+41,041-15-GEN,,1st w.,,Ann Woodward,,,,,F,,,,,"June 4, 1666",,,,,bef. 1637,,,041-14-GEN,,,,,,,,,,,,,
+41,041-16-GEN,,,,John ,Hinsdale,041-14-GEN,041-14-GEN,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Son of Robert Hinsdale; slain in the fight with Indians at Deerfield.
+41,041-17-GEN,,,,Samuel ,Hinsdale,041-14-GEN,041-14-GEN,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Son of Robert Hinsdale; slain in the fight with Indians at Deerfield.
+41,041-18-GEN,,,,H. M. THOMPSON,,,,,M,,,,,,,,,,,,,041-1-GEN,,,,,,,,,,,,,Husband of Anna Weatherburn Hinsdale
+42,042-1-GEN,,,,Capt. Lothrop,,,,,M,,,,,"Sept. 18, 1675",Bloody Brook,,,,,,,,,,,,,,,,,,,,"Fell at Bloody Brook with the flower of Essex, Sept. 18, 1675."
+42,042-2-GEN,,,,Barnabas Hinsdale,,,,,M,1738,,,,1790,,,,,,,,,,,,,,,,,,,,,"Ensign in 1776. Lieutenant in May 1777 in Second Company, First Regiment, Connecticut troops."
+43,043-1-GEN,,,,FANNY RAMSAY WILDER,,,043-3-GEN,043-4-GEN,F,,"Newark, Ohio",,,,,,,,,,,043-2-GEN,,,,,,,,,,,,,"MRS. W. F. WINCHESTER. Member 78. Born in Newark, Ohio. Descendant of Thomas Wilder through Lieut. Asa Wilder. Died prior to admission in 1905."
+43,043-2-GEN,,,,W. F. WINCHESTER,,,,,M,,,,,,,,,,,,,043-1-GEN,,,,,,,,,,,,,
+43,043-3-GEN,2,,,Charles Peabody Wilder,,,043-5-GEN,043-6-GEN,M,"May 5, 1824",,,,"Aug. 20, 1893",,,,,"Nov. 8, 1848",,,043-4-GEN,,,,,,,,,,,,,
+43,043-4-GEN,,,,Eloise Walker,,,,,F,"Mar. 19, 1827",,,,1905,,,,,"Nov. 8, 1848",,,043-3-GEN,,,,,,,,,,,,,Mrs. Wilder's paper was verified in the summer of 1905; but her death occurring before she could be admitted...
+43,043-5-GEN,3,,,Amasa Wilder,,,043-7-GEN,043-8-GEN,M,"Sept. 10, 1786",,,,"Nov. 24, 1853",,,,,1824,,,043-6-GEN,,,,,,,,,,,,,
+43,043-6-GEN,,,,Hannah Peabody,,,,,F,"May 3, 1797",,,,"Aug. 23, 1855",,,,,1824,,,043-5-GEN,,,,,,,,,,,,,
+43,043-7-GEN,4,,,Reuben Wilder,,,043-9-GEN,043-10-GEN,M,"Jan. 19, 1762","West Boylston, Mass.",,,"Nov. 12, 1832","West Boylston, Mass.",,,,"Mar. 16, 1784",,,043-8-GEN,,,,,,,,,,,,,Placed on pension roll of Worcester Co. in 1832 for service of private in Massachusetts troops.
+43,043-8-GEN,,1st w.,,Mary Pierce,,,,,F,,,,,"Apr. 15, 1807",,,,,"Mar. 16, 1784",,,043-7-GEN,,,,,,,,,,,,,
+43,043-9-GEN,5,,,Lieut. Asa Wilder,,,043-11-GEN,043-12-GEN,M,1734,"West Boylston, Mass.",,,1780,"West Boylston, Mass.",,,,"Dec. 12, 1754",,,043-10-GEN,,,,,,,,,,,,,"Served as Lieut. in Capt. Daniel Robbins' Co., at the Lexington Alarm."
+43,043-10-GEN,,,,Lydia Rugg,,,,,F,"Mar. 23, 1732",,,,1803,,,,,"Dec. 12, 1754",,,043-9-GEN,,,,,,,,,,,,,
+43,043-11-GEN,6,,,Joseph Wilder,,,043-13-GEN,043-14-GEN,M,"June 6, 1700",,,,,,,,,"July 7, 1725",,,043-12-GEN,,,,,,,,,,,,,
+43,043-12-GEN,,,,Prudence Keyes,,,,,F,"Dec. 23, 1705",,,,"Jan. 23, 1739",,,,,"July 7, 1725",,,043-11-GEN,,,,,,,,,,,,,
+43,043-13-GEN,7,,,John Wilder,,,043-15-GEN,043-16-GEN,M,"Nov. 5, 1673",,,,,,,,,1699,,,043-14-GEN,,,,,,,,,,,,,
+43,043-14-GEN,,,,Sarah Sawyer,,,,,F,,,,,,,,,,1699,,,043-13-GEN,,,,,,,,,,,,,
+43,043-15-GEN,8,,,John Wilder,,,043-17-GEN,043-18-GEN,M,1646,,,,,,,,,"Feb./May 17, 1672",,,043-16-GEN,,,,,,,,,,,,,
+43,043-16-GEN,,,,Hannah ——,,,,,F,,,,,,,,,,"Feb./May 17, 1672",,,043-15-GEN,,,,,,,,,,,,,
+43,043-17-GEN,9,,,Thomas Wilder,,,,,M,1618,Eng.,,,1667,,,,,1641,,,043-18-GEN,,,,,,,,,,,,,"First on record in Hingham, Mass. about 1637. Admitted freeman of Charlestown, June 2, 1641. Removed to Lancaster July 1659, Selectman."
+43,043-18-GEN,,,,Anna Eames,,,,,F,,,,,"June 10, 1692",,,,,1641,,,043-17-GEN,,,,,,,,,,,,,
+43,043-19-GEN,,,,Capt. Daniel Robbins,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Capt. of Co. at the Lexington Alarm in which Asa Wilder served.
+44,044-1-GEN,,,,Fanny Ramsay Wilder,,,,,F,,,,,,,,,,,,,,,,,,,,,,,,,,Mrs. W. F. Winchester. Descendant of Thomas Walker of Rhode Island through Lieut. William Walker of Maryland.
+44,044-2-GEN,,,,Charles Peabody Wilder,,,,,M,"May 5, 1824",,,,"Aug. 20, 1893",,,,,"Nov. 8, 1848",,,044-3-GEN,,,,,,,,,,,,,
+44,044-3-GEN,,,,Eloise Walker,,,044-4-GEN,044-5-GEN,F,"Mar. 19, 1827",,,,1905,,,,,"Nov. 8, 1848",,,044-2-GEN,,,,,,,,,,,,,
+44,044-4-GEN,,,,Josiah Walker,,,044-6-GEN,044-7-GEN,M,"Sept. 22, 1802",,,,"Feb. 21, 1840",,,,,,,,044-5-GEN,,,,,,,,,,,,,
+44,044-5-GEN,,,,Frances Van Schoff (Shoff),,,,,F,"Sept. 3, 1806",,,,"Dec. 11, 1861",,,,,,,,044-4-GEN,,,,,,,,,,,,,
+44,044-6-GEN,,,,Lieut. William Walker,,,044-8-GEN,044-9-GEN,M,"July 25, 1748",,,,1825,"Somerset, Ohio",,,,,,,044-7-GEN,,,,,,,,,,,,,"Lieutenant of Washington Co., (Md.) militia during the Revolution. Resident of Taneytown, Washington Co., Md., later moved to Somerset, Ohio."
+44,044-7-GEN,,,,Marie von Siegfried,,,,,F,,,,,1813,,,,,,,,044-6-GEN,,,,,,,,,,,,,
+44,044-8-GEN,,,,John Walker,,,044-10-GEN,044-11-GEN,M,"Mar. 17, 1714/15",,,,"Apr. 3, 1773",,,,,"int. Aug. 18, 1746",,,044-9-GEN,,,,,,,,,,,,,
+44,044-9-GEN,,,,Patience Coggeshall,,,,,F,"Jan. 1, 1723/4",,,,"Feb. 28, 1791",,,,,"int. Aug. 18, 1746",,,044-8-GEN,,,,,,,,,,,,,
+44,044-10-GEN,,,,Capt. William Walker,,,044-12-GEN,044-13-GEN,M,"Aug. 5, 1687",,,,"July 17, 1735",,,,,abt. 1713,,,044-11-GEN,,,,,,,,,,,,,"Always given the title ""Gentleman"", only used by those of gentle birth."
+44,044-11-GEN,,,,Hannah ——,,,,,F,1692,,,,"May 2, 1774",,,,,abt. 1713,,,044-10-GEN,,,,,,,,,,,,,
+44,044-12-GEN,,,,Thomas Walker,,,,,M,,,,,1724,,,,,bef. 1685,,,044-13-GEN,,,,,,,,,,,,,"Settled at Bristol, R. I., in 1681."
+44,044-13-GEN,,,,Elizabeth Parris,,,,,F,1648,,,,"Nov. 6, 1742",,,,,bef. 1685,,,044-12-GEN,,,,,,,,,,,,,
+45,045-1-GEN,,,,SADIE ADAMS,,,045-3-GEN,045-4-GEN,F,,"Lancaster, New Hampshire",,,,,,,,,,,045-2-GEN,,,,,,,,,,,,,MRS. LEROY S. SMITH
+45,045-2-GEN,,,,LEROY S. SMITH,,,,,M,,,,,,,,,,,,,045-1-GEN,,,,,,,,,,,,,
+45,045-3-GEN,2,,,Harvey Adams,,,045-5-GEN,045-6-GEN,M,"May 14, 1808",,,,"Jan. 9, 1868",,,,,"Apr. 24, 1834",,,045-4-GEN,,,,,,,,,,,,,
+45,045-4-GEN,,2nd w.,,Nancy Rowell,,,,,F,"Apr. 12, 1812",,,,"Feb. 3, 1881",,,,,"Apr. 24, 1834",,,045-3-GEN,,,,,,,,,,,,,
+45,045-5-GEN,3,,,Benjamin Adams,,,045-7-GEN,045-8-GEN,M,"Mar. 25, 1771",,,,"June 12, 1847",,,,,"Apr. 2, 1801",,,045-6-GEN,,,,,,,,,,,,,
+45,045-6-GEN,,,,Sally Lamb,,,,,F,"Mar. 9, 1775",,,,"Feb. 3, 1854",,,,,"Apr. 2, 1801",,,045-5-GEN,,,,,,,,,,,,,
+45,045-7-GEN,4,,,Andrew Adams,,,045-9-GEN,045-10-GEN,M,"Aug. 12, 1735",,,,"Apr. 14, 1833",,,,,"Dec. 16, 1756/7",,,045-8-GEN,,,,,,,,,,,,,"Revolutionary ancestor. Went from Milton, Mass., on the Lexington Alarm, under Capt. Joseph Vose and was with the first detachment that took possession of Dorchester Heights."
+45,045-8-GEN,,,,Ruth Wadsworth,,,,,F,"May 28, 1737",,,,"Oct. 28, 1820",,,,,"Dec. 16, 1756/7",,,045-7-GEN,,,,,,,,,,,,,
+45,045-9-GEN,5,,,John Adams,,,045-11-GEN,045-12-GEN,M,,,"Feb. 26, 1709",,"June 11, 1790",,,,,"May 19, 1730",,,045-10-GEN,,,,,,,,,,,,,
+45,045-10-GEN,,1st w.,,Sarah Swift,,,,,F,,,,,"Nov. 16, 1774",,,,,"May 19, 1730",,,045-9-GEN,,,,,,,,,,,,,
+45,045-11-GEN,6,,,Edward Adams,,,045-13-GEN,045-14-GEN,M,"Jan. 12, 1683",,,,"Sept. 22, 1743",,,,,"Sept. 11, 1706",,,045-12-GEN,,,,,,,,,,,,,
+45,045-12-GEN,,1st w.,,Rachel Saunders,,,,,F,1685,,,,"Nov. 14, 1727",,,,,"Sept. 11, 1706",,,045-11-GEN,,,,,,,,,,,,,
+45,045-13-GEN,7,,,John Adams,,,045-15-GEN,045-16-GEN,M,"Feb. 8, 1657",,,,"Mar. 1, 1751",,,,,"Apr. 4, 1682",,,045-14-GEN,,,,,,,,,,,,,
+45,045-14-GEN,,1st w.,,Deborah Partridge,,,,,F,"Aug. 16, 1662",,,,bef. 1695,,,,,"Apr. 4, 1682",,,045-13-GEN,,,,,,,,,,,,,
+45,045-15-GEN,8,,,Edward Adams,,,045-17-GEN,045-18-GEN,M,1620,Eng.,,,"Nov. 12, 1705",,,,,1652,,,045-16-GEN,,,,,,,,,,,,,
+45,045-16-GEN,,1st w.,,Lydia Rockwood,,,,,F,,,,,"Mar. 3, 1676",,,,,1652,,,045-15-GEN,,,,,,,,,,,,,
+45,045-17-GEN,9,,,Henry Adams,,,,,M,,Eng.,,,"Oct. 6, 1646","Braintree, Mass.",,,,,,,045-18-GEN,,,,,,,,,,,,,"Came from England in 1632 and was allotted land for ten persons in his family, Feb. 24, 1639, in Mt. Wollaston, now Braintree, Mass. Ancestor of John Adams, second president of the United States."
+45,045-18-GEN,,,,Mary Alexander,,,,,F,,Eng.,,,,,,,,,,,045-17-GEN,,,,,,,,,,,,,
+45,045-19-GEN,,,,John Adams,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Second president of the United States, who erected a monument to Henry Adams's memory."
+45,045-20-GEN,,,,Capt. Joseph Vose,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Captain under whom Andrew Adams served on the Lexington Alarm.
+47,047-1-GEN,,,,LYDIA DAY,,,047-4-GEN,047-5-GEN,F,,"West Springfield, Mass.",,,,,,,,,,,,,,,,,,,,,,,,Descendant of Robert Day of Massachusetts and Connecticut.
+47,047-2-GEN,,,,Robert Day,,,,,M,abt.....1604,,,,....1648,,,,,,,,047-3-GEN,bef. 1640,,,047-15-GEN,,,,,,,,,"Came in the ""Elizabeth"" in 1634 from Ipswich, England, ""aged 30"", with his wife Mary. Settled first in Newtown, now Cambridge, Mass., made freeman May, 1635. One of first proprietors of Hartford, Conn."
+47,047-3-GEN,,1st wife,,Mary,Day,047-2-GEN,,,F,,,,,,,,,,,,,047-2-GEN,,,,,,,,,,,,,"Wife who came with Robert Day in the ""Elizabeth"" in 1634."
+47,047-4-GEN,2,,,Heman Day,,,047-6-GEN,047-7-GEN,M,"May 5, 1793",,,,"Dec. 24, 1847",,,,,"Dec. 6, 1835",,,047-5-GEN,,,,,,,,,,,,,
+47,047-5-GEN,,,,Susan Rising,,,,,F,"Oct. 10, 1815",,,,"Sept. 9, 1875",,,,,"Dec. 6, 1835",,,047-4-GEN,,,,,,,,,,,,,
+47,047-6-GEN,3,,,Heman Day,,,047-8-GEN,047-9-GEN,M,"Jan. 27, 1755",,,,"Jan. 9, 1837",,,,,bef. 1779,,,047-7-GEN,,,,,,,,,,,,,"Revolutionary ancestor. Served as Quartermaster Sergeant in Capt. John Morgan's Co., Col. David Leonard's Regt., in 1777, at Ticonderoga, N. Y. Enlisted from West Springfield, Mass., Dec. 1775, in Capt. Thomas Stebbins' Co., discharged March 1, 1776."
+47,047-7-GEN,,,,Lois Ely,,,,,F,"Mar. 14, 1759",,,,"July 29, 1819",,,,,bef. 1779,,,047-6-GEN,,,,,,,,,,,,,
+47,047-8-GEN,4,,,Col. Benjamin Day,,,047-10-GEN,047-11-GEN,M,"Oct. 27, 1710",,,,"May 10, 1808",,,,,"Oct. 9, 1742",,,047-9-GEN,,,,,,,,,,,,,"Revolutionary ancestor. Represented West Springfield, Mass., in the General Court from 1774 to 1778 inclusive."
+47,047-9-GEN,,,,Eunice Morgan,,,,,F,"June 26, 1716",,,,"Jan. 25, 1765",,,,,"Oct. 9, 1742",,,047-8-GEN,,,,,,,,,,,,,
+47,047-10-GEN,5,,,John Day,,,047-12-GEN,047-13-GEN,M,"Sept. 20, 1673",,,,"Nov. 20, 1752",,,,,"Mar. 10, 1697",,,047-11-GEN,,,,,,,,,,,,,
+47,047-11-GEN,,,,Mary Smith,,,,,F,....1677,,,,"Feb. 28, 1742",,,,,"Mar. 10, 1697",,,047-10-GEN,,,,,,,,,,,,,
+47,047-12-GEN,6,,,Thomas Day,,,047-2-GEN,047-15-GEN,M,abt. 1640,,,,"Dec. 27, 1711",,,,,bef. 1662,,,047-13-GEN,,,,,,,,,,,,,
+47,047-13-GEN,,,,Sarah Cooper,,,,,F,....1639,,,,"Nov. 21, 1726",,,,,bef. 1662,,,047-12-GEN,,,,,,,,,,,,,
+47,047-14-GEN,,,,Capt. John Morgan,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Captain of company in Col. David Leonard's Regt., 1777."
+47,047-15-GEN,7,2nd wife,,Edith (or Editha) Stebbins,,,,,F,,,,,"Oct. 24, 1688",,,,,bef. 1640,,,047-2-GEN,,,,,,,,,,,,,
+47,047-16-GEN,,,,Col. David Leonard,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Colonel of regiment at Ticonderoga, N. Y., 1777."
+47,047-17-GEN,,,,Capt. Thomas Stebbins,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Captain of company in which Heman Day enlisted from West Springfield, Mass., Dec. 1775."
+48,048-1-GEN,,,,Nathan Rowley,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Per page narrative: Capt. Nathan Rowley, under whom the applicant served in 1776 at Frog's Neck and New York."
+49,049-1-GEN,,,,MISS HELENA HUBBELL,,,049-2-GEN,049-3-GEN,F,,"Philadelphia, Pennsylvania",,,,,,,,,,,,,,,,,,,,,,,,"Descendant of Richard Johnson, Robert Johnson, Jr., Richard Hubbell, Gershom Hubbell."
+49,049-2-GEN,2,husband,,Ferdinand W. Hubbell,,,,,M,"May 4, 1801",,,,"July 15, 1852",,,,,"Nov. 15, 1836",,,049-3-GEN,,,,,,,,,,,,,
+49,049-3-GEN,,wife,,Anna Gibbon Johnson,,,049-4-GEN,049-5-GEN,F,"Dec. 28, 1801",,,,"Feb. 2, 1895",,,,,"Nov. 15, 1836",,,049-2-GEN,,,,,,,,,,,,,
+49,049-4-GEN,3,husband,,Col. Robert Gibbon Johnson,,,049-6-GEN,049-7-GEN,M,"July 23, 1771",,,,"Oct. 3, 1850",,,,,"June 19, 1798",,,049-5-GEN,,,,,,,,,,,,,
+49,049-5-GEN,,1st w.,,Hannah Carney,,,,,F,"July 27, 1780",,,,"Apr. 29, 1811",,,,,"June 19, 1798",,,049-4-GEN,,,,,,,,,,,,,
+49,049-6-GEN,4,husband,,"Hon. Robert Johnson, Jr.",,,049-8-GEN,049-9-GEN,M,"Jan. 26, 1727",,,,"Dec. 28, 1796",,,,,"Nov. 3, 1767",,,049-7-GEN,,,,,,,,,,,,,"Revolutionary ancestor of New Jersey. Appointed Judge of the County Court of Salem, N. J., by Gov. William Franklin in 1774; reappointed by Gov. Livingston in Sept. 1776, retaining office until 1792. Chairman of Committee to nominate delegates to Provincial Congress in 1774; member of Provincial Congress in 1775."
+49,049-7-GEN,,wife,,Jane Gibbon,,,,,F,"May 15, 1738",,,,"Aug. 16, 1816",,,,,"Nov. 3, 1767",,,049-6-GEN,,,,,,,,,,,,,
+49,049-8-GEN,5,husband,,"Robert Johnson, Sr.",,,049-10-GEN,049-11-GEN,M,"Feb. 15, 1694",,,,"Dec. 13, 1728",,,,,"Aug. 10, 1717",,,049-9-GEN,,,,,,,,,,,,,
+49,049-9-GEN,,wife,,Mrs. Margaret Sayres,,,,,F,1693,,,,"Aug. 28, 1730",,,,,"Aug. 10, 1717",,,049-8-GEN,,,,,,,,,,,,,
+49,049-10-GEN,6,husband,,Hon. Richard Johnson,,,,,M,1649,"County of Surrey, England",,,"June 18, 1719",,,,,"June 25, 1682",,,049-11-GEN,,,,,,,,,,,,,"Emigrated from County of Surrey, England, in 1674 and settled in Elsenborough, now Salem, N. J., afterward uniting with Fenwick's Colony. Member of General Free Assembly in 1685 and 1716; Burgess of Salem, 1699; member of Provincial Assembly, 1707-1709; Justice in 1714."
+49,049-11-GEN,,wife,,Mary Grover,,,,,F,,,,,1714,,,,,"June 25, 1682",,,049-10-GEN,,,,,,,,,,,,,
+49,049-12-GEN,,,,Gov. William Franklin,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Appointed Robert Johnson, Jr. Judge of the County Court of Salem, N. J., in 1774. [validation: name-not-in-ocr]"
+49,049-13-GEN,,,,Gov. Livingston,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Reappointed Robert Johnson, Jr. in Sept. 1776."
+49,049-14-GEN,,,,Richard Hubbell,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Of Conn. Ancestor of Miss Helena Hubbell.
+49,049-15-GEN,,,,Gershom Hubbell,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Revolutionary ancestor of Conn.
+50,050-1-GEN,,,,ROSALIE TOMLINSON,,,050-3-GEN,050-4-GEN,F,,"Huntington, Connecticut",,,,,,,,,,,050-2-GEN,,,,,,,,,,,,,"Per page: Mrs. Charles W. Shelton, 82. Born in Huntington, Connecticut."
+50,050-2-GEN,,husband,,CHARLES W. SHELTON,,,,,M,,,,,,,,,,,,,050-1-GEN,,,,,,,,,,,,,
+50,050-3-GEN,2,,2,Joseph Tomlinson,,,050-5-GEN,050-6-GEN,M,"Dec. 27, 1828",,,,,,,,,"Dec. 2, 1857",,,050-4-GEN,,,,,,,,,,,,,
+50,050-4-GEN,,wife,,Annie Tappan Brewster,,,,,F,"Dec. 12, 1833",,,,,,,,,"Dec. 2, 1857",,,050-3-GEN,,,,,,,,,,,,,
+50,050-5-GEN,3,,3,Joseph Tomlinson,,,050-7-GEN,050-8-GEN,M,Oct. 1802,,,,"Apr. 6, 1865",,,,,bef. 1828,,,050-6-GEN,,,,,,,,,,,,,
+50,050-6-GEN,,wife,,Sally Eliza Bennett,,,,,F,"Jan. 16, 1806",,,,"Aug. 8, 1878",,,,,bef. 1828,,,050-5-GEN,,,,,,,,,,,,,
+50,050-7-GEN,4,,4,"Joseph Tomlinson, Jr.",,,050-9-GEN,050-10-GEN,M,abt. 1755,,,,aft. 1802,,,,,"Mar. 20, 1790",,,050-8-GEN,,,,,,,,,,,,,Enlisted for the war in 1776 and served under Capt. Humphrey of the Conn. line.
+50,050-8-GEN,,wife,,Sally Curtiss,,,,,F,,,,,,,,,,"Mar. 20, 1790",,,050-7-GEN,,,,,,,,,,,,,
+50,050-9-GEN,5,,5,Capt. Joseph Tomlinson,,,050-11-GEN,050-12-GEN,M,"Nov. 13, 1724",,,,"Oct. 5, 1774",,,,,abt. 1747,,,050-10-GEN,,,,,,,,,,,,,
+50,050-10-GEN,,wife,,Elizabeth Curtiss,,,,,F,1729,,,,"July 28, 1809",,,,,abt. 1747,,,050-9-GEN,,,,,,,,,,,,,
+50,050-11-GEN,6,,6,Zachariah Tomlinson,,,050-13-GEN,050-14-GEN,M,"Oct. 31, 1693",,,,"Mar. 15, 1768",,,,,"Mar. 23, 1718/19",,,050-12-GEN,,,,,,,,,,,,,
+50,050-12-GEN,,wife,,Hannah Beach,,,,,F,1703,,,,"Oct. 3, 1740",,,,,"Mar. 23, 1718/19",,,050-11-GEN,,,,,,,,,,,,,
+50,050-13-GEN,7,,7,Lieut. Agur Tomlinson,,,050-15-GEN,050-16-GEN,M,"Nov. 1, 1658",,,,"Mar. 5, 1727/8",,,,,"Oct. 19, 1692",,,050-14-GEN,,,,,,,,,,,,,
+50,050-14-GEN,,2d w.,,Sarah (Welles) Hawley,,,,,F,,,,,,,,,,"Oct. 19, 1692",,,050-13-GEN,,,,,,,,,,,,,
+50,050-15-GEN,8,,8,Henry Tomlinson,,,,,M,,"Derbyshire, England",,,"Mar. 16, 1681",,,,,bef. 1638,,,050-16-GEN,,,,,,,,,,,,,"Settled in Milford, Conn. in 1652, removed to Stratford, Conn. abt 1656. Keeper of the Ordinary."
+50,050-16-GEN,,wife,,Alice ——,,,,,F,1608,,,,"Jan. 25, 1698",,,,,bef. 1638,,,050-15-GEN,,,,,,,,,,,,,"Remarried. Came from Derbyshire, England."
+50,050-17-GEN,,,,Capt. Humphrey,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Captain under whom Joseph Tomlinson served in 1776.
+51,051-1-GEN,,,,MARY CROOKE ELMENDORF,,,051-3-GEN,051-4-GEN,F,,"Somerville, New Jersey",,,,,,,,,,,051-2-GEN,,,,,,,,,,,,,"Mrs. E. A. Hoffman. Born in Somerville, New Jersey."
+51,051-2-GEN,,husband,,E. A. HOFFMAN,,,,,M,,,,,,,,,,,,,051-1-GEN,,,,,,,,,,,,,
+51,051-3-GEN,2,,,Peter Zabriskie Elmendorf,,,,,M,"May 13, 1775",,,,"Apr. 19, 1852",,,,,,,,051-4-GEN,,,,,,,,,,,,,
+51,051-4-GEN,,wife,,Maria La Grange Van Veghten,,,051-5-GEN,051-6-GEN,F,"Dec. 25, 1795",,,,"Dec. 19, 1866",,,,,,,,051-3-GEN,,,,,,,,,,,,,
+51,051-5-GEN,3,,,Michael Van Veghten,,,051-7-GEN,051-8-GEN,M,"Nov. 13, 1766",,,,"Dec. 29, 1831",,,,,"Apr. 10, 1787",,,051-6-GEN,,,,,,,,,,,,,
+51,051-6-GEN,,wife,,Elizabeth La Grange,,,,,F,"Mar. 1, 1765",,,,"May 1, 1865",,,,,"Apr. 10, 1787",,,051-5-GEN,,,,,,,,,,,,,
+51,051-7-GEN,4,,,Dirck Van Veghten,,,051-9-GEN,051-10-GEN,M,"July 15, 1699",,,,"Nov. 24, 1781",,,,,,,,051-8-GEN,,,,,,,,,,,,,Revolutionary ancestor of New Jersey. Patriot during the Revolution; quartered American army on his land in winter 1778.
+51,051-8-GEN,,3rd w.,,Sarah Middagh,,,,,F,"Dec. 31, 1741",,,,"Nov. 17, 1785",,,,,,,,051-7-GEN,,,,,,,,,,,,,
+51,051-9-GEN,5,,,Michael Van Veghten,,,051-11-GEN,051-12-GEN,M,"Nov. 28, 1663/4",,,,,,,,,"Apr. 2, 1691",,,051-10-GEN,,,,,,,,,,,,,
+51,051-10-GEN,,2nd w.,,Jannetje Dumont,,,,,F,,,,,,,,,,"Apr. 2, 1691",,,051-9-GEN,,,,,,,,,,,,,
+51,051-11-GEN,6,,,Dirck Teunise Van Veghten,,,051-13-GEN,,M,1634,"Vechten, Holland",,,"Nov. 25, 1702",,,,,,,,051-12-GEN,,,,,,,,,,,,,"First child of Teunise Dircksen Van Veghten, born in Vechten, Holland, in 1634."
+51,051-12-GEN,,wife,,Jannetje Vreelant (or Michielse),,,,,F,,,,,,,,,,,,,051-11-GEN,,,,,,,,,,,,,
+51,051-13-GEN,7,,,Teunise Dircksen Van Veghten,,,,,M,,Holland,,,,,,,,,,,,,,,,,,,,,,,,"Came from Holland to New Netherlands in the ship ""Armes of Norway"" with wife, one child and two servants, and settled in Greenbush, opposite Albany, N. Y., in 1638. Referred to in 1663 as ""an old inhabitant here"" in Greenbush, N. Y."
+52,052-1-GEN,,,,MISS CORNELIA ROFF POMEROY,,,052-2-GEN,052-3-GEN,F,,"Newark, New Jersey",,,,,,,,,,,,,,,,,,,,,,,,Descendant of Eltwood (Eltweed) Pomeroy.
+52,052-2-GEN,,,2,Isaac Pomeroy,,,052-4-GEN,052-5-GEN,M,"Feb. 16, 1823",,,,,,,,,"June 9, 1852",,,052-3-GEN,,,,,,,,,,,,,
+52,052-3-GEN,,,,Mary Jane Taylor,,,,,F,"Sept. 28, 1828",,,,"Apr. 6, 1880",,,,,"June 9, 1852",,,052-2-GEN,,,,,,,,,,,,,
+52,052-4-GEN,,,3,Benjamin Pomeroy,,,052-6-GEN,052-7-GEN,M,"Mar. 27, 1787",,,,"Sept. 20, 1855",,,,,"Jan. 1, 1818",,,052-5-GEN,,,,,,,,,,,,,
+52,052-5-GEN,,,,Jerusha Williams,,,,,F,"Aug. 10, 1793",,,,"Dec. 24, 1883",,,,,"Jan. 1, 1818",,,052-4-GEN,,,,,,,,,,,,,
+52,052-6-GEN,,,4,Elihu Pomeroy,,,052-8-GEN,052-9-GEN,M,"Aug. 19, 1755",,,,"Apr. 17, 1834",,,,,1776,,,052-7-GEN,,,,,,,,,,,,,"Minute-man at the Lexington Alarm from Hebron, Conn., under Capt. Worthy Waters, served 21 days."
+52,052-7-GEN,,,,Lydia Barber,,,,,F,"July 20, 1757",,,,"Aug. 23, 1828",,,,,1776,,,052-6-GEN,,,,,,,,,,,,,
+52,052-8-GEN,,,5,Rev. Benjamin Pomeroy,,,052-10-GEN,052-11-GEN,M,"Nov. 19, 1704",Suffield,,,"Dec. 21, 1784","Hebron, Conn.",,,,"Oct. 23, 1734",,,052-9-GEN,,,,,,,,,,,,,Served as a chaplain in Col. Samuel Wylly's Regt. in 1777. Resigned 1778.
+52,052-9-GEN,,,,Abigail Wheelock,,,,,F,"Mar. 3, 1717",,,,"June 9, 1803",,,,,"Oct. 23, 1734",,,052-8-GEN,,,,,,,,,,,,,
+52,052-10-GEN,,,6,Joseph Pomeroy,,,052-12-GEN,052-13-GEN,M,"June 26, 1672",,,,"Dec. 16, 1712",,,,,"Nov. 29, 1692",,,052-11-GEN,,,,,,,,,,,,,
+52,052-11-GEN,,,,Hannah Seymour,,,,,F,,,"Jan. 4, 1682",,,,,,,"Nov. 29, 1692",,,052-10-GEN,,,,,,,,,,,,,Remarried.
+52,052-12-GEN,,,7,Deacon Medad Pomeroy,,,052-14-GEN,052-15-GEN,M,,,"Aug. 19, 1638",,"Dec. 30, 1716",,,,,"Nov. 21, 1661",,,052-13-GEN,,,,,,,,,,,,,
+52,052-13-GEN,,,,Experience Woodward,,,,,F,,,,,"June 8, 1686",,,,,"Nov. 21, 1661",,,052-12-GEN,,,,,,,,,,,,,
+52,052-14-GEN,,,8,Eltwood Pomeroy,,,,,M,"July 4, 1585",Eng.,,,1673,"Northampton, Mass.",,,,"May 7, 1629",,,052-15-GEN,,,,052-16-GEN,,,,,,,,,"Came to America in the ""Mary and John"" in 1630 and settled first in Dorchester, Mass., where he was freeman March 4, 1633. About 1636/7 removed to Windsor, Conn. In 1672 removed to Northampton, Mass., where he died in 1673. Spelled Eltwood / Eltweed Pomeroy."
+52,052-15-GEN,,1st wife,,Mary Rockett,,,,,F,,Eng.,,,"July 5, 1655",,,,,"May 7, 1629",,,052-14-GEN,,,,,,,,,,,,,Also named Margery in text.
+52,052-16-GEN,,,,Lydia,Pomeroy,052-14-GEN,,,F,,,,,,,,,,,,,052-14-GEN,,,,052-17-GEN,,,,,,,,,Widow of Thomas Parsons.
+52,052-17-GEN,,,,Thomas Parsons,,,,,M,,,,,,,,,,,,,052-16-GEN,,,,,,,,,,,,,Deceased husband of Lydia. [moved from death_date: deceased]
+52,052-18-GEN,,,,Col. Samuel Wylly,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Commander of Regiment in 1777 in which Rev. Benjamin Pomeroy served as chaplain.
+52,052-19-GEN,,,,Capt. Worthy Waters,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Captain under whom Elihu Pomeroy served at Lexington Alarm from Hebron, Conn."
+53,053-1-GEN,,,,Jessie Honor Bryant,,,053-3-GEN,053-4-GEN,F,,"Brooklyn, New York",,,,,,,,,,,053-2-GEN,,,,,,,,,,,,,"Per page 51: Descendant of William Matthews, through Revolutionary ancestor Aaron Matthews."
+53,053-2-GEN,,husband,,Franklin W. Gerard,,,,,M,,,,,,,,,,,,,053-1-GEN,,,,,,,,,,,,,
+53,053-3-GEN,2,,,Ezekiel Drake Bryant,,,,,M,"May 15, 1815",,,,"Jan. 14, 1888",,,,,bef. 1857,,,053-4-GEN,,,,,,,,,,,,,
+53,053-4-GEN,,,,Lucy Tyler Matthews,,,053-5-GEN,053-6-GEN,F,"Aug. 5, 1822",,,,"Nov. 14, 1885",,,,,bef. 1857,,,053-3-GEN,,,,,,,,,,,,,
+53,053-5-GEN,3,,,Randal Matthews,,,053-7-GEN,053-8-GEN,M,1785,,,,"Aug. 22, 1862",,,,,bef. 1821,,,053-6-GEN,,,,,,,,,,,,,
+53,053-6-GEN,,,,Amelia Atkin,,,,,F,1790,,,,"Mar. 12, 1864",,,,,bef. 1821,,,053-5-GEN,,,,,,,,,,,,,
+53,053-7-GEN,4,,,Samuel Matthews,,,053-9-GEN,053-10-GEN,M,"Feb. 23, 1761",,,,"Aug. 30, 1812",,,,,,,,053-8-GEN,,,,,,,,,,,,,
+53,053-8-GEN,,,,Mamre Catlin,,,,,F,,,,,1828,,,,,,,,053-7-GEN,,,,,,,,,,,,,
+53,053-9-GEN,5,,,Aaron Matthews,,,053-11-GEN,053-12-GEN,M,"Nov. 19, 1721",Connecticut,,,"Apr. 24, 1806",Plymouth,85,,,"Jan. 14, 1742",,,053-10-GEN,,,,,,,,,,,,,"Sergeant in Capt. Caleb Trowbridge's Co., Col. David Wooster's Regt., at the siege of Boston. Promoted to ensign in 1776 under Capt. David Smith. Died in Plymouth in 1806, aged 85 years."
+53,053-10-GEN,,,,Huldah Frisbie,,,,,F,"Nov. 15, 1715/6",,,,"Apr. 27, 1797",,,,,"Jan. 14, 1742",,,053-9-GEN,,,,,,,,,,,,,
+53,053-11-GEN,6,,,Caleb Matthews,,,053-13-GEN,053-14-GEN,M,"Apr. 24, 1674",,,,"Aug. 23, 1755",,,,,"Jan. 13, 1702",,,053-12-GEN,,,,,,,,,,,,,Inherited portion of estate of William Matthews.
+53,053-12-GEN,,1st wife,,Elizabeth Hotchkiss,,,,,F,"Aug. 30, 1684",,,,"Jan. 11, 1735/6",,,,,"Jan. 13, 1702",,,053-11-GEN,,,,,,,,,,,,,
+53,053-13-GEN,7,,,William Matthews,,,,,M,,Eng.,,,1684,"Branford, Conn.",,,,bef. 1672,,,053-14-GEN,,,,,,,,,,,,,"Admitted a Planter in Guilford, Conn., April 2, 1674. Died at Branford, Conn., in 1684, and his estate was left to his sons, Caleb, Thomas and William."
+53,053-14-GEN,,,,Jane ——,,,,,F,,,,,,,,,,bef. 1672,,,053-13-GEN,,,,,,,,,,,,,
+53,053-15-GEN,,,,Thomas,Matthews,053-13-GEN,053-13-GEN,053-14-GEN,M,,,,,,,,,,,,,,,,,,,,,,,,,,Son of William Matthews.
+53,053-16-GEN,,,,William,Matthews,053-13-GEN,053-13-GEN,053-14-GEN,M,,,,,,,,,,,,,,,,,,,,,,,,,,Son of William Matthews.
+53,053-17-GEN,,,,Capt. Caleb Trowbridge,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Captain under whom Aaron Matthews served at the siege of Boston.
+53,053-18-GEN,,,,Col. David Wooster,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Colonel of regiment in which Aaron Matthews served at the siege of Boston.
+53,053-19-GEN,,,,Capt. David Smith,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Captain under whom Aaron Matthews served in 1776.
+54,054-1-GEN,,,,DOROTHY NORTON TAYLOR,,,054-3-GEN,054-4-GEN,F,,"Delaware, Ohio",,,,,,,,,,,054-2-GEN,,,,,,,,,,,,,Per page 52: MRS. DAVID H. LAW. Descendant of Hon. Jasper Crane and Capt. Josiah Crane.
+54,054-2-GEN,,,,DAVID H. LAW,,,,,M,,,,,,,,,,,,,054-1-GEN,,,,,,,,,,,,,Husband of Dorothy Norton Taylor.
+54,054-3-GEN,2,,,Israel Taylor,,,,,M,1818,,,,1852,,,,,"Oct. 10, 1838",,,054-4-GEN,,,,,,,,,,,,,
+54,054-4-GEN,,,,Phoebe Crane,,,054-5-GEN,054-6-GEN,F,"Apr. 1, 1820",,,,"Aug. 3, 1899",,,,,"Oct. 10, 1838",,,054-3-GEN,,,,,,,,,,,,,(re-married)
+54,054-5-GEN,3,,,Stephen Crane,,,054-7-GEN,054-8-GEN,M,"May 5, 1780",,,,"Feb. 26, 1866",,,,,"Feb. 9, 1809",,,054-6-GEN,,,,,,,,,,,,,
+54,054-6-GEN,,2nd wife,,Dorothy Little,,,,,F,"July 3, 1784",,,,"June 2, 1854",,,,,"Feb. 9, 1809",,,054-5-GEN,,,,,,,,,,,,,
+54,054-7-GEN,4,,,Capt. Josiah Crane,,,054-9-GEN,054-10-GEN,M,"June 25, 1745","near Morristown, N. J.",,,"July 14, 1822","Orange Co., N. Y.",,,,"Mar. 28, 1768",,,054-8-GEN,,,,,,,,,,,,,"Served as Lieut. in Capt. Halsey's Co., Morris County, N. J., militia in 1776 and as Capt. from Sept. of that year to the close of the Revolution."
+54,054-8-GEN,,,,Abigail Hathaway,,,,,F,"Oct. 6, 1746",,,,"Apr. 19, 1792",,,,,"Mar. 28, 1768",,,054-7-GEN,,,,,,,,,,,,,
+54,054-9-GEN,5,,,Edmund Crane,,,054-11-GEN,054-12-GEN,M,abt. 1692,,,,"Jan. 30, 1762",,,,,abt. 1734,,,054-10-GEN,,,,,,,,,,,,,"Will proved Jan. 30, 1762."
+54,054-10-GEN,,,,Abigail Kitchel,,,,,F,Nov. 1717,,,,"Aug. 20, 1801",,,,,abt. 1734,,,054-9-GEN,,,,,,,,,,,,,
+54,054-11-GEN,6,,,John Crane,,,054-13-GEN,054-14-GEN,M,1671,,,,"Feb. 22, 1739",,,,,abt. 1689,,,054-12-GEN,,,,,,,,,,,,,
+54,054-12-GEN,,,,Mary ——,,,,,F,,,,,,,,,,abt. 1689,,,054-11-GEN,,,,,,,,,,,,,
+54,054-13-GEN,7,,,John Crane,,,054-15-GEN,054-16-GEN,M,abt. 1635,,,,1694,,,,,1663,,,054-14-GEN,,,,,,,,,,,,,
+54,054-14-GEN,,1st wife,,Elizabeth Foote,,,,,F,,,,,,,,,,1663,,,054-13-GEN,,,,,,,,,,,,,
+54,054-15-GEN,8,,,Hon. Jasper Crane,,,,,M,abt. 1605,Eng.,,,1681,,,,,,,,054-16-GEN,,,,,,,,,,,,,"One of the original settlers of New Haven Colony in 1639; removed to Branford 1652; Deputy and Magistrate; active in Newark, N. J. colony."
+54,054-16-GEN,,,,Alice ——,,,,,F,,,,,,,,,,,,,054-15-GEN,,,,,,,,,,,,,
+54,054-17-GEN,,,,Capt. Halsey,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Mentioned as company captain in Morris County, N. J., militia in 1776."
+55,055-1-GEN,,,,MISS LUCRETIA WRIGHT SMITH,,,055-2-GEN,055-3-GEN,F,,"Stonington, Connecticut",,,,,,,,,,,,,,,,,,,,,,,,"Per page 55: Born in Stonington, Connecticut. Descendant of Daniel Smith of Massachusetts."
+55,055-2-GEN,2,,,Charles Henry Smith,,,055-4-GEN,055-5-GEN,M,"July 19, 1813",,,,"Aug. 21, 1888",,,,,,,,055-3-GEN,,,,,,,,,,,,,
+55,055-3-GEN,2,,,Ann Sheffield French,,,,,F,"Dec. 25, 1822",,,,1906,,,,,,,,055-2-GEN,,,,,,,,,,,,,
+55,055-4-GEN,3,,,Joseph Smith,,,055-6-GEN,055-7-GEN,M,"Apr. 30, 1784",,,,"Feb. 27, 1846",,,,,"Feb. 9, 1806",,,055-5-GEN,,,,,,,,,,,,,
+55,055-5-GEN,3,,,Nancy Eells,,,,,F,"Sept. 11, 1786",,,,"Nov. 12, 1875",,,,,"Feb. 9, 1806",,,055-4-GEN,,,,,,,,,,,,,
+55,055-6-GEN,4,,,Col. Joseph Smith,,,055-8-GEN,055-9-GEN,M,"July 6, 1755",,,,"Mar. 6, 1834",,,,,"Jan. 26, 1783",,,055-7-GEN,,,,,,,,,,,,,"Served during Revolution as Lieut. in Capt. Ebenezer Whittier's Co., Gen. Wadsworth's brigade; at New York in 1776. Rose to rank of Colonel in Conn. Militia."
+55,055-7-GEN,4,,,Hannah Hewitt,,,,,F,"Dec. 22, 1758",,,,"Sept. 30, 1805",,,,,"Jan. 26, 1783",,,055-6-GEN,,,,,,,,,,,,,
+55,055-8-GEN,5,,,Joseph Smith,,,055-10-GEN,055-11-GEN,M,"Dec. 22, 1729",,,,"Jan. 9, 1784",,,,,"Nov. 20, 1751",,,055-9-GEN,,,,,,,,,,,,,
+55,055-9-GEN,5,,,Zipporah Branch,,,,,F,"Feb. 25, 1730/1",,,,"Oct. 19, 1783",,,,,"Nov. 20, 1751",,,055-8-GEN,,,,,,,,,,,,,
+55,055-10-GEN,6,,,Daniel Smith,,,055-12-GEN,055-13-GEN,M,"Aug. 1, 1700",,,,"Aug. 26, 1741",,,,,"Mar. 18, 1724/5",,,055-11-GEN,,,,,,,,,,,,,
+55,055-11-GEN,6,,,Thankful Billings,,,,,F,"Feb. 8, 1699",,,,"July 20, 1740",,,,,"Mar. 18, 1724/5",,,055-10-GEN,,,,,,,,,,,,,
+55,055-12-GEN,7,,,John Smith,,,055-14-GEN,055-15-GEN,M,"July 13, 1672",,,,"May 8, 1739",,,,,bef. 1695,,,055-13-GEN,,,,,,,,,,,,,
+55,055-13-GEN,7,,,Susannah ——,,,,,F,abt. 1668,,,,"Apr. 28, 1746",,,,,bef. 1695,,,055-12-GEN,,,,,,,,,,,,,
+55,055-14-GEN,8,,,"Daniel Smith, Jr.",,,055-17-GEN,055-18-GEN,M,"Sept. 27, 1642",,,,"June 7, 1681",,,,,"Feb. 20, 1668",,,055-15-GEN,,,,,,,,,,,,,
+55,055-15-GEN,8,,,Mary Grant,,,055-16-GEN,,F,,,,,,,,,,"Feb. 20, 1668",,,055-14-GEN,,,,,,,,,,,,,Daughter of Christopher.
+55,055-16-GEN,,,,Christopher Grant,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Father of Mary Grant.
+55,055-17-GEN,9,,,Daniel Smith,,,,,M,,,,,"July 14, 1660","Watertown, Mass.",,,,,,,055-18-GEN,,,,,,,,,,,,,"Selectman of Watertown, Mass., in 1653; land owner."
+55,055-18-GEN,9,,,Elizabeth Rogers,,,,,F,,,,,,,,,,,,,055-17-GEN,,,,,,,,,,,,,Executor of Daniel Smith's will.
+55,055-19-GEN,,,,Capt. Ebenezer Whittier,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Captain of Revolutionary company in Gen. Wadsworth's brigade.
+55,055-20-GEN,,,,Gen. Wadsworth,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,General commanding brigade in the Revolution.
+56,056-1-GEN,,,,ALICE STANTON TURNER,,,056-3-GEN,056-4-GEN,F,,"New London, Connecticut",,,,,,,,,,,056-2-GEN,,,,,,,,,,,,,MRS. JOHN WHITNEY BARLOW
+56,056-2-GEN,,,,JOHN WHITNEY BARLOW,,,,,M,,,,,,,,,,,,,056-1-GEN,,,,,,,,,,,,,
+56,056-3-GEN,2,husband,,Peter C. Turner,,,,,M,"June 15, 1804",,,,"Aug. 10, 1883",,,,,"Oct. 15, 1835",,,056-4-GEN,,,,,,,,,,,,,
+56,056-4-GEN,,wife,,Mary Ann Mason,,,056-5-GEN,056-6-GEN,F,1815,,,,"July 27, 1883",,,,,"Oct. 15, 1835",,,056-3-GEN,,,,,,,,,,,,,
+56,056-5-GEN,3,husband,,Frederick Mason,,,056-7-GEN,056-8-GEN,M,"Mar. 5, 1787",,,,"Feb. 24, 1860",,,,,"May 6, 1812",,,056-6-GEN,,,,,,,,,,,,,
+56,056-6-GEN,,wife,,Frances Eldredge Billings,,,,,F,"Oct. 6, 1787",,,,"Nov. 23, 1853",,,,,"May 6, 1812",,,056-5-GEN,,,,,,,,,,,,,
+56,056-7-GEN,4,husband,,Henry Mason,,,056-9-GEN,056-10-GEN,M,"Apr. 3, 1758",,,,"Apr. 24, 1836",,,,,"Apr. 21, 1782",,,056-8-GEN,,,,,,,,,,,,,Revolutionary ancestor
+56,056-8-GEN,,wife,,Anna (or Amey) Williams,,,,,F,"Oct. 8, 1763",,,,"June 28, 1800",,,,,"Apr. 21, 1782",,,056-7-GEN,,,,,,,,,,,,,
+56,056-9-GEN,5,husband,,Dr. Hobart Mason,,,056-11-GEN,056-12-GEN,M,"Oct. 6, 1722",,,,1790/1,,,,,"Nov. 10, 1745",,,056-10-GEN,,,,,,,,,,,,,
+56,056-10-GEN,,wife,,Margaret Copp,,,,,F,"Aug. 29, 1727",,,,"July 26, 1772",,,,,"Nov. 10, 1745",,,056-9-GEN,,,,,,,,,,,,,
+56,056-11-GEN,6,husband,,Nehemiah Mason,,,056-13-GEN,056-14-GEN,M,"Nov. 24, 1693",,,,"May 13, 1768",,,,,"Jan. 9, 1722",,,056-12-GEN,,,,,,,,,,,,,
+56,056-12-GEN,,wife,,Zerviah Stanton,,,,,F,"Sept. 20, 1704",,,,"Oct. 12, 1771",,,,,"Jan. 9, 1722",,,056-11-GEN,,,,,,,,,,,,,
+56,056-13-GEN,7,husband,,Lieut. Daniel Mason,,,056-15-GEN,056-16-GEN,M,Sept. 1652,,,,"Dec. 28, 1736",,,,,"Oct. 10, 1679",,,056-14-GEN,,,,,,,,,,,,,
+56,056-14-GEN,,2nd wife,,Rebecca Hobart,,,,,F,"Apr. 9, 1654",,,,"Apr. 8, 1707",,,,,"Oct. 10, 1679",,,056-13-GEN,,,,,,,,,,,,,
+56,056-15-GEN,8,husband,,Capt. John Mason,,,,,M,1600,England,,,"Jan. 30, 1672",,,,,July 1640,,,056-16-GEN,,,,,,,,,,,,,"Major John Mason of Massachusetts. Came early to Dorchester, Mass. Freeman March 4, 1635. Windsor, Conn., Saybrook, Norwich. Deputy Governor, Commander in Pequot War, Chief Judge of County Court."
+56,056-16-GEN,,2nd wife,,Anna Peck,,,,,F,1619,,,,bef. 1672,,,,,July 1640,,,056-15-GEN,,,,,,,,,,,,,
+57,057-1-GEN,,,,Henry Mason,,,,,M,1758,Groton,,,1836,"New London, Conn.",,,,,,,,,,,,,,,,,,,,"Served as a sergeant in Capt. Latham's Co., Conn. artillery, 1781; wounded at Groton Heights Sept. 6, 1781. In 1833 he received a pension as Sergeant of Artillery."
+57,057-2-GEN,,,,Capt. Latham,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Captain of Conn. artillery company in 1781.
+58,058-1-GEN,,,,ISABEL DOUGLAS,,,058-3-GEN,058-4-GEN,F,,"Sag Harbor, New York",,,,,,,,,,,058-2-GEN,,,,,,,,,,,,,MRS. HENRY H. PERRY
+58,058-2-GEN,,husband,,HENRY H. PERRY,,,,,M,,,,,,,,,,,,,058-1-GEN,,,,,,,,,,,,,
+58,058-3-GEN,2,,2,Charles Carroll Douglas,,,058-5-GEN,058-6-GEN,M,"May 8, 1826",,,,"June 6, 1884",,,,,"May 23, 1853",,,058-4-GEN,,,,,,,,,,,,,
+58,058-4-GEN,,wife,,Henrietta Edwards,,,,,F,"July 31, 1833",,,,,,,,,"May 23, 1853",,,058-3-GEN,,,,,,,,,,,,,
+58,058-5-GEN,3,,3,Charles Douglas,,,058-7-GEN,058-8-GEN,M,"Dec. 13, 1768",,,,"Jan. 14, 1850",,,,,"July 21, 1822",,,058-6-GEN,,,,,,,,,,,,,
+58,058-6-GEN,,2nd. w.,,Sophronia Hall,,,,,F,"May 17, 1783",,,,"Jan. 5, 1852",,,,,"July 21, 1822",,,058-5-GEN,,,,,,,,,,,,,
+58,058-7-GEN,4,,4,Nathan Douglas,,,058-9-GEN,058-10-GEN,M,"Apr. 15, 1721",,,,"Mar. 4, 1786",,,,,"Dec. 22, 1745",,,058-8-GEN,,,,,,,,,,,,,"Capt. Nathan Douglas of Connecticut. Captain in militia prior to Revolution, enlisted in 1776, served as private in Capt. Hyde's Co., Conn. troops."
+58,058-8-GEN,,wife,,Ann Davis,,,,,F,"Dec. 3, 1724",,,,"Apr. 3, 1790",,,,,"Dec. 22, 1745",,,058-7-GEN,,,,,,,,,,,,,
+58,058-9-GEN,5,,5,Thomas Douglas,,,058-11-GEN,058-12-GEN,M,"May 15, 1679",,,,"Mar. 3, 1724/5",,,,,"Nov. 25, 1703",,,058-10-GEN,,,,,,,,,,,,,
+58,058-10-GEN,,wife,,Hannah Sperry,,,,,F,,,,,1758,,,,,"Nov. 25, 1703",,,058-9-GEN,,,,,,,,,,,,,remarried
+58,058-11-GEN,6,,6,Robert Douglas,,,058-13-GEN,058-14-GEN,M,1639,Scot.,,,"Jan. 15, 1715/16",,,,,"Sept. 28, 1665",,,058-12-GEN,,,,,,,,,,,,,
+58,058-12-GEN,,wife,,Mary Hempstead,,,,,F,"Mar. 26, 1647",,,,"Dec. 26, 1711",,,,,"Sept. 28, 1665",,,058-11-GEN,,,,,,,,,,,,,
+58,058-13-GEN,7,,7,William Douglas,,,,,M,1610,,,,"May 26, 1682",,,,,prob. 1636,,,058-14-GEN,,,,,,,,,,,,,"Deacon William Douglas of Massachusetts. Came to New England in 1640 with wife and two children. Settled at Gloucester, removed to Boston same year, removed to New London, Conn. in 1660. Deputy to General Court 1672. Deacon 1670."
+58,058-14-GEN,,wife,,Ann Mattle,,,,,F,1610,,,,abt. 1685,,,,,prob. 1636,,,058-13-GEN,,,,,,,,,,,,,
+59,059-1-GEN,,,,ANNA SMITH MALLETT,,,059-2-GEN,059-3-GEN,F,,"Bridgeport, Connecticut",,,,,,,,,,,,,,,,,,,,,,,,
+59,059-2-GEN,,,,Charles Mallett,,,,,M,"Dec. 22, 1808",,,,"Oct. 9, 1883",,,,,"Nov. 21, 1845",,,059-3-GEN,,,,,,,,,,,,,
+59,059-3-GEN,,,,Mary Smith,,,059-4-GEN,059-5-GEN,F,"Mar. 25, 1813",,,,"Dec. 23, 1870",,,,,"Nov. 21, 1845",,,059-2-GEN,,,,,,,,,,,,,
+59,059-4-GEN,,,,Thomas Parker Smith,,,059-6-GEN,059-7-GEN,M,"Apr. 21, 1788",,,,"Nov. 28, 1826",,,,,"Feb. 4, 1810",,,059-5-GEN,,,,,,,,,,,,,
+59,059-5-GEN,,,,Anna Keeler,,,,,F,"Feb. 28, 1784",,,,"Dec. 19, 1838",,,,,"Feb. 4, 1810",,,059-4-GEN,,,,,,,,,,,,,
+59,059-6-GEN,,,,Joseph Smith,,,059-8-GEN,059-9-GEN,M,"Apr. 13, 1764",,,,"Feb. 4, 1829",,,,,abt. 1780,,,059-7-GEN,,,,,,,,,,,,,
+59,059-7-GEN,,,,Rebecca Parker,,,,,F,"May 18, 1767",,,,"Jan. 14, 1827",,,,,abt. 1780,,,059-6-GEN,,,,,,,,,,,,,
+59,059-8-GEN,,,,Capt. Richard Smith,,,059-10-GEN,059-11-GEN,M,"Sept. 27, 1736","Brookfield, Conn.",,,"Dec. 19, 1819","Brookfield, Conn.",,,,abt. 1760,,,059-9-GEN,,,,,,,,,,,,,"Turned out with his company in July, 1779, to repel the British at their invasion of New London, Conn."
+59,059-9-GEN,,,,Hannah Dunning,,,,,F,1737,,,,,,,,,abt. 1760,,,059-8-GEN,,,,,,,,,,,,,
+59,059-10-GEN,,,,Joseph Smith,,,059-12-GEN,059-13-GEN,M,,,"Apr. 15, 1694",,Oct. 1778,,,,,"July 7, 1720",,,059-11-GEN,,,,,,,,,,,,,
+59,059-11-GEN,,1st w.,,Mary Clark,,,,,F,1701,,,,"Feb. 28, 1778",,,,,"July 7, 1720",,,059-10-GEN,,,,,,,,,,,,,
+59,059-12-GEN,,,,Lieut. John Smith,,,059-14-GEN,059-15-GEN,M,"Aug. 29, 1646",,,,"Jan. 8, 1732",,,,,"Jan. 23, 1673",,,059-13-GEN,,,,,,,,,,,,,
+59,059-13-GEN,,,,Phoebe Canfield,,,,,F,,,"Mar. 9, 1650",,"May 3, 1730",,,,,"Jan. 23, 1673",,,059-12-GEN,,,,,,,,,,,,,
+59,059-14-GEN,,,,Sergt. John Smith,,,,,M,,,,,1684,,,,,,,,059-15-GEN,,,,,,,,,,,,,"First on record in New Haven, Conn., in 1639, having arrived there directly from England. Inscription on Memorial Bridge at Milford: 'John Smith Obit 1684, Grace, his wife.'"
+59,059-15-GEN,,,,Grace Hawley,,,,,F,,,,,Oct. 1690,,,,,,,,059-14-GEN,,,,,,,,,,,,,
+60,060-1-GEN,,,,Lucy Palmer Butler,,,060-2-GEN,060-3-GEN,F,,"New London, Connecticut",,,,,,,,,,,,,,,,,,,,,,,,"Born in New London, Connecticut."
+60,060-2-GEN,,,,Charles Butler,,,,,M,"Sept. 2, 1803",,,,"Mar. 3, 1878",,,,,"Sept. 4, 1833",,,060-3-GEN,,,,,,,,,,,,,
+60,060-3-GEN,,,,Lucy Caroline Williams,,,060-4-GEN,060-5-GEN,F,"July 22, 1809",,,,"Apr. 28, 1891",,,,,"Sept. 4, 1833",,,060-2-GEN,,,,,,,,,,,,,
+60,060-4-GEN,,,,William Williams,,,060-6-GEN,060-7-GEN,M,"Feb. 2, 1772",,,,1810,at sea,,,,"Oct. 16, 1796",,,060-5-GEN,,,,,,,,,,,,,Died at sea 1810.
+60,060-5-GEN,,,,Lydia Wheeler,,,,,F,"July 2, 1778",,,,"Apr. 28, 1811",,,,,"Oct. 16, 1796",,,060-4-GEN,,,,,,,,,,,,,
+60,060-6-GEN,,,,Lieut. John Williams,,,060-8-GEN,060-9-GEN,M,"Dec. 23, 1744","Stonington, Conn.",,,"Sept. 10, 1813","Stonington, Conn.",,,,"Sept. 29, 1765",,,060-7-GEN,,,,,,,,,,,,,"Lieut. in Capt. Stanton's Co., of Conn. militia in 1780, promoted to Capt. in Col. Johnson's Regt. Born and died in Stonington, Conn."
+60,060-7-GEN,,,,Keturah Randall,,,,,F,"Sept. 21, 1748",,,,"Mar. 2, 1810",,,,,"Sept. 29, 1765",,,060-6-GEN,,,,,,,,,,,,,
+60,060-8-GEN,,,,William Williams,,,060-10-GEN,060-11-GEN,M,"May 1, 1716",,,,"July 27, 1801",,,,,"Feb. 15, 1737",,,060-9-GEN,,,,,,,,,,,,,
+60,060-9-GEN,,1st w.,,Martha Wheeler,,,,,F,"Apr. 23, 1717",,,,"June 16, 1784",,,,,"Feb. 15, 1737",,,060-8-GEN,,,,,,,,,,,,,
+60,060-10-GEN,,,,Col. John Williams,,,060-12-GEN,060-13-GEN,M,"Oct. 31, 1692",,,,"Dec. 30, 1761",,,,,"Feb. 19, 1711",,,060-11-GEN,,,,,,,,,,,,,
+60,060-11-GEN,,1st w.,,Desire Denison,,,,,F,"Apr. 16, 1693",,,,"Aug. 13, 1737",,,,,"Feb. 19, 1711",,,060-10-GEN,,,,,,,,,,,,,
+60,060-12-GEN,,,,John Williams,,,060-14-GEN,060-15-GEN,M,"Aug. 31, 1667",,,,"Nov. 15, 1702",,,,,"Jan. 24, 1687",,,060-13-GEN,,,,,,,,,,,,,
+60,060-13-GEN,,,,Martha Wheeler,,,,,F,"Feb. 6, 1669/70",,,,"Dec. 17, 1745",,,,,"Jan. 24, 1687",,,060-12-GEN,,,,,,,,,,,,,
+60,060-14-GEN,,,,Capt. Isaac Williams,,,060-16-GEN,060-17-GEN,M,"Sept. 1, 1638",,,,"Feb. 19, 1707",,,,,1660,,,060-15-GEN,,,,,,,,,,,,,
+60,060-15-GEN,,1st w.,,Martha Park,,,,,F,"Mar. 21, 1642",,,,"Oct. 24, 1676",,,,,1660,,,060-14-GEN,,,,,,,,,,,,,
+60,060-16-GEN,,,,Robert Williams,,,,,M,1608,"Norwich, County Norfolk, England",,,"Sept. 21, 1693",,,,,bef. 1626,,,060-17-GEN,,,,,,,,,,,,,"In Roxbury, Mass., in 1637; freeman May 2, 1638; came, it was said, from Norwich, County Norfolk, England, with his wife Elizabeth Stallham. Died Sept. 21, 1693."
+60,060-17-GEN,,1st w.,,Elizabeth Stalham (or Stratton),,,,,F,1586,Eng.,,,"July 28, 1674",,,,,bef. 1626,,,060-16-GEN,,,,,,,,,,,,,Also referred to as Elizabeth Stallham.
+61,061-1-GEN,,,,CAROLINE FOOTE,,,061-3-GEN,061-4-GEN,F,,"Detroit, Michigan",,,,,,,,,,,061-2-GEN,,,,,,,,,,,,,"MRS. GEORGE F. MARSH. Descendant of Nathaniel Foote of Massachusetts and Connecticut, through George Foote of Vermont."
+61,061-2-GEN,,husband,,GEORGE F. MARSH,,,,,M,,,,,,,,,,,,,061-1-GEN,,,,,,,,,,,,,
+61,061-3-GEN,2,,,George Foote,,,061-5-GEN,061-6-GEN,M,"May 4, 1818",,,,"Jan. 6, 1897",,,,,"July 31, 1844",,,061-4-GEN,,,,,,,,,,,,,
+61,061-4-GEN,,,,Phoebe Gelston Dwight,,,,,F,"Oct. 15, 1823",,,,"Jan. 8, 1858",,,,,"July 31, 1844",,,061-3-GEN,,,,,,,,,,,,,
+61,061-5-GEN,3,,,Alvan Foote,,,061-7-GEN,061-8-GEN,M,"Oct. 23, 1778",,,,"Sept. 21, 1856",,,,,"Dec. 1, 1815",,,061-6-GEN,,,,,,,,,,,,,
+61,061-6-GEN,,,,Priscilla Rice,,,,,F,"June 11, 1786",,,,"Sept. 5, 1841",,,,,"Dec. 1, 1815",,,061-5-GEN,,,,,,,,,,,,,
+61,061-7-GEN,4,,,George Foote,,,061-9-GEN,061-10-GEN,M,"Oct. 30, 1749","Simsbury, Conn.",,,"May 12, 1830","Canton, N. Y.",,,,1776,,,061-8-GEN,,,,,,,,,,,,,"Revolutionary ancestor of Vermont. One of the pioneer settlers of Vermont, first of Castleton, afterwards at Bennington. One of Green Mountain Boys. Stood by side of Col. Ethan Allen on May 10, 1775."
+61,061-8-GEN,,,,Weltha Ann Woodward,,,,,F,,,,,"Oct. 18, 1835",,,,,1776,,,061-7-GEN,,,,,,,,,,,,,
+61,061-9-GEN,5,,,Daniel Foote,,,061-11-GEN,061-12-GEN,M,"Apr. 27, 1724",,,,"Mar. 10, 1801",,,,,"Jan. 14, 1748",,,061-10-GEN,,,,,,,,,,,,,
+61,061-10-GEN,,,,Martha Stillman,,,,,F,1730,,,,"July 24, 1794",,,,,"Jan. 14, 1748",,,061-9-GEN,,,,,,,,,,,,,
+61,061-11-GEN,6,,,Daniel Foote,,,061-13-GEN,061-14-GEN,M,"Feb. 6, 1689",,,,"July 15, 1740",,,,,"Nov. 19, 1718",,,061-12-GEN,,,,,,,,,,,,,
+61,061-12-GEN,,,,Mary Collyer,,,,,F,,,,,June 1769,,,,,"Nov. 19, 1718",,,061-11-GEN,,,,,,,,,,,,,
+61,061-13-GEN,7,,,Samuel Foote,,,061-15-GEN,061-16-GEN,M,"May 1, 1647",,,,"Sept. 7, 1689",,,,,"May 30, 1671",,,061-14-GEN,,,,,,,,,,,,,
+61,061-14-GEN,,,,Mary Merrick,,,,,F,"Aug. 27, 1647",,,,"Oct. 3, 1690",,,,,"May 30, 1671",,,061-13-GEN,,,,,,,,,,,,,
+61,061-15-GEN,8,,,Nathaniel Foote,,,061-17-GEN,061-18-GEN,M,1620,,,,1665,,,,,1646,,,061-16-GEN,,,,,,,,,,,,,
+61,061-16-GEN,,,,Elizabeth Smith,,,,,F,,,,,,,,,,1646,,,061-15-GEN,,,,,,,,,,,,,
+61,061-17-GEN,9,,,Nathaniel Foote,,,,,M,abt. 1593,Eng.,,,1644,,,,,1615,Eng.,,061-18-GEN,,,,,,,,,,,,,"Came from England to Watertown, Mass. (freeman Sept. 3, 1634). Removed in 1636 to Wethersfield, Conn. Representative from Wethersfield 1641-1644."
+61,061-18-GEN,,,,Elizabeth Deming,,,,,F,abt. 1595,,,,"July 28, 1683",,,,,1615,Eng.,,061-17-GEN,,,,,,,,,,,,,
+61,061-19-GEN,,,,Col. Ethan Allen,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Demanded surrender of Ticonderoga on tenth of May, 1775."
+62,062-1-GEN,,,,SOPHIE HOLLAND VAN VORST,,,062-2-GEN,062-3-GEN,F,,"Fort Plains, New York",,,,,,,,,,,062-18-GEN,,,,,,,,,,,,,Subject of entry; (MRS. P. L. BOUCHER)
+62,062-2-GEN,2,,,James Baker Van Vorst,,,,,M,"Mar. 5, 1813",,,,"Apr. 28, 1883",,,,,"Nov. 9, 1840",,,062-3-GEN,,,,,,,,,,,,,
+62,062-3-GEN,,,,Elizabeth Livingstone Butterfield,,,062-4-GEN,062-5-GEN,F,"Nov. 7, 1822",,,,"Mar. 14, 1893",,,,,"Nov. 9, 1840",,,062-2-GEN,,,,,,,,,,,,,
+62,062-4-GEN,3,,,John Butterfield,,,062-6-GEN,062-7-GEN,M,"Mar. 18, 1801",,,,"Nov. 14, 1869",,,,,"Feb. 4, 1822",,,062-5-GEN,,,,,,,,,,,,,
+62,062-5-GEN,,,,Malinda Harriet Baker,,,,,F,"Oct. 23, 1799",,,,"Aug. 20, 1883",,,,,"Feb. 4, 1822",,,062-4-GEN,,,,,,,,,,,,,
+62,062-6-GEN,4,,,Daniel Butterfield,,,062-8-GEN,062-9-GEN,M,"Feb. 13, 1776",,,,"Apr. 18, 1849",,,,,"July 9, 1797",,,062-7-GEN,,,,,,,,,,,,,
+62,062-7-GEN,,,,Catherine Eberts,,,,,F,"Nov. 9, 1777",,,,"Aug. 16, 1843",,,,,"July 9, 1797",,,062-6-GEN,,,,,,,,,,,,,
+62,062-8-GEN,5,,,Timothy Butterfield,,,062-10-GEN,062-11-GEN,M,"June 26, 1730","Westfield, Mass.",,,"Apr. 10, 1819","Westmoreland, N. H.",,,,"Feb. 10, 1757",,,062-9-GEN,,,,,,,,,,,,,"Revolutionary ancestor of New Hampshire. Served as Sergeant under Capt. Daniel Carlisle, Col. Timothy Bedel's Regt. of New Hampshire militia in 1776."
+62,062-9-GEN,,,,Lucretia Adams,,,,,F,,,,,1813,,,,,"Feb. 10, 1757",,,062-8-GEN,,,,,,,,,,,,,
+62,062-10-GEN,6,,,Benjamin Butterfield,,,062-12-GEN,062-13-GEN,M,"May 25, 1702",,,,"Sept. 13, 1747",,,,,"July 7, 1723",,,062-11-GEN,,,,,,,,,,,,,
+62,062-11-GEN,,,,Kezia Patterson,,,,,F,"Feb. 5, 1705",,,,,,,,,"July 7, 1723",,,062-10-GEN,,,,,,,,,,,,,Name given as Kezia Patterson (or Pattison)
+62,062-12-GEN,7,,,Benjamin Butterfield,,,062-14-GEN,062-15-GEN,M,"Feb. 24, 1679",,,,1714/15,,,,,"Oct. 8, 1708",,,062-13-GEN,,,,,,,,,,,,,
+62,062-13-GEN,,,,Elizabeth (Fletcher),,,,,F,,,,,,,,,,"Oct. 8, 1708",,,062-12-GEN,,,,,,,,,,,,,
+62,062-14-GEN,8,,,Joseph Butterfield,,,062-16-GEN,062-17-GEN,M,"Aug. 15, 1649",,,,1720,,,,,"Feb. 12, 1674",,,062-15-GEN,,,,,,,,,,,,,
+62,062-15-GEN,,,,Lydia Ballard,,,,,F,"Apr. 13, 1657",,,,,,,,,"Feb. 12, 1674",,,062-14-GEN,,,,,,,,,,,,,
+62,062-16-GEN,9,,,Benjamin Butterfield,,,,,M,,Eng.,,,"Mar. 2, 1688",,,,,,,,062-17-GEN,1663,,,,,,,,,,,,"Ancestor of Massachusetts. Was in Charlestown, Mass., in 1638. Founder of Woburn, Mass., in 1640; freeman in 1643. Headed list of petitioners for Chelmsford in 1653."
+62,062-17-GEN,,1st wife,,Ann,Butterfield,062-14-GEN,,,F,,,,,"May 19, 1660",Chelmsford,,,,,,,062-16-GEN,,,,,,,,,,,,,
+62,062-18-GEN,,,,P. L. BOUCHER,,,,,M,,,,,,,,,,,,,062-1-GEN,,,,,,,,,,,,,
+62,062-19-GEN,,,,Daniel Carlisle,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Captain of Revolutionary company
+62,062-20-GEN,,,,Timothy Bedel,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Colonel of New Hampshire militia regiment in 1776
+62,062-21-GEN,,,,Thomas Whittemore,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Of Malden; deceased prior to 1663 [moved from death_date: deceased]
+63,063-1-GEN,,,,FRANCES STEVENS (MRS. LOREN TRUD DAY),,,063-3-GEN,063-4-GEN,F,,"New Haven, Connecticut",,,,,,,,,,,063-2-GEN,,,,,,,,,,,,,Descendant of John Stevens of Massachusetts through Elisha Stevens of Connecticut.
+63,063-2-GEN,,husband,,LOREN TRUD DAY,,,,,M,,,,,,,,,,,,,063-1-GEN,,,,,,,,,,,,,
+63,063-3-GEN,2,,,Robert Stevens,,,063-5-GEN,063-6-GEN,M,"Feb. 26, 1823",,,,"Feb. 12, 1892",,,,,"Mar. 16, 1856",,,063-4-GEN,,,,,,,,,,,,,
+63,063-4-GEN,,,,Adelia Amanda Youngs,,,,,F,"Nov. 10, 1831",,,,"May 6, 1900",,,,,"Mar. 16, 1856",,,063-3-GEN,,,,,,,,,,,,,
+63,063-5-GEN,3,,,Hershall Stevens,,,063-7-GEN,063-8-GEN,M,....1799,,,,"Mar. 2, 1870",,,,,"May 24, 1821",,,063-6-GEN,,,,,,,,,,,,,
+63,063-6-GEN,,1st w.,,Clarissa Boughton,,,,,F,....1799,,,,Sept. 1837,,,,,"May 24, 1821",,,063-5-GEN,,,,,,,,,,,,,
+63,063-7-GEN,4,,,Elisha Stevens,,,063-9-GEN,063-10-GEN,M,"Oct. 1, 1748",,,,"Mar. 8, 1813",,,,,"Dec. 10, 1780",,,063-8-GEN,,,,,,,,,,,,,"Of Glastonbury, Conn. Revolutionary ancestor. Enlisted Feb. 11, 1777 in Col. Jeduthan Baldwin's Corps of Artificers and served five years. In battles of Brandywine, Germantown, Monmouth, Camden and Yorktown."
+63,063-8-GEN,,,,Agnes Kimberly,,,,,F,....1755,,,,"Apr. 28, 1837",,82,,,"Dec. 10, 1780",,,063-7-GEN,,,,,,,,,,,,,
+63,063-9-GEN,5,,,Joseph Stevens,,,063-11-GEN,063-12-GEN,M,"Aug. 15, 1711",,,,,,,,,"Oct. 14, 1736",,,063-10-GEN,,,,,,,,,,,,,
+63,063-10-GEN,,2nd w.,,Jerusha Stow,,,,,F,"Aug. 6, 1719",,,,,,,,,"Oct. 14, 1736",,,063-9-GEN,,,,,,,,,,,,,
+63,063-11-GEN,6,,,Rev. Timothy Stevens,,,063-13-GEN,063-14-GEN,M,"Jan. 28, 1666",,,,"Apr. 14, 1726",,,,,"May 19, 1701",,,063-12-GEN,,,,,,,,,,,,,
+63,063-12-GEN,,,,Alice (Cook),,,,,F,,,,,,,,,,"May 19, 1701",,,063-11-GEN,,,,,,,,,,,,,
+63,063-13-GEN,7,,,Dea. Timothy Stevens,,,063-15-GEN,063-16-GEN,M,"Sept. 22, 1641",,,,"Jan. 31, 1767/8",,,,,"Mar. 12, 1665",,,063-14-GEN,,,,,,,,,,,,,[validation: date-inconsistent: lifespan>120]
+63,063-14-GEN,,,,Sarah Davis,,,,,F,abt. 1647,,,,"Apr. 5, 1695",,,,,"Mar. 12, 1665",,,063-13-GEN,,,,,,,,,,,,,
+63,063-15-GEN,8,,,John Stevens,,,,,M,abt. 1607,,,,"Apr. 11, 1662",,,,,,,,063-16-GEN,,,,,,,,,,,,,"Came from Southampton, England in 1638, aged 31 years. Settled in Newbury, Mass., made freeman May 18, 1642. Removed to Andover, Mass."
+63,063-16-GEN,,,,Elizabeth ——,,,,,F,abt. 1614,,,,"May 1, 1694",,80,,,,,,063-15-GEN,,,,,,,,,,,,,Probably came with John Stevens from England.
+63,063-17-GEN,,,,Nathan,Stevens,063-15-GEN,063-15-GEN,063-16-GEN,M,,"Andover, Mass.",,,,,,,,,,,,,,,,,,,,,,,,Tradition says he was the first white child born in Andover.
+63,063-18-GEN,,,,Col. Jeduthan Baldwin,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Commander of Corps of Artificers in which Elisha Stevens enlisted Feb. 11, 1777."
+64,064-1-GEN,,,,FRANCES STEVENS,,,064-3-GEN,064-4-GEN,F,,,,,,,,,,,,,064-2-GEN,,,,,,,,,,,,,
+64,064-2-GEN,,husband,,LOREN TRUE DAY,,,,,M,,,,,,,,,,,,,064-1-GEN,,,,,,,,,,,,,
+64,064-3-GEN,2,,,Robert Stevens,,,,,M,"Feb. 26, 1823",,,,"Feb. 12, 1892",,,,,"Mar. 16, 1856",,,064-4-GEN,,,,,,,,,,,,,
+64,064-4-GEN,,wife,,Adelia Amanda Youngs,,,064-5-GEN,064-6-GEN,F,"Nov. 10, 1831",,,,"May 6, 1900",,,,,"Mar. 16, 1856",,,064-3-GEN,,,,,,,,,,,,,
+64,064-5-GEN,3,,,Thomas Hull Youngs,,,064-7-GEN,064-8-GEN,M,"Nov. 20, 1806",,,,"Oct. 29, 1835",,,,,Feb. 1830,,,064-6-GEN,,,,,,,,,,,,,
+64,064-6-GEN,,wife,,Harriet Levan Youngs,,,,,F,"Feb. 16, 1807",,,,"Dec. 27, 1890",,,,,Feb. 1830,,,064-5-GEN,,,,,,,,,,,,,
+64,064-7-GEN,4,,,Thomas Youngs,,,064-9-GEN,064-10-GEN,M,"June 15, 1777",,,,"Feb. 12, 1844",,,,,,,,064-8-GEN,,,,,,,,,,,,,
+64,064-8-GEN,,1st w.,,Elmira Wheadon,,,,,F,1787,,,,"Aug. 24, 1815",,,,,,,,064-7-GEN,,,,,,,,,,,,,
+64,064-9-GEN,5,,,Dea. Thomas Youngs,,,064-11-GEN,064-12-GEN,M,1748,,,,"Feb. 16, 1816",,,,,abt. 1773,,,064-10-GEN,,,,,,,,,,,,,
+64,064-10-GEN,,wife,,Lydia Tuthill,,,,,F,1750,,,,"Jan. 13, 1831",,,,,abt. 1773,,,064-9-GEN,,,,,,,,,,,,,
+64,064-11-GEN,6,,,Judge Thomas Youngs,,,064-13-GEN,064-14-GEN,M,1719,,,,"Feb. 19, 1793",,,,,"June 1, 1746",,,064-12-GEN,,,,,,,,,,,,,Revolutionary ancestor. Signed Association Test in 1775; chairman of Committee of Safety in Sag Harbor 1776; loaned money to State in 1780.
+64,064-12-GEN,,wife,,Rhoda Budd,,,,,F,1721,,,,"Jan. 9, 1798",,,,,"June 1, 1746",,,064-11-GEN,,,,,,,,,,,,,
+64,064-13-GEN,7,,,Judge Joshua Youngs,,,064-15-GEN,064-16-GEN,M,abt. 1684,,,,"June 23, 1755",,,,,"May 9, 1709",,,064-14-GEN,,,,,,,,,,,,,
+64,064-14-GEN,,wife,,Mary Mayhew,,,,,F,1687,,,,"Apr. 24, 1765",,,,,"May 9, 1709",,,064-13-GEN,,,,,,,,,,,,,
+64,064-15-GEN,8,,,John Youngs,,,064-17-GEN,064-18-GEN,M,"bef. Jan. 27, 1665",,,,"May 16, 1697",,,,,abt. 1678,,,064-16-GEN,,,,,,,,,,,,,
+64,064-16-GEN,,wife,,Mary Wells,,,,,F,1661,,,,"Nov. 4, 1729",,,,,abt. 1678,,,064-15-GEN,,,,,,,,,,,,,
+64,064-17-GEN,9,,,Col. John Youngs,,,064-19-GEN,064-20-GEN,M,,England,"Apr. 10, 1623",,"Apr. 12, 1697",,,,,abt. 1653,,,064-18-GEN,,,,,,,,,,,,,Eldest son of Rev. John Youngs. In 1681 sheriff of Yorkshire.
+64,064-18-GEN,,1st w.,,Mary Gardiner,,,,,F,1630,Eng.,,,"Apr. 24, 1689",,,,,abt. 1653,,,064-17-GEN,,,,,,,,,,,,,
+64,064-19-GEN,10,,,Rev. John Youngs,,,,,M,1598,,,,Feb. 1671/2,"Southold, Long Island, N. Y.",74,,,"July 25, 1622",,,064-20-GEN,,,,,,,,,,,,,"Minister in Hingham, England; came to America in 1640; commenced settlement at Southold, Long Island, N. Y. Oct 1640."
+64,064-20-GEN,,1st w.,,Joan (or Anne) Lewington (or Harrington),,,,,F,,,,,,Eng.,,,,"July 25, 1622",,,064-19-GEN,,,,,,,,,,,,,Came to America in 1640 with husband. [moved from death_date: deceased]
+65,065-1-GEN,,,,KATHERINE BEEKMAN LIVINGSTON,,,065-2-GEN,065-3-GEN,F,,"New York City, New York",,,,,,,,,,,065-14-GEN,,,,,,,,,,,,,
+65,065-2-GEN,,,,Robert Dwight Livingston,,,065-4-GEN,065-5-GEN,M,"Oct. 17, 1818",,,,"July 27, 1887",,,,,,,,065-3-GEN,,,,,,,,,,,,,
+65,065-3-GEN,,,,Mary Armour,,,,,F,"Nov. 22, 1823",,,,"Mar. 23, 1873",,,,,,,,065-2-GEN,,,,,,,,,,,,,
+65,065-4-GEN,,,,Rev. Gilbert Robert Livingston,,,065-6-GEN,065-7-GEN,M,"Oct. 16, 1786",,,,"Mar. 9, 1834",,,,,,,,065-5-GEN,,,,,,,,,,,,,
+65,065-5-GEN,,,,Elizabeth Thompson Burrill,,,,,F,"May 24, 1792",,,,"Aug. 7, 1870",,,,,,,,065-4-GEN,,,,,,,,,,,,,
+65,065-6-GEN,,,,Gilbert Robert Livingston,,,065-8-GEN,065-9-GEN,M,,,"Sept. 27, 1758",,"June 5, 1816",,,,,,,,065-7-GEN,,,,,,,,,,,,,"Third son of Robert Gilbert Livingston. Ensign in the Third Regiment, Ulster Co., N. Y., militia in 1776; 2nd Lieut. the same year, and recommended for Brigade Major in 1779."
+65,065-7-GEN,,,,Martha Kane,,,,,F,1758,,,,"Apr. 17, 1848",,,,,,,,065-6-GEN,,,,,,,,,,,,,
+65,065-8-GEN,,,,Robert Gilbert Livingston,,,065-10-GEN,065-11-GEN,M,"Jan. 11, 1713",,,,"Oct. 27, 1789",,,,,"Nov. 3, 1740",,,065-9-GEN,,,,,,,,,,,,,
+65,065-9-GEN,,,,Catherine McPhaedres,,,,,F,,,,,1792,,,,,"Nov. 3, 1740",,,065-8-GEN,,,,,,,,,,,,,
+65,065-10-GEN,,,,Col. Gilbert Livingston,,,065-12-GEN,065-13-GEN,M,"Mar. 3, 1690",,,,"Apr. 25, 1746",,,,,"Dec. 22, 1711",,,065-11-GEN,,,,,,,,,,,,,
+65,065-11-GEN,,,,Cornelia Beekman,,,,,F,"June 18, 1693",,,,"June 4, 1742",,,,,"Dec. 22, 1711",,,065-10-GEN,,,,,,,,,,,,,
+65,065-12-GEN,,,,Robert Livingston,,,,,M,"Dec. 13, 1654",,,,"Oct. 1, 1728",,,,,"July 9, 1679",,,065-13-GEN,,,,,,,,,,,,,"Came to America in the ""Catherine"" in 1673 and landed at Charlestown, New England. Arrived in Province of New York in 1674, settled at Albany. Secretary to the Commissaries, Town Clerk, Collector, Receiver of Customs, Secretary for Indian Affairs. First Lord of the Manor of Livingston (conferred July 26, 1687)."
+65,065-13-GEN,,,,Mrs. Alyda (Schuyler) Van Rensselaer,,,,,F,"Feb. 28, 1656",,,,"Mar. 27, 1729",,,,,"July 9, 1679",,,065-12-GEN,,,,,,,,,,,,,
+65,065-14-GEN,,husband,,Montgomery Schuyler,,,,,M,,,,,,,,,,,,,065-1-GEN,,,,,,,,,,,,,
+66,066-1-GEN,,,,MARTHA PRESCOTT CRITTENDEN,,,066-3-GEN,066-4-GEN,F,,"Philadelphia, Pennsylvania",,,,,,,,,,,066-2-GEN,,,,,,,,,,,,,"Descendant of John Prescott of Massachusetts, through James Prescott of Connecticut."
+66,066-2-GEN,,husband,,PETER BOYD,,,,,M,,,,,,,,,,,,,066-1-GEN,,,,,,,,,,,,,
+66,066-3-GEN,2,,2,Rev. Samuel W. Crittenden,,,,,M,"Feb. 22, 1824",,,,"Mar. 1, 1884",,,,,bef. 1852,,,066-4-GEN,,,,,,,,,,,,,
+66,066-4-GEN,,,,Martha Prescott,,,066-5-GEN,066-6-GEN,F,"Sept. 2, 1828",,,,"July 26, 1852",,,,,bef. 1852,,,066-3-GEN,,,,,,,,,,,,,
+66,066-5-GEN,3,,3,David William Prescott,,,066-7-GEN,066-8-GEN,M,"Mar. 16, 1800",,,,"Aug. 17, 1874",,,,,1825,,,066-6-GEN,,,,,,,,,,,,,
+66,066-6-GEN,,,,Susan Rogers Austin,,,,,F,"July 7, 1805",,,,"June 2, 1893",,,,,1825,,,066-5-GEN,,,,,,,,,,,,,
+66,066-7-GEN,4,,4,James Prescott,,,066-9-GEN,066-10-GEN,M,"Mar. 15, 1749",,,,"Mar. 25, 1842",,,,New Haven Cemetery,"Feb. 6, 1796",,,066-8-GEN,,,,,,,,,,,,,"Revolutionary ancestor of Connecticut. Went out on Lexington Alarm in Second Co., Governor's Foot Guards (organized March 2, 1775). In 1777 was with Conn. militia under Gen. Gates to the Northward."
+66,066-8-GEN,,2nd w.,,Rebecca Atwater,,,,,F,"Apr. 27, 1760",,,,"July 17, 1834",,,,,"Feb. 6, 1796",,,066-7-GEN,,,,,,,,,,,,,
+66,066-9-GEN,5,,5,Benjamin Prescott,,,066-11-GEN,066-12-GEN,M,"Jan. 29, 1717",,,,"Aug. 18, 1778",,,,,"Aug. 12, 1741",,,066-10-GEN,,,,,,,,,,,,,
+66,066-10-GEN,,,,Rebecca Minot,,,,,F,"May 15, 1720",,,,"Oct. 8, 1761",,,,,"Aug. 12, 1741",,,066-9-GEN,,,,,,,,,,,,,
+66,066-11-GEN,6,,6,Rev. Benjamin Prescott,,,066-13-GEN,066-14-GEN,M,"Sept. 16, 1687",,,,"May 27, 1777",,,,,"Oct. 20, 1715",,,066-12-GEN,,,,,,,,,,,,,
+66,066-12-GEN,,1st w.,,Elizabeth Higginson,,,,,F,"June 28, 1696",,,,"Mar. 20, 1723",,,,,"Oct. 20, 1715",,,066-11-GEN,,,,,,,,,,,,,
+66,066-13-GEN,7,,7,Maj. Jonathan Prescott,,,066-15-GEN,066-16-GEN,M,1643,,,,"Dec. 5, 1721",,,,,"Dec. 23, 1675",,,066-14-GEN,,,,,,,,,,,,,[validation: date-inconsistent: parent-not-older]
+66,066-14-GEN,,2nd w.,,Elizabeth Hoar,,,,,F,,,,,"Sept. 25, 1687",,,,,"Dec. 23, 1675",,,066-13-GEN,,,,,,,,,,,,,
+66,066-15-GEN,8,,8,John Prescott,,,,,M,1683,Eng.,,,,,,,,bef. 1641,,,066-16-GEN,,,,,,,,,,,,,"Of Yorkshire, England. Came to America about 1640. Settled first in Watertown, Mass., and about 1645/6 was one of the founders of Lancaster. Took oath of allegiance in 1652, admitted freeman about 1669. [validation: date-inconsistent: marriage<birth]"
+66,066-16-GEN,,,,Mary Platts,,,,,F,,,,,,,,,,bef. 1641,,,066-15-GEN,,,,,,,,,,,,,A Yorkshire girl; came to America about 1640 with John Prescott.
+66,066-17-GEN,,,,Gen. Gates,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Commanded militia ""to the Northward"" in 1777."
+67,067-1-GEN,,,,Mary Thompson,,,067-3-GEN,067-4-GEN,F,,"Kenosha, Wisconsin",,,,,,,,,,,067-2-GEN,,,,,,,,,,,,,
+67,067-2-GEN,,husband,,William T. Howe,,,,,M,,,,,,,,,,,,,067-1-GEN,,,,,,,,,,,,,
+67,067-3-GEN,,,,Right Rev. Hugh Miller Thompson,,,,,M,"June 5, 1830",,,,,,,,,"Oct. 25, 1859",,,067-4-GEN,,,,,,,,,,,,,
+67,067-4-GEN,,,,Anna Weatherburn Hinsdale,,,067-5-GEN,067-6-GEN,F,"July 25, 1840",,,,,,,,,"Oct. 25, 1859",,,067-3-GEN,,,,,,,,,,,,,
+67,067-5-GEN,,,,Henry Butler Hinsdale,,,067-7-GEN,067-8-GEN,M,"Feb. 9, 1807",,,,"Feb. 15, 1889",,,,,"May 28, 1839",,,067-6-GEN,,,,,,,,,,,,,
+67,067-6-GEN,,2nd w.,,Mary Anne Hatch,,,,,F,"Nov. 11, 1819",,,,"Nov. 9, 1892",,,,,"May 28, 1839",,,067-5-GEN,,,,,,,,,,,,,
+67,067-7-GEN,,,,Horace Seymour Hinsdale,,,067-9-GEN,067-10-GEN,M,"Oct. 7, 1782",,,,"June 1, 1858",,,,,"Apr. 30, 1806",,,067-8-GEN,,,,,,,,,,,,,
+67,067-8-GEN,,1st w.,,Sarah Ogden,,,,,F,"May 10, 1786",,,,"Sept. 21, 1821",,,,,"Apr. 30, 1806",,,067-7-GEN,,,,,,,,,,,,,
+67,067-9-GEN,,,,Capt. Barnabas Hinsdale,,,067-11-GEN,067-12-GEN,M,"Feb. 23, 1738",,,,"Apr. 29, 1790",,,,,abt. 1761,,,067-10-GEN,,,,,,,,,,,,,
+67,067-10-GEN,,,,Magdalen Seymour,,,,,F,1740,,,,"Oct. 18, 1782",,,,,abt. 1761,,,067-9-GEN,,,,,,,,,,,,,
+67,067-11-GEN,,,,Dea. Daniel Hinsdale,,,067-13-GEN,067-14-GEN,M,"May 15, 1708",,,,"Sept. 18, 1781",,,,,"Aug. 21, 1737",,,067-12-GEN,,,,,,,,,,,,,
+67,067-12-GEN,,,,Catharine Curtis,,,,,F,1720,,,,"Apr. 12, 1778",,,,,"Aug. 21, 1737",,,067-11-GEN,,,,,,,,,,,,,
+67,067-13-GEN,,,,Barnabas Hinsdale,,,067-15-GEN,067-16-GEN,M,"Feb. 20, 1668",,,,"Jan. 25, 1725",,,,,"Nov. 9, 1693",,,067-14-GEN,,,,,,,,,,,,,
+67,067-14-GEN,,,,Martha Smith,,,,,F,1670,,,,Dec. 1738,,,,,"Nov. 9, 1693",,,067-13-GEN,,,,,,,,,,,,,
+67,067-15-GEN,,,,Barnabas Hinsdale,,,067-17-GEN,067-18-GEN,M,"Nov. 13, 1639",,,,"Sept. 18, 1675",,,,,"Oct. 15, 1666",,,067-16-GEN,,,,,,,,,,,,,
+67,067-16-GEN,,,,Sarah (White) Taylor,,,,,F,,,,,,,,,,"Oct. 15, 1666",,,067-15-GEN,,,,,,,,,,,,,"remarried Aug. 10, 1702"
+67,067-17-GEN,,,,Robert Hinsdale,,,,,M,,England,,,"Sept. 18, 1675",,,,,bef. 1637,,,067-18-GEN,,,,,,,,,,,,,
+67,067-18-GEN,,1st w.,,Ann Woodward,,,,,F,,Eng.,,,"June 4, 1666",,,,,bef. 1637,,,067-17-GEN,,,,,,,,,,,,,
+67,067-19-GEN,,,,John,Hinsdale,067-17-GEN,067-17-GEN,,M,,,,,,,,,,,,,,,,,,,,,,,,,,son of Robert Hinsdale; slain in the fight
+67,067-20-GEN,,,,Samuel,Hinsdale,067-17-GEN,067-17-GEN,,M,,,,,,,,,,,,,,,,,,,,,,,,,,son of Robert Hinsdale; slain in the fight
+68,068-1-GEN,,,,Capt. Lothrop,,,,,M,,,,,"Sept. 18, 1675",Bloody Brook,,,,,,,,,,,,,,,,,,,,"Capt. Lothrop 'with the flower of Essex fell at Bloody Brook' Sept. 18, 1675."
+68,068-2-GEN,,,,Barnabas Hinsdale,,,,,M,1738,,,,1790,,,,,,,,,,,,,,,,,,,,,"Ensign in 1776. Lieutenant in May, 1777 in Second Company, First Regiment, Connecticut troops."
+69,069-1-GEN,,,,NELLIE A. WHITE,,,069-3-GEN,069-4-GEN,F,,"Somers, Connecticut",,,,,,,,,,,069-2-GEN,,,,,,,,,,,,,MRS. WALTER C. FAXON
+69,069-2-GEN,,husband,,WALTER C. FAXON,,,,,M,,,,,,,,,,,,,069-1-GEN,,,,,,,,,,,,,
+69,069-3-GEN,2,,,Josiah White,,,069-5-GEN,069-6-GEN,M,"May 18, 1831",,,,,,,,,"Mar. 16, 1851",,,069-4-GEN,,,,,,,,,,,,,
+69,069-4-GEN,,,,Hannah C. Pease,,,,,F,"Mar. 7, 1830",,,,"Apr. 22, 1896",,,,,"Mar. 16, 1851",,,069-3-GEN,,,,,,,,,,,,,
+69,069-5-GEN,3,,,Josiah White,,,069-7-GEN,069-8-GEN,M,"Aug. 1, 1800",,,,abt. 1883,,,,,bef. 1820,,,069-6-GEN,,,,,,,,,,,,,
+69,069-6-GEN,,,,Hannah Cushing,,,,,F,"Feb. 6, 1798",,,,1863,,,,,bef. 1820,,,069-5-GEN,,,,,,,,,,,,,
+69,069-7-GEN,4,,,Elijah White,,,069-9-GEN,069-10-GEN,M,"June 28, 1778",,,,"Nov. 24, 1856",,,,,"Dec. 24, 1799",,,069-8-GEN,,,,,,,,,,,,,
+69,069-8-GEN,,,,Lucy Pierce,,,,,F,"Apr. 26, 1778",,,,"Oct. 18, 1855",,,,,"Dec. 24, 1799",,,069-7-GEN,,,,,,,,,,,,,
+69,069-9-GEN,5,,,Ebenezer White,,,069-11-GEN,069-12-GEN,M,1733,,,,"Oct. 11, 1817",,,,,bef. 1770,,,069-10-GEN,,,,,,,,,,,,,Revolutionary ancestor
+69,069-10-GEN,,,,Sarah Church,,,,,F,"Aug. 17, 1736",,,,abt. 1802,,,,,bef. 1770,,,069-9-GEN,,,,,,,,,,,,,
+69,069-11-GEN,6,,,Ebenezer White,,,069-13-GEN,069-14-GEN,M,"Apr. 9, 1701",,,,"Mar. 23, 1733",,,,,"Oct. 28, 1730",,,069-12-GEN,,,,,,,,,,,,,
+69,069-12-GEN,,,,Ruth Atherton,,,,,F,abt. 1700,,,,"Apr. 29, 1785",,,,,"Oct. 28, 1730",,,069-11-GEN,,,,,,,,,,,,,
+69,069-13-GEN,7,,,Nathaniel White,,,069-15-GEN,069-16-GEN,M,"July 7, 1652",,,,"Feb. 15, 1742",,,,,"Mar. 28, 1678",,,069-14-GEN,,,,,,,,,,,,,
+69,069-14-GEN,,,,Elizabeth Savage,,,,,F,"June 3, 1655",,,,"Jan. 30, 1742",,,,,"Mar. 28, 1678",,,069-13-GEN,,,,,,,,,,,,,
+69,069-15-GEN,8,,,Nathaniel White,,,069-17-GEN,069-18-GEN,M,abt. 1629,,,,"May 27, 1711",,,,,bef. 1652,,,069-16-GEN,,,,,,,,,,,,,
+69,069-16-GEN,,1st w.,,Elizabeth,White,069-13-GEN,,,F,abt. 1635,,,,1690,,,,,bef. 1652,,,069-15-GEN,,,,,,,,,,,,,
+69,069-17-GEN,9,,,John White,,,,,M,1600,,,,1683,,,,,bef. 1629,,,069-18-GEN,,,,,,,,,,,,,"Elder John White. Came from England in ship ""Lion"", arrived Boston Sept. 16, 1632. Land in Cambridge Mass. 1633, selectman 1635. Original proprietor Hartford Conn., selectman 1642, 46, 51, 56. Founded Hadley Mass. 1659, selectman, Deputy to General Court 1664, 69. Returned to Hartford Conn. abt. 1670, South Church."
+69,069-18-GEN,,1st w.,,Mary,White,069-15-GEN,,,F,,,,,bef. 1683,,,,,bef. 1629,,,069-17-GEN,,,,,,,,,,,,,
+70,070-1-GEN,,,,Ebenezer White,,,,,M,1733,,,,1817,,,,,,,,,,,,,,,,,,,,,"Of South Hadley, Mass. Served as a private in Capt. Samuel Fairchild's Co., Col. Nathan Sparhawk's Regt., in 1778 stationed at Dorchester, Mass."
+70,070-2-GEN,,,,Capt. Samuel Fairchild,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Captain of Co. in Col. Nathan Sparhawk's Regt., in 1778."
+70,070-3-GEN,,,,Col. Nathan Sparhawk,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Colonel of Regt. in 1778.
+71,071-1-GEN,,,,NELLIE A. WHITE,,,071-3-GEN,071-4-GEN,F,,,,,,,,,,,,,071-2-GEN,,,,,,,,,,,,,Supplemental record. Descendant of Robert Pease of Massachusetts.
+71,071-2-GEN,,,,WALTER C. FAXON,,,,,M,,,,,,,,,,,,,071-1-GEN,,,,,,,,,,,,,
+71,071-3-GEN,,,,Josiah White,,,,,M,"May 18, 1831",,,,,,,,,"Mar. 16, 1851",,,071-4-GEN,,,,,,,,,,,,,Generation 2 in pedigree.
+71,071-4-GEN,,,,Hannah C. Pease,,,071-5-GEN,071-6-GEN,F,"Mar. 7, 1830",,,,"Apr. 22, 1896",,,,,"Mar. 16, 1851",,,071-3-GEN,,,,,,,,,,,,,Generation 2 in pedigree.
+71,071-5-GEN,,,,Azel Pease,,,071-7-GEN,071-8-GEN,M,"Sept. 15, 1795",,,,,,,,,"Mar. 30, 1826",,,071-6-GEN,,,,,,,,,,,,,Generation 3 in pedigree.
+71,071-6-GEN,,2nd w.,,Hannah Ashley,,,,,F,"Apr. 27, 1800",,,,,,,,,"Mar. 30, 1826",,,071-5-GEN,,,,,,,,,,,,,Generation 3 in pedigree.
+71,071-7-GEN,,,,Stephen Pease,,,071-9-GEN,071-10-GEN,M,"July 4, 1755","Somers, Conn.",,,"June 28, 1838","Somers, Conn.",,,,"Nov. 7, 1774",,,071-8-GEN,,,,,,,,,,,,,"Generation 4 in pedigree. Revolutionary ancestor of Somers, Conn.; served three years in Conn. line under Capt. Abbe; discharged Dec. 1777."
+71,071-8-GEN,,3rd w.,,Roxanna Snow,,,,,F,,,,,,,,,,"Nov. 7, 1774",,,071-7-GEN,,,,,,,,,,,,,Generation 4 in pedigree.
+71,071-9-GEN,,,,Robert Pease,,,071-11-GEN,071-12-GEN,M,"Dec. 19, 1724",,,,1805,,,,,"Sept. 4, 1746",,,071-10-GEN,,,,,,,,,,,,,Generation 5 in pedigree.
+71,071-10-GEN,,1st w.,,Hannah Sexton,,,,,F,,,,,"Aug. 22, 1795",,,,,"Sept. 4, 1746",,,071-9-GEN,,,,,,,,,,,,,Generation 5 in pedigree.
+71,071-11-GEN,,,,Robert Pease,,,071-13-GEN,071-14-GEN,M,"Feb. 2, 1684/5",,,,"Nov. 17, 1766",,,,,bef. 1717,,,071-12-GEN,,,,,,,,,,,,,Generation 6 in pedigree.
+71,071-12-GEN,,3rd w.,,Elizabeth Emery,,,,,F,"Sept. 28, 1698",,,,"Sept. 9, 1789",,in 91st yr.,,,bef. 1717,,,071-11-GEN,,,,,,,,,,,,,Generation 6 in pedigree.
+71,071-13-GEN,,,,Robert Pease,,,071-15-GEN,071-16-GEN,M,"May 14, 1656",,,,1744,,,,,"Dec. 16, 1678",,,071-14-GEN,,,,,,,,,,,,,Generation 7 in pedigree.
+71,071-14-GEN,,,,Abigail Randall,,,,,F,,,,,,,,,,"Dec. 16, 1678",,,071-13-GEN,,,,,,,,,,,,,Generation 7 in pedigree.
+71,071-15-GEN,,,,John Pease,,,071-17-GEN,071-18-GEN,M,abt. 1630,Eng.,,,"July 8, 1689",,,,,bef. 1654,,,071-16-GEN,,,,,,,,,,,,,"Generation 8 in pedigree. Came in ship ""Francis"" from Ipswich, England with brother John (father/uncle reference)."
+71,071-16-GEN,,1st w.,,Mary Goodell,,,,,F,,,,,"Jan. 5, 1669",,,,,bef. 1654,,,071-15-GEN,,,,,,,,,,,,,Generation 8 in pedigree.
+71,071-17-GEN,,,,Robert Pease,,,,,M,abt. 1607,,,,1644,,,,,,,,071-18-GEN,,,,,,,,,,,,,"Generation 9 in pedigree. Immigrant from Ipswich, England in ship ""Francis""; land granted in Salem, Mass. 1637; joined First Church of Salem 1643; estate settled in Salem Aug. 27, 1644."
+71,071-18-GEN,,,,Marie,Pease,071-15-GEN,,,F,,,,,,,,,,,,,071-17-GEN,,,,,,,,,,,,,Generation 9 in pedigree.
+71,071-19-GEN,,,,John Pease,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Brother of Robert Pease (abt. 1607-1644); came in ship ""Francis"" from Ipswich, England; had land granted in Salem, Mass., 1637."
+71,071-20-GEN,,,,Capt. Abbe,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Captain under whom Stephen Pease served in the Conn. line during the Revolutionary War.
+72,072-1-GEN,,,,Sarah Thurman,,,072-2-GEN,072-3-GEN,F,,"Troy, New York",,,,,,,,,,,,,,,,,,,,,,,,Descendant of Laurens Andriesken Van Boskirk through Martin Van Buskirk.
+72,072-2-GEN,2,,,Richardson H. Thurman,,,,,M,"July 12, 1811",,,,"Dec. 2, 1897",,,,,,,,072-3-GEN,,,,,,,,,,,,,
+72,072-3-GEN,,wife,,Catharine Lanah Morris Van Buskirk,,,072-4-GEN,072-5-GEN,F,"Feb. 9, 1815",,,,"Dec. 9, 1884",,,,,,,,072-2-GEN,,,,,,,,,,,,,
+72,072-4-GEN,3,,,Philip Van Ness Van Buskirk,,,072-6-GEN,072-7-GEN,M,"Nov. 2, 1780",,,,"Oct. 23, 1865",,,,,"Apr. 22, 1801",,,072-5-GEN,,,,,,,,,,,,,
+72,072-5-GEN,,wife,,Wealthea Ann Day,,,,,F,"Aug. 31, 1780",,,,"Jan. 18, 1843",,,,,"Apr. 22, 1801",,,072-4-GEN,,,,,,,,,,,,,
+72,072-6-GEN,4,,,Martin Van Buskirk,,,072-8-GEN,072-9-GEN,M,"Oct. 18, 1755",,,,"May 18, 1828",Buskirk,73 years,,,"Feb. 8, 1780",,,072-7-GEN,,,,,,,,,,,,,"Revolutionary ancestor. Enlisted in 1779 as a private in the second company of the 14th regiment, New York line, recruited from 'Hoosac and Schaghticoke'."
+72,072-7-GEN,,wife,,Maria Van Ness,,,,,F,"Nov. 29, 1760",,,,"Sept. 17, 1842",,,,,"Feb. 8, 1780",,,072-6-GEN,,,,,,,,,,,,,
+72,072-8-GEN,5,,,John Van Buskirk,,,072-10-GEN,072-11-GEN,M,,,May 1729,,,,,,,abt. 1750,,,072-9-GEN,,,,,,,,,,,,,
+72,072-9-GEN,,wife,,Esther Van Horn (Hester),,,,,F,1729,,,,"Apr. 4, 1807",,,,,abt. 1750,,,072-8-GEN,,,,,,,,,,,,,
+72,072-10-GEN,6,,,Laurens Van Buskirk,,,072-12-GEN,072-13-GEN,M,1706,,,,,,,,,"May 7, 1726",,,072-11-GEN,,,,,,,,,,,,,
+72,072-11-GEN,,1st w.,,Sara Terhune,,,,,F,,,1708,,,,,,,"May 7, 1726",,,072-10-GEN,,,,,,,,,,,,,
+72,072-12-GEN,7,,,Maj. Thomas L. Van Buskirk,,,072-14-GEN,072-15-GEN,M,prob. 1668,,,,,,,,,1695,,,072-13-GEN,,,,,,,,,,,,,
+72,072-13-GEN,,wife,,Marietje Hendrickje Van de Linde,,,,,F,,,,,,,,,,1695,,,072-12-GEN,,,,,,,,,,,,,
+72,072-14-GEN,8,,,Laurens Andriesken Van Boskirk,,,,,M,,,,,1694,,,,,"Sept. 12, 1658",,,072-15-GEN,,,,,,,,,,,,,"Came from Holstein, Denmark, in summer of 1654/5. First record in New Amsterdam June 29, 1656. Oath of allegiance Nov. 20, 1665."
+72,072-15-GEN,,wife,,Jannetje Jans,,,,,F,,,,,"July 13, 1694",,,,,,,,072-16-GEN,"Sept. 12, 1658",,,072-14-GEN,,,,,,,,,Widow of Christian Barentsen.
+72,072-16-GEN,,,,Christian Barentsen,,,,,M,,,,,,,,,,,,,072-15-GEN,,,,,,,,,,,,,First husband of Jannetje Jans. [moved from death_date: deceased]
+73,073-1-GEN,,,,FLORENCE ALMIRA FYFE,,,073-3-GEN,073-4-GEN,F,,"Hartford, Connecticut",,,,,,,,,,,073-2-GEN,,,,,,,,,,,,,Mrs. Isaac B. Wakeman.
+73,073-2-GEN,,husband,,ISAAC B. WAKEMAN,,,,,M,,,,,,,,,,,,,073-1-GEN,,,,,,,,,,,,,
+73,073-3-GEN,2,,,Dr. John William Fyfe,,,,,M,"Feb. 27, 1839",,,,,,,,,abt. 1865,,,073-4-GEN,,,,,,,,,,,,,
+73,073-4-GEN,,,,Mary Elizabeth Card,,,073-5-GEN,073-6-GEN,F,"Feb. 7, 1842",,,,,,,,,abt. 1865,,,073-3-GEN,,,,,,,,,,,,,
+73,073-5-GEN,3,,,Dr. William Helme Card,,,073-7-GEN,073-8-GEN,M,"July 10, 1810",,,,,,,,,abt. 1835,,,073-6-GEN,,,,,,,,,,,,,living 1901
+73,073-6-GEN,,,,Mary Thurston Hammond,,,,,F,"Feb. 10, 1814",,,,"Mar. 15, 1845",,,,,abt. 1835,,,073-5-GEN,,,,,,,,,,,,,
+73,073-7-GEN,4,,,William W. Card,,,073-9-GEN,073-10-GEN,M,"Apr. 24, 1786",,,,"Jan. 27, 1885",,,,,abt. 1808,,,073-8-GEN,,,,,,,,,,,,,
+73,073-8-GEN,,,,Sarah Helme,,,,,F,"Apr. 27, 1791",,,,"Mar. 3, 1818",,,,,abt. 1808,,,073-7-GEN,,,,,,,,,,,,,
+73,073-9-GEN,5,,,William Card,,,073-11-GEN,073-12-GEN,M,"Aug. 27, 1752",,,,"July 29, 1842","Newport, R. I.",,,,abt. 1778,,,073-10-GEN,,,,,,,,,,,,,"Served as Carpenter's Mate in the R. I. Navy during the Revolution, received pension Jan. 17, 1833."
+73,073-10-GEN,,,,Abigail Carpenter,,,,,F,"July 5, 1756",,,,"Aug. 9, 1848",,,,,abt. 1778,,,073-9-GEN,,,,,,,,,,,,,
+73,073-11-GEN,6,,,Joseph Card,,,073-13-GEN,073-14-GEN,M,"Oct. 5, 1712",,,,"Oct. 7, 1798",,,,,"Aug. 7, 1736",,,073-12-GEN,,,,,,,,,,,,,
+73,073-12-GEN,,,,Mary Weeden,,,,,F,,,,,,,,,,"Aug. 7, 1736",,,073-11-GEN,,,,,,,,,,,,,
+73,073-13-GEN,7,,,Joseph Card,,,073-15-GEN,073-16-GEN,M,abt. 1683,,,,,,,,,"July 13, 1710",,,073-14-GEN,,,,,,,,,,,,,
+73,073-14-GEN,,,,Hope ——,,,,,F,,,,,,,,,,"July 13, 1710",,,073-13-GEN,,,,,,,,,,,,,
+73,073-15-GEN,8,,,Joseph Card,,,073-17-GEN,073-18-GEN,M,1648,,,,"aft. Oct. 13, 1729",,,,,,,,073-16-GEN,,,,,,,,,,,,,
+73,073-16-GEN,,,,Jane ——,,,,,F,,,,,"bef. June 19, 1717",,,,,,,,073-15-GEN,,,,,,,,,,,,,
+73,073-17-GEN,9,,,Richard Card,,,,,M,,prob. Eng.,,,"bef. July 1, 1674",,,,,bef. 1648,,,073-18-GEN,,,,,,,,,,,,,"Came from England and was at Newport, R. I. as early as 1653. Juryman Aug. 29, 1653; freeman at Newport 1655; in Jamestown 1656; jury 1658."
+73,073-18-GEN,,,,Rebecca ——,,,,,F,,,,,,,,,,bef. 1648,,,073-17-GEN,,,,,,,,,,,,,
+74,074-1-GEN,,,,HENRY ADAMS,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"founder Milton & Palmer, Mass."
+74,074-2-GEN,,,,ANDREW ADAMS,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"patriot Lancaster, N. H."
+74,074-3-GEN,,,,SADIE ADAMS,,,,,F,,,,,,,,,,,,,074-4-GEN,,,,,,,,,,,,,MRS. LEROY S. SMITH
+74,074-4-GEN,,,,LEROY S. SMITH,,,,,M,,,,,,,,,,,,,074-3-GEN,,,,,,,,,,,,,Husband of SADIE ADAMS
+74,074-5-GEN,,,,THOMAS BARNES,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"founder Marlborough, Mass."
+74,074-6-GEN,,,,MOSES BARNES,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,patriot
+74,074-7-GEN,,,,ANNE HAMPTON BARNES,,,,,F,,,,,,,,,,,,,,,,,,,,,,,,,,MISS
+74,074-8-GEN,,,,PETER BROWN,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"founder Godfrey, Commander-in-Chief's Guard."
+74,074-9-GEN,,,,ELIAS BROWN,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"patriot Windsor, Conn."
+74,074-10-GEN,,,,MARGARET E. BROWN,,,,,F,,,,,,,,,,,,,074-11-GEN,,,,,,,,,,,,,MRS. JABEZ BACKUS
+74,074-11-GEN,,,,JABEZ BACKUS,,,,,M,,,,,,,,,,,,,074-10-GEN,,,,,,,,,,,,,Husband of MARGARET E. BROWN
+74,074-12-GEN,,,,BENJAMIN BUTTERFIELD,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"founder Charlestown, Woburn, and Chelmsford, Mass."
+74,074-13-GEN,,,,TIMOTHY BUTTERFIELD,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"patriot Cheshire & Sullivan County, N. H."
+74,074-14-GEN,,,,MELINDA HARRIET VAN VORST,,,,,F,,,,,,,,,,,,,074-15-GEN,,,,,,,,,,,,,MRS. F. HASBROUCK
+74,074-15-GEN,,,,F. HASBROUCK,,,,,M,,,,,,,,,,,,,074-14-GEN,,,,,,,,,,,,,Husband of MELINDA HARRIET VAN VORST
+74,074-16-GEN,,,,SOPHIE HOLLAND VAN VORST,,,,,F,,,,,,,,,,,,,074-17-GEN,,,,,,,,,,,,,MRS. P. L. BOUCHER
+74,074-17-GEN,,,,P. L. BOUCHER,,,,,M,,,,,,,,,,,,,074-16-GEN,,,,,,,,,,,,,Husband of SOPHIE HOLLAND VAN VORST
+74,074-18-GEN,,,,THOMAS CANFIELD,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,founder New Haven Rec.
+74,074-19-GEN,,,,DR. JOSIAH CANFIELD,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"patriot Milford, Conn."
+74,074-20-GEN,,,,ELLA MYERS,,,,,F,,,,,,,,,,,,,074-21-GEN,,,,,,,,,,,,,MRS. CYRUS BERRY PEETS
+74,074-21-GEN,,,,CYRUS BERRY PEETS,,,,,M,,,,,,,,,,,,,074-20-GEN,,,,,,,,,,,,,Husband of ELLA MYERS
+74,074-22-GEN,,,,RICHARD CARD,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"founder Newport, R. I."
+74,074-23-GEN,,,,WILLIAM CARD,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,patriot
+74,074-24-GEN,,,,FLORENCE ALMIRA FYFE,,,,,F,,,,,,,,,,,,,074-25-GEN,,,,,,,,,,,,,MRS. ISAAC B. WAKEMAN
+74,074-25-GEN,,,,ISAAC B. WAKEMAN,,,,,M,,,,,,,,,,,,,074-24-GEN,,,,,,,,,,,,,Husband of FLORENCE ALMIRA FYFE
+74,074-26-GEN,,,,"Andrew Moriarty, Jr.",,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Cited in references for Card Family
+75,075-1-GEN,,,,HON. JASPER CRANE,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Founder Crane Genealogy
+75,075-2-GEN,,,,CAPT. JOSIAH CRANE,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Patriot. Stryker's—Officers and Men of N. J. in Rev.
+75,075-3-GEN,,,,DOROTHY NORTON TAYLOR,,,,,F,,,,,,,,,,,,,075-4-GEN,,,,,,,,,,,,,Page 86. MRS. DAVID H. LAW
+75,075-4-GEN,,,,DAVID H. LAW,,,,,M,,,,,,,,,,,,,075-3-GEN,,,,,,,,,,,,,
+75,075-5-GEN,,,,ROBERT DAVIS,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Founder Hist. Cape Cod, vol. 1, p. 578"
+75,075-6-GEN,,,,HON. DANIEL DAVIS,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Patriot vol. 2, p. 326. Col. Recs. Yarmouth & Barnstable, Mass."
+75,075-7-GEN,,,,FRANCES GREY SMITH,,,,,F,,,,,,,,,,,,,,,,,,,,,,,,,,Page 61. Barnstable Family
+75,075-8-GEN,,,,KATHARINE SMITH,,,,,F,,,,,,,,,,,,,075-9-GEN,,,,,,,,,,,,,"Page 60. D.A.R. Nat. No. 1995. V.R. Nantucket, Mass. MRS. WILLIAM J. RAINEY"
+75,075-9-GEN,,,,WILLIAM J. RAINEY,,,,,M,,,,,,,,,,,,,075-8-GEN,,,,,,,,,,,,,
+75,075-10-GEN,,,,SARAH ELIZABETH ROBINSON,,,,,F,,,,,,,,,,,,,,,,,,,,,,,,,,Page 58
+75,075-11-GEN,,,,ROBERT DAY,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Founder Metcalf, Northampton, Mass."
+75,075-12-GEN,,,,BENJAMIN DAY,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Patriot
+75,075-13-GEN,,,,HEMAN DAY,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Patriot Robert Day Desc. of Hartford, Conn. Copeland, Hampden Co."
+75,075-14-GEN,,,,LYDIA DAY,,,,,F,,,,,,,,,,,,,,,,,,,,,,,,,,"Page 80. Miss. Hartford, Conn. (Name on Monument)"
+75,075-15-GEN,,,,WILLIAM DENISON,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Founder Denison Genealogy, Appendix"
+75,075-16-GEN,,,,HENRY DENISON,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Patriot N.E. Hist. & Gen. Reg. Vol. 13. Caulkins, New London, Conn."
+75,075-17-GEN,,,,MARY ESTHER TAYLOR,,,,,F,,,,,,,,,,,,,075-18-GEN,,,,,,,,,,,,,"Page 69. Stonington, Conn. Pension Record. MRS. KELLOGG SEXTON"
+75,075-18-GEN,,,,KELLOGG SEXTON,,,,,M,,,,,,,,,,,,,075-17-GEN,,,,,,,,,,,,,
+75,075-19-GEN,,,,DEACON WILLIAM DOUGLAS,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Founder Douglas Gen. (C. H. Douglas)
+75,075-20-GEN,,,,C. H. DOUGLAS,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Author of Douglas Gen.
+75,075-21-GEN,,,,CAPTAIN NATHAN DOUGLAS,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Patriot New London, Conn. Probate Rec. Conn. Men in the Rev."
+75,075-22-GEN,,,,ISABEL DOUGLAS,,,,,F,,,,,,,,,,,,,075-23-GEN,,,,,,,,,,,,,Page 89. MRS. HENRY H. PERRY
+75,075-23-GEN,,,,HENRY H. PERRY,,,,,M,,,,,,,,,,,,,075-22-GEN,,,,,,,,,,,,,
+75,075-24-GEN,,,,ANDREW EVEREST,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Founder Cornwell, Conn."
+75,075-25-GEN,,,,DANIEL EVEREST,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Patriot Salisbury, Conn. Savage, Gen. Dict."
+75,075-26-GEN,,,,MARY EVEREST,,,,,F,,,,,,,,,,,,,075-27-GEN,,,,,,,,,,,,,"Page 75. Guilford, Conn. York Deeds Hist. York, Me. D.A.R. vol. 4. MRS. CHARLES LEE ROCKWELL"
+75,075-27-GEN,,,,CHARLES LEE ROCKWELL,,,,,M,,,,,,,,,,,,,075-26-GEN,,,,,,,,,,,,,
+76,076-1-GEN,,,,NATHANIEL FOOTE,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,founder Foote Gen.
+76,076-2-GEN,,,,GEORGE FOOTE,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"patriot Vt. Rev. Rolls Wethersfield, Conn."
+76,076-3-GEN,,,,CAROLINE FOOTE 92,,,,,F,,,,,,,,,,,,,076-4-GEN,,,,,,,,,,,,,MRS. GEORGE F. MARSH
+76,076-4-GEN,,,,GEORGE F. MARSH,,,,,M,,,,,,,,,,,,,076-3-GEN,,,,,,,,,,,,,
+76,076-5-GEN,,,,PHILIP FOWLER,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,founder Fowler Gen.
+76,076-6-GEN,,,,JACOB FOWLER,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"patriot Essex Antiquarian, p. 11 Ipswich Records [paf-ancestor-star]"
+76,076-7-GEN,,,,MARY FRANCES FOWLER 67,,,,,F,,,,,,,,,,,,,076-8-GEN,,,,,,,,,,,,,MRS. CHARLES C. GIBSON
+76,076-8-GEN,,,,CHARLES C. GIBSON,,,,,M,,,,,,,,,,,,,076-7-GEN,,,,,,,,,,,,,
+76,076-9-GEN,,,,RICHARD HALL,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,founder
+76,076-10-GEN,,,,ELIHU HALL,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,patriot
+76,076-11-GEN,,,,ELLEN HALL 63,,,,,F,,,,,,,,,,,,,076-12-GEN,,,,,,,,,,,,,MRS. J. HERON CROSMAN
+76,076-12-GEN,,,,J. HERON CROSMAN,,,,,M,,,,,,,,,,,,,076-11-GEN,,,,,,,,,,,,,
+76,076-13-GEN,,,,JOHN HALLAM,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,founder
+76,076-14-GEN,,,,CAPT. AMOS HALLAM,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,patriot
+76,076-15-GEN,,,,LUCY WILLIAMS HALLAM 66,,,,,F,,,,,,,,,,,,,076-16-GEN,,,,,,,,,,,,,MRS. T. H. WHITNEY
+76,076-16-GEN,,,,T. H. WHITNEY,,,,,M,,,,,,,,,,,,,076-15-GEN,,,,,,,,,,,,,
+76,076-17-GEN,,,,JOHN HARVEY,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,founder
+76,076-18-GEN,,,,LEVI HARVEY,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"patriot Sutton, N. H."
+76,076-19-GEN,,,,ALMA MCGEOCH 71,,,,,F,,,,,,,,,,,,,,,,,,,,,,,,,,
+76,076-20-GEN,,,,CLARA MCGEOCH 72,,,,,F,,,,,,,,,,,,,,,,,,,,,,,,,,
+76,076-21-GEN,,,,KATHERINE MCGEOCH 73,,,,,F,,,,,,,,,,,,,076-22-GEN,,,,,,,,,,,,,MRS. JOHN WYMAN FLINT
+76,076-22-GEN,,,,JOHN WYMAN FLINT,,,,,M,,,,,,,,,,,,,076-21-GEN,,,,,,,,,,,,,
+76,076-23-GEN,,,,ROBERT HINSDALE,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,founder Hinsdale Genealogy
+76,076-24-GEN,,,,BARNABAS HINSDALE,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,patriot Conn. Men in the Rev.
+76,076-25-GEN,,,,ANNA WEATHERBURN HINSDALE 77,,,,,F,,,,,,,,,,,,,076-26-GEN,,,,,,,,,,,,,MRS. H. M. THOMPSON
+76,076-26-GEN,,,,H. M. THOMPSON,,,,,M,,,,,,,,,,,,,076-25-GEN,,,,,,,,,,,,,
+76,076-27-GEN,,,,CATHERINE HUTCHINSON HINSDALE 59,,,,,F,,,,,,,,,,,,,,,,,,,,,,,,,,
+76,076-28-GEN,,,,MARY THOMPSON 97,,,,,F,,,,,,,,,,,,,076-29-GEN,,,,,,,,,,,,,MRS. WILLIAM T. HOWE
+76,076-29-GEN,,,,WILLIAM T. HOWE,,,,,M,,,,,,,,,,,,,076-28-GEN,,,,,,,,,,,,,
+77,077-1-GEN,,,,RICHARD JOHNSON,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"founder Fenwick Colony, N. J."
+77,077-2-GEN,,,,ROBERT JOHNSON,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"patriot Gloucester, Salem & Cumberland Counties, N. J."
+77,077-3-GEN,,,,HELENA HUBBELL,,,,,F,,,,,,,,,,,,,,,,,,,,,,,,,,81 D.A.R. vol. III
+77,077-4-GEN,,,,ROBERT LIVINGSTON,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,founder Schuyler's Colonial New York
+77,077-5-GEN,,,,GILBERT ROBERT LIVINGSTON,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"patriot Livingston Gen., B. Livingston"
+77,077-6-GEN,,,,KATHERINE BEEKMAN LIVINGSTON,,,,,F,,,,,,,,,,,,,077-7-GEN,,,,,,,,,,,,,95
+77,077-7-GEN,,,,MONTGOMERY SCHUYLER,,,,,M,,,,,,,,,,,,,077-6-GEN,,,,,,,,,,,,,
+77,077-8-GEN,,,,ENSIGN WILLIAM LONGFELLOW,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"founder Currier, Newbury, Mass."
+77,077-9-GEN,,,,STEPHEN LONGFELLOW,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"patriot Titcomb, Early N. E. People Gorham, Me."
+77,077-10-GEN,,,,MARION ADELE LONGFELLOW,,,,,F,,,,,,,,,,,,,077-11-GEN,,,,,,,,,,,,,64 Supp.
+77,077-11-GEN,,,,MICHAEL FRANCIS O'DONOGHUE,,,,,M,,,,,,,,,,,,,077-10-GEN,,,,,,,,,,,,,
+77,077-12-GEN,,,,WILLIAM LUDINGTON,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"founder East Haven Reg., Dodd"
+77,077-13-GEN,,,,COL. HENRY LUDINGTON,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"patriot N. Y. City, Lamb N. Y. State Archives, Fernow"
+77,077-14-GEN,,,,JOSEPHINE LEWISA HUSTIS,,,,,F,,,,,,,,,,,,,,,,,,,,,,,,,,54
+77,077-15-GEN,,,,MAJOR JOHN MASON,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"founder Spark, American Biography"
+77,077-16-GEN,,,,HENRY MASON,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"patriot Caulkin, Hist. Norwich, Windsor, Saybrook"
+77,077-17-GEN,,,,ALICE STANTON TURNER,,,,,F,,,,,,,,,,,,,077-18-GEN,,,,,,,,,,,,,88 Conn. Pension Roll
+77,077-18-GEN,,,,JOHN WHITNEY BARLOW,,,,,M,,,,,,,,,,,,,077-17-GEN,,,,,,,,,,,,,
+77,077-19-GEN,,,,WILLIAM MATTHEWS,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"founder Steiner, Guilford & Madison, Conn."
+77,077-20-GEN,,,,AARON MATTHEWS,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"patriot Beach, Cheshire, Conn. New Haven Gen. Mag. vol. 4 & 5"
+77,077-21-GEN,,,,JESSIE HONOR BRYANT,,,,,F,,,,,,,,,,,,,077-22-GEN,,,,,,,,,,,,,85
+77,077-22-GEN,,,,FRANKLIN W. GERARD,,,,,M,,,,,,,,,,,,,077-21-GEN,,,,,,,,,,,,,
+77,077-23-GEN,,,,ANTHONY MORRIS,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,founder
+77,077-24-GEN,,,,ANTHONY MORRIS ,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,patriot Morris Family of Philadelphia
+77,077-25-GEN,,,,THOMAS MORRIS,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,patriot
+77,077-26-GEN,,,,SARAH MORRIS PEROT,,,,,F,,,,,,,,,,,,,077-27-GEN,,,,,,,,,,,,,65
+77,077-27-GEN,,,,EDWARD H. OGDEN,,,,,M,,,,,,,,,,,,,077-26-GEN,,,,,,,,,,,,,
+78,078-1-GEN,,,,ROBERT PEASE,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,founder Pease Genealogy
+78,078-2-GEN,,,,STEPHEN PEASE,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"patriot Salem, Mass. Somers & Enfield, Conn."
+78,078-3-GEN,,,,NELLIE A. WHITE,,,,,F,,,,,,,,,,,,,078-4-GEN,,,,,,,,,,,,,"98 Mitchell, Hist. Bridgewater Supp."
+78,078-4-GEN,,,,WALTER C. FAXON,,,,,M,,,,,,,,,,,,,078-3-GEN,,,,,,,,,,,,,
+78,078-5-GEN,,,,JOSEPH PECK,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,founder Adams & Marsh Gen. A. N.
+78,078-6-GEN,,,,ISRAEL PECK,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,patriot Adams.
+78,078-7-GEN,,,,KATHARINE HAYES PECK,,,,,F,,,,,,,,,,,,,078-8-GEN,,,,,,,,,,,,,55
+78,078-8-GEN,,,,WILLIAM B. HUBBARD,,,,,M,,,,,,,,,,,,,078-7-GEN,,,,,,,,,,,,,
+78,078-9-GEN,,,,ABRAHAM PERKINS,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"founder Mitchell, Hist. Bridgewater"
+78,078-10-GEN,,,,NATHANIEL PERKINS,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"patriot N. E. Hist. & Gen. Reg. vol. 20, p. 34."
+78,078-11-GEN,,,,MARY FRANCES FOWLER,,,,,F,,,,,,,,,,,,,078-12-GEN,,,,,,,,,,,,,"67 Hampton, N. H. Rochester & Wakefield, N. H. Pension Papers"
+78,078-12-GEN,,,,CHARLES CLIFTON GIBSON,,,,,M,,,,,,,,,,,,,078-11-GEN,,,,,,,,,,,,,
+78,078-13-GEN,,,,ELTWOOD (ELTWEED) POMEROY,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"founder Ancient Windsor, Stiles"
+78,078-14-GEN,,,,REV. BENJAMIN POMEROY,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,patriot D.A.R. Records
+78,078-15-GEN,,,,ELIHU POMEROY,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,patriot
+78,078-16-GEN,,,,CORNELIA ROFF POMEROY,,,,,F,,,,,,,,,,,,,,,,,,,,,,,,,,84
+78,078-17-GEN,,,,ABRAHAM PREBLE,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,founder Preble Genealogy
+78,078-18-GEN,,,,ESAIAS PREBLE,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,patriot
+78,078-19-GEN,,,,MARION ADELE LONGFELLOW,,,,,F,,,,,,,,,,,,,078-20-GEN,,,,,,,,,,,,,64
+78,078-20-GEN,,,,MICHAEL FRANCIS O'DONOGHUE,,,,,M,,,,,,,,,,,,,078-19-GEN,,,,,,,,,,,,,
+78,078-21-GEN,,,,JOHN PRESCOTT,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,founder Prescott Memorial
+78,078-22-GEN,,,,JAMES PRESCOTT,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"patriot Watertown & Lancaster, Mass. New Haven, Conn."
+78,078-23-GEN,,,,MARTHA PRESCOTT CRITTENDEN,,,,,F,,,,,,,,,,,,,078-24-GEN,,,,,,,,,,,,,96
+78,078-24-GEN,,,,PETER BOYD,,,,,M,,,,,,,,,,,,,078-23-GEN,,,,,,,,,,,,,
+78,078-25-GEN,,,,ROBERT SEYMOUR,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,founder
+78,078-26-GEN,,,,JAMES SEYMOUR,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"patriot Norwalk, Conn. Gens., Sellick."
+78,078-27-GEN,,,,LOUISE AYMAR,,,,,F,,,,,,,,,,,,,078-28-GEN,,,,,,,,,,,,,68
+78,078-28-GEN,,,,ROBERT VAN BUREN,,,,,M,,,,,,,,,,,,,078-27-GEN,,,,,,,,,,,,,
+79,079-1-GEN,,,,DANIEL SMITH,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Founder, Watertown, Mass."
+79,079-2-GEN,,,,COL. JOSEPH SMITH,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Patriot, Stonington, Conn., Preston, Conn. Men in the Rev."
+79,079-3-GEN,,,,LUCRETIA WRIGHT SMITH,,,,,F,,,,,,,,,,,,,,,,,,,,,,,,,,87
+79,079-4-GEN,,,,JOHN SMITH,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Founder, John Smith of Milford"
+79,079-5-GEN,,,,LIEUT. ABRAHAM SMITH,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Patriot
+79,079-6-GEN,,,,"ABRAHAM SMITH, JR.",,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Patriot, Hist. New Haven, Conn."
+79,079-7-GEN,,,,FRANCES GREY SMITH,,,,,F,,,,,,,,,,,,,,,,,,,,,,,,,,61
+79,079-8-GEN,,,,KATHARINE SMITH,,,,,F,,,,,,,,,,,,,079-9-GEN,,,,,,,,,,,,,"60, (MRS. WILLIAM J. RAINEY)"
+79,079-9-GEN,,,,WILLIAM J. RAINEY,,,,,M,,,,,,,,,,,,,079-8-GEN,,,,,,,,,,,,,Spouse of Katharine Smith
+79,079-10-GEN,,,,LYDIA REED SMITH,,,,,F,,,,,,,,,,,,,079-11-GEN,,,,,,,,,,,,,"58, (MRS. ELIZUR B. HINSDALE)"
+79,079-11-GEN,,,,ELIZUR B. HINSDALE,,,,,M,,,,,,,,,,,,,079-10-GEN,,,,,,,,,,,,,Spouse of Lydia Reed Smith
+79,079-12-GEN,,,,MARY FRANCES RUSSELL,,,,,F,,,,,,,,,,,,,079-13-GEN,,,,,,,,,,,,,"70, (MRS. HORACE B. ROGERS)"
+79,079-13-GEN,,,,HORACE B. ROGERS,,,,,M,,,,,,,,,,,,,079-12-GEN,,,,,,,,,,,,,Spouse of Mary Frances Russell
+79,079-14-GEN,,,,JOHN SMITH,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Founder
+79,079-15-GEN,,,,CAPT. RICHARD SMITH,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Patriot, Annals Brookfield, Conn., Bridgeport, Conn."
+79,079-16-GEN,,,,ANNA SMITH MALLETT,,,,,F,,,,,,,,,,,,,,,,,,,,,,,,,,90
+79,079-17-GEN,,,,JOSEPH SMITH,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Founder, Hist. Hadley, Mass."
+79,079-18-GEN,,,,REUBEN SMITH,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Patriot
+79,079-19-GEN,,,,AGNES PORTER SMITH,,,,,F,,,,,,,,,,,,,079-20-GEN,,,,,,,,,,,,,"56, (MRS. FRED T. GALPIN)"
+79,079-20-GEN,,,,FRED T. GALPIN,,,,,M,,,,,,,,,,,,,079-19-GEN,,,,,,,,,,,,,Spouse of Agnes Porter Smith
+79,079-21-GEN,,,,WILLIAM SMITH,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Founder, Hist. Farmington, Conn., and New Britain"
+79,079-22-GEN,,,,ELNATHAN SMITH,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Patriot
+79,079-23-GEN,,,,JOSEPHINE CLARA WEBSTER,,,,,F,,,,,,,,,,,,,,,,,,,,,,,,,,51
+79,079-24-GEN,,,,JOHN STEVENS,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Founder, John Stevens of Mass."
+79,079-25-GEN,,,,ELISHA STEVENS,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Patriot, Newbury & Andover, Mass., Glastonbury, Conn., Waterbury, Conn., Middletown Upper Houses"
+79,079-26-GEN,,,,FRANCES STEVENS,,,,,F,,,,,,,,,,,,,079-27-GEN,,,,,,,,,,,,,"94, (MRS. LOREN TRUE DAY)"
+79,079-27-GEN,,,,LOREN TRUE DAY,,,,,M,,,,,,,,,,,,,079-26-GEN,,,,,,,,,,,,,Spouse of Frances Stevens
+79,079-28-GEN,,,,HENRY TOMLINSON,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Founder, Tomlinson Gen."
+79,079-29-GEN,,,,JOSEPH TOMLINSON,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Patriot, Stratford, Conn."
+79,079-30-GEN,,,,ROSALIE TOMLINSON,,,,,F,,,,,,,,,,,,,079-31-GEN,,,,,,,,,,,,,"82, (MRS. CHARLES W. SHELTON)"
+79,079-31-GEN,,,,CHARLES W. SHELTON,,,,,M,,,,,,,,,,,,,079-30-GEN,,,,,,,,,,,,,Spouse of Rosalie Tomlinson
+80,080-1-GEN,,,,LAURENS ANDRIESKEN VAN BOSKIRK,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Founder
+80,080-2-GEN,,,,MARTIN VAN BUSKIRK,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Patriot
+80,080-3-GEN,,,,SARAH THURMAN,,,,,F,,,,,,,,,,,,,,,,,,,,,,,,,,"Page/member number 99. D.A.R. Nat. No. 11,700, vol. 12."
+80,080-4-GEN,,,,TEUNISE DIRCKSEN VAN VEGHTEN,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Founder
+80,080-5-GEN,,,,DIRCK VAN VEGHTEN,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Patriot
+80,080-6-GEN,,,,MARY CROOKE ELMENDORF,,,,,F,,,,,,,,,,,,,080-7-GEN,,,,,,,,,,,,,(MRS. E. A. HOFFMAN). Page/member number 83.
+80,080-7-GEN,,husband,,E. A. HOFFMAN,,,,,M,,,,,,,,,,,,,080-6-GEN,,,,,,,,,,,,,Spouse of Mary Crooke Elmendorf
+80,080-8-GEN,,,,THOMAS WALKER,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"Founder, Bristol, R. I."
+80,080-9-GEN,,,,LIEUT. WILLIAM WALKER,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Patriot
+80,080-10-GEN,,,,FANNY RAMSAY WILDER,,,,,F,,,,,,,,,,,,,080-11-GEN,,,,,,,,,,,,,"(MRS. W. F. WINCHESTER). Page/member number 78. D.A.R. Nat. No. 9,071 / vol. 25."
+80,080-11-GEN,,husband,,W. F. WINCHESTER,,,,,M,,,,,,,,,,,,,080-10-GEN,,,,,,,,,,,,,Spouse of Fanny Ramsay Wilder
+80,080-12-GEN,,,,JOHN WHITE,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Founder
+80,080-13-GEN,,,,EBENEZER WHITE,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Patriot
+80,080-14-GEN,,,,NELLIE A. WHITE,,,,,F,,,,,,,,,,,,,080-15-GEN,,,,,,,,,,,,,(MRS. WALTER C. FAXON). Page/member number 98.
+80,080-15-GEN,,husband,,WALTER C. FAXON,,,,,M,,,,,,,,,,,,,080-14-GEN,,,,,,,,,,,,,Spouse of Nellie A. White
+80,080-16-GEN,,,,THOMAS WILDER,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Founder
+80,080-17-GEN,,,,LIEUT. ASA WILDER,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Patriot
+80,080-18-GEN,,,,ROBERT WILLIAMS,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Founder
+80,080-19-GEN,,,,LIEUT. JOHN WILLIAMS,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Patriot
+80,080-20-GEN,,,,LUCY PALMER BUTLER,,,,,F,,,,,,,,,,,,,,,,,,,,,,,,,,Page/member number 91.
+80,080-21-GEN,,,,EDWARD WOODMAN,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Founder
+80,080-22-GEN,,,,REV. JOSEPH WOODMAN,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,Patriot
+80,080-23-GEN,,,,ALICE BRADFORD,,,,,F,,,,,,,,,,,,,080-24-GEN,,,,,,,,,,,,,(MRS. ROBERT HALL WILES). Page/member number 52.
+80,080-24-GEN,,husband,,ROBERT HALL WILES,,,,,M,,,,,,,,,,,,,080-23-GEN,,,,,,,,,,,,,Spouse of Alice Bradford
+81,081-1-GEN,,,,JOHN YOUNGS,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"founder Southold, L. I."
+81,081-2-GEN,,,,"JOHN YOUNGS, Jr.",,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,"founder Sag Harbor, L. I."
+81,081-3-GEN,,,,JUDGE THOMAS YOUNGS,,,,,M,,,,,,,,,,,,,,,,,,,,,,,,,,patriot
+81,081-4-GEN,,,,FRANCES STEVENS,,,,,F,,,,,,,,,,,,,081-5-GEN,,,,,,,,,,,,,(Mrs. Leon Elon Day) Supp.
+81,081-5-GEN,,,,Leon Elon Day,,,,,M,,,,,,,,,,,,,081-4-GEN,,,,,,,,,,,,,

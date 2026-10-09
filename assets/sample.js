@@ -77,9 +77,17 @@
     .then(function (text) {
       // The first person record that cites the page shown.
       var records = text.replace(/\r/g, "").split(/\n(?=0 )/);
-      var rec = records.filter(function (block) {
-        return / INDI$/m.test(block.split("\n")[0]) && new RegExp("^2 PAGE " + page + "$", "m").test(block);
-      })[0];
+      var cite = new RegExp("^2 PAGE " + page + "$", "m");
+      var onPage = records.filter(function (block) {
+        return / INDI$/m.test(block.split("\n")[0]) && cite.test(block);
+      });
+      // PREFER A RECORD THAT SHOWS THE FORMAT. Many people on a page are named only as
+      // somebody's spouse, with no dates of their own; the first record citing the page is
+      // as likely to be one of those as not, and it demonstrates nothing. Take the first
+      // that carries a birth or a death, and fall back to the first if none do.
+      // A record with an actual DATE, not merely a BIRT with a place under it — the panel
+      // exists to show what a filled-in person looks like.
+      var rec = onPage.filter(function (b) { return /^2 DATE /m.test(b); })[0] || onPage[0];
       if (!rec) { hide(pre); return; }
       // Mark the source citation (SOUR and its PAGE), the lines that tie a person to a page.
       // Phones show only the record's header, name, birth, death and citation; each run of
