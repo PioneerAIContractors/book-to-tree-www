@@ -18,7 +18,16 @@ Internal working notes. `_config.yml` keeps this file off the published site.
   Google Form (email address). Answers land in a Google Sheet. No form code on the site.
 - **Price:** not mentioned. The FAQ says pricing will be announced before launch.
 - **Who:** book2tree is a service of GeneFun, Inc. (https://genefun.com). Contact: Dallan Quass,
-  dallan@genefun.com. Shown in the footer and the FAQ.
+  dallan@genefun.com.
+- **Second job, sending consulting work to GeneFun (decided 2026-10-12):** the page also points
+  organizations to genefun.com, without taking the top of the page away from the sign-up.
+  "by GeneFun" sits beside the wordmark; a "Have a whole collection?" section before the FAQ
+  speaks to libraries, archives, genealogy societies and publishers, with a quieter outlined button
+  to genefun.com and Dallan's email; the FAQ answer gives Dallan's background ("was CTO of
+  FamilySearch and has built genealogy software ever since", worded so a 20-year-old title doesn't
+  read as current); and the footer calls GeneFun an AI consulting firm. The sign-up list stays
+  book2tree-only, as the promise under the buttons says: no consulting email to it, and no
+  "I'm an organization" question on the form.
 - **Privacy:** the PDFs people upload and everything made from them are private to the person
   who uploaded them; we don't share or sell data. Said at the upload step and in the FAQ.
   Under both sign-up buttons: "We'll only use your email to tell you about book2tree." The
