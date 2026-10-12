@@ -18,14 +18,19 @@ says and why.
 
 ## The sample
 
-`sample/` holds placeholders (an invented family), to be replaced with real files under the same
-names: `book.pdf`, `page.jpg` (the page shown on the site), `full-text.txt`, `extracted.csv`,
-`extracted-merged.csv` and `tree.ged`.
+`sample/` holds a real book processed end to end: the *Lineage Book of the National Society of
+Daughters of Founders and Patriots of America*, Volume III (1913). The files are `book.pdf`,
+`page.jpg` (the page shown on the site), `full-text.txt`, `extracted.csv`, `extracted-merged.csv`
+and `tree.ged`.
 
+- **`tree.ged`'s dates were standardized by hand (2026-10-12)**, from `Sept. 2, 1803` to
+  `2 SEP 1803`. The export still writes dates as printed until
+  [book-to-tree#1181](https://github.com/PioneerAIContractors/book-to-tree/issues/1181) lands;
+  then regenerate `tree.ged` from a real export.
 - **The excerpts update themselves.** `assets/sample.js` reads the "See an example" rows and
   GEDCOM record from those files. Set `data-page` on `#example` in `index.html` to the page number
   (the CSV's `image` value) that `page.jpg` shows.
-- **The family-tree art does not.** It names the invented Larkworth family in three places:
+- **The family-tree art does not.** It names the family on the sample page in three places:
   1. **The hand-drawn SVG art** (the opening and the "head start" illustration). Edit `KIDS`,
      `FAMILY` and the circled line in `_src/gen_art_c.py`, then run `python3 _src/gen_art_c.py`.
      It rewrites only the marked SVG blocks in `index.html`.

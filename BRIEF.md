@@ -35,8 +35,9 @@ Internal working notes. `_config.yml` keeps this file off the published site.
   form is on Google.
 - **Launch:** December 1, 2026. "Opens Dec. 1" in the header badge, and the full date under the
   button, in the FAQ and on the link-preview image.
-- **Sample:** `sample/` holds placeholders (an invented family, labeled as invented on its
-  title page). They will be replaced with real files from a real book.
+- **Sample:** `sample/` holds a real book processed end to end (the 1913 DFPA Lineage Book,
+  Volume III). Its GEDCOM dates were standardized by hand on 2026-10-12, ahead of the export
+  doing it itself (book-to-tree#1181).
 - **Hosting:** GitHub Pages from `PioneerAIContractors/book-to-tree-www`, at book2tree.com
   (registered at GoDaddy). The repo is public. Static HTML/CSS, no build step.
 - **Name:** book2tree, matching the domain. In the wordmark the "2" is a terracotta copperplate
